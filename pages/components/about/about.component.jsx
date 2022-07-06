@@ -4,7 +4,16 @@ const About = () => {
           <div className="about-wrapper">
             <h1>about.</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit scelerisque neque, proin bibendum diam.
+            Prior to frontend development, I’ve worked in startups, nonprofits, and creative agencies.
+            </p>
+            <p>
+            Everything I’ve done has been in pursuit of understanding people more deeply and fostering moments of empathy.
+            </p>
+            <p>
+            As a designer, I’m interested in how to create experiences that are impactful, intuitive, and perhaps, even a bit delightful.
+            </p>
+            <p>
+            As a human, I’m frequently spotted smelling bread, staring at birds, and talking about my cats.
             </p>
           </div>
         </section>

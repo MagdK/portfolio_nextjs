@@ -3,6 +3,7 @@ import Home from './components/home/home.component';
 import About from './components/about/about.component';
 import Work from './components/work/work.component';
 import Contact from './components/contact/contact.component';
+import Footer from './components/footer/footer.component';
 
 export default function Main() {
   return (
@@ -14,9 +15,7 @@ export default function Main() {
         <Work />
         <Contact />
       </main>
-      <footer >
-       <p>crafted with ♥ by Magda Kovács</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
