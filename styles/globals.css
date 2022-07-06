@@ -1,16 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	background: transparent;
+	font-family: inherit;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a img {
+	border: none;
 }
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+}  
+
+textarea {
+	resize: none;
+}
+
+button,
+textarea,
+select {
+	appearance: none !important;
+	border-radius: 0;
+}
+
+/* RESET OVER */
+
+
