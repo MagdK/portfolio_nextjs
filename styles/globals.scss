@@ -63,7 +63,6 @@ body {
 }
 
 main {
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -76,6 +75,13 @@ h2 {
 	font-size: 48px;
 	line-height: 48px;
 	color: $color-grey-1;
+}
+
+p {
+	color: $color-grey-2;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 300;
 }
 
 // NAVIGATION
@@ -118,29 +124,76 @@ ul li a {
 
 // HOME SECTION
 .home-container {
+	max-width: 1200px;
+	margin: 0 auto;
 	height: 100vh;
+	margin: 0 auto;
+}
+
+.home-container h1 {
+	max-width: 500px;
 }
 
 .home-container span:before {
-	content: 'Product designer';
+	content: 'Product Designer';
 	animation: animate infinite 8s; 
 }
 @keyframes animate {
 	0% {
-		content: 'Product designer';
+		content: 'Product Designer';
 	}
 	33% {
-		content: 'Frontend developer'
+		content: 'Frontend Developer'
 	}
 	66% {
-		content: 'Cat mother';
+		content: 'Cat Mother';
 	}
 }
 
 // ABOUT SECTION
+.about-container {
+	height: 100vh;
+	background-color: $color-grey-3;
+}
 
+.about-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 48px;
+}
+
+.about-wrapper p {
+	max-width: 600px;
+}
 
 // WORK SECTION
+.work-container {
+	height: 100vh;
+}
 
+.work-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 48px;
+}
+
+.work-wrapper p {
+	max-width: 600px;
+	
+}
 
 // CONTACT SECTION
+.contact-container {
+	height: 100vh;
+	background-color: $color-grey-3;
+}
+
+.contact-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 48px;
+}
+
+.contact-wrapper p {
+	max-width: 600px;
+}
