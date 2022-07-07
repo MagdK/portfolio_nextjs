@@ -1,4 +1,5 @@
-import '../../pages/_app';
+import '../pages/_app';
+import './contact.module.scss';
 
 const Contact = () => {
     return (
@@ -10,7 +11,7 @@ const Contact = () => {
                 </p>
                 <p>
                 I am available for Product Design and Frontend Development projects. 
-                Drop me a message and let's create something great together!
+                Drop me a message and lets create something great together!
                 </p>
             </div>
         </section>

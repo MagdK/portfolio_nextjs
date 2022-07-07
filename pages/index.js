@@ -1,11 +1,11 @@
 import './_app';
 
-import Navigation from "../components/navigation/navigation.component";
-import Home from '../components/home/home.component';
-import About from '../components/about/about.component';
-import Work from '../components/work/work.component';
-import Contact from '../components/contact/contact.component';
-import Footer from '../components/footer/footer.component';
+import Navigation from "../components/navigation";
+import Home from '../components/home';
+import About from '../components/about';
+import Work from '../components/work';
+import Contact from '../components/contact';
+import Footer from '../components/footer';
 
 export default function Main() {
   return (

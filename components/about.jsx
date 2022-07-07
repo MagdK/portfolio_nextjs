@@ -1,5 +1,5 @@
-import '../../pages/_app';
-// import "../../styles/about.module.scss";
+import '../pages/_app';
+import './about.module.scss';
 
 const About = () => {
     return (

@@ -1,4 +1,5 @@
-import '../../pages/_app';
+
+import '../pages/_app';
 
 const BUTTON_TYPE_CLASSES = {
     primary: 'primary',

@@ -18,20 +18,25 @@
 		line-height: 48px;
 		font-weight: 400;
 		
-		color: $color-grey-1;
+		color: red /* $color-grey-1 */;
 		text-decoration: none;
 		cursor: pointer;
 		padding: 0 24px;
 	}
+
+	li a {
+		text-decoration: none;
+		color: #000;
+	}
 }
 
 
-ul li a {
+/* ul li a {
     text-decoration: none;
     color: #000;
-}
+} */
 
 .nav-container li a:hover {
 	font-weight: 600;
-	color: $color-primary;
+	color: red/* $color-primary */;
 }
