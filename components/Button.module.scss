@@ -4,49 +4,133 @@
 .button_container {
     display: flex;
     position: relative;
+    width: 250px;
+    height: 60px;
 
     .primary {
-        display: inline-block;
+        display: inline;
         position: absolute;
         font-size: 20px;
         line-height: 60px;
         letter-spacing: 0.5px;
         color: $color-grey-1;
         text-align: center;
-
-        background-color: transparent;
-        width: auto;
+        width: 250px;
         height: 60px;
         padding: 0 38px;
         font-weight: 300;
         border-radius: 6px;
         border: 1px solid $color-grey-1;
-        cursor: pointer;
         z-index:1;
         background-repeat:no-repeat;
         overflow: hidden;
-        outline:none;
-    
-        &:hover {
-            border: 1px solid $color-grey-1;
-            background-color: $color-primary-light;
-            letter-spacing: 0.5px;
-            cursor: pointer;
-        }
+        outline: none;
+        cursor: pointer;
 
     }
     
     .primary_shadow {
         position: absolute;
-        display: inline-block;
-        box-shadow: 8px 8px $color-primary-light;
-        z-index: -1;
+        display: inline;
+        z-index: 10;
         top: 8px;
         left: 8px;
-        background-color: $color-primary-light;
-        height: 100%;
-        width: 100%;
+        background-color: $color-primary;
+        opacity: .3;
+        height: 60px;
+        width: 250px;
         border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+    }
+
+    .secondary {
+        display: inline;
+        position: absolute;
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 0.5px;
+        color: $color-grey-1;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        padding: 0;
+        font-weight: 300;
+        border-radius: 6px;
+        border: 1px solid $color-grey-1;
+        z-index:1;
+        background-repeat:no-repeat;
+        overflow: hidden;
+        outline: none;
+        cursor: pointer;
+
+    }
+    
+    .secondary_shadow {
+        position: absolute;
+        display: inline;
+        z-index: 10;
+        top: 8px;
+        left: 8px;
+        background-color: $color-grey-1;
+        opacity: .15;
+        height: 60px;
+        width: 250px;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+    }
+
+    .tertiary {
+        display: inline;
+        position: absolute;
+        font-size: 20px;
+        line-height: 60px;
+        letter-spacing: 0.5px;
+        color: $color-grey-1;
+        text-align: center;
+        width: 250px;
+        height: 60px;
+        padding: 0;
+        font-weight: 300;
+        border-radius: 6px;
+        border: 1px solid $color-grey-1;
+        z-index:1;
+        background-repeat:no-repeat;
+        overflow: hidden;
+        outline: none;
+        cursor: pointer;
+
+    }
+    
+    .tertiary_shadow {
+        position: absolute;
+        display: inline;
+        z-index: 10;
+        top: 8px;
+        left: 8px;
+        background-color: $color-white;
+        opacity: .5;
+        height: 60px;
+        width: 250px;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
     }
 }
 

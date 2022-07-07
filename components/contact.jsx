@@ -15,14 +15,12 @@ const Contact = () => {
                 </p>
                 <PrimaryButton 
                     type="button" 
-                    className={styles.primary}
                 >
                     Connect on LinkedIn
                 </PrimaryButton>
 
                 <TertiaryButton 
                     type="button" 
-                    className={styles.tertiary}
                 >
                     Send an email
                 </TertiaryButton>
