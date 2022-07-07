@@ -2,14 +2,15 @@
 .about-container {
 	height: 100vh;
 	background-color: $color-grey-3;
-}
 
-.about-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 48px;
-
-    &:p {
-        max-width: 600px;
+    .about-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 48px;
+    
+        p {
+            max-width: 600px;
+        }
     }
 }
+

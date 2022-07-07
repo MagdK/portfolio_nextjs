@@ -2,14 +2,15 @@
 .contact-container {
 	height: 100vh;
 	background-color: $color-grey-3;
-}
 
-.contact-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 48px;
-
-    &:p {
-        max-width: 600px;
+    .contact-wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 48px;
+    
+        p {
+            max-width: 400px;
+        }
     }
 }
+

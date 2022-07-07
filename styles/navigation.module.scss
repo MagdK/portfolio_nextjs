@@ -10,22 +10,21 @@
 
 .nav-container {
 	text-align: center;
-	
+
+	li, a {
+		display: inline-block;
+		text-align: center;
+		font-size: 16px;
+		line-height: 48px;
+		font-weight: 400;
+		
+		color: $color-grey-1;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 0 24px;
+	}
 }
 
-.nav-container li,
-.nav-container a {
-	display: inline-block;
-	text-align: center;
-	font-size: 16px;
-	line-height: 48px;
-	font-weight: 400;
-	
-	color: $color-grey-1;
-	text-decoration: none;
-	cursor: pointer;
-	padding: 0 24px;
-}
 
 ul li a {
     text-decoration: none;

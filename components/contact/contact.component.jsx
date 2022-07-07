@@ -6,7 +6,11 @@ const Contact = () => {
             <div className="contact-wrapper">
                 <h1>contact.</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit scelerisque neque, proin bibendum diam.
+                You have gotten this far? Amazing, lets talk.
+                </p>
+                <p>
+                I am available for Product Design and Frontend Development projects. 
+                Drop me a message and let's create something great together!
                 </p>
             </div>
         </section>
