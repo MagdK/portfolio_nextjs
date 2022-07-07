@@ -1,15 +1,30 @@
-// CONTACT SECTION
-.contact-container {
-	height: 100vh;
-	background-color: red/* $color-grey-3 */;
+@import '../styles/variables.module.scss';
 
-    .contact-wrapper {
+
+// CONTACT SECTION
+
+.contact_container {
+	height: 100%;
+	background-color: $color-grey-3;
+    padding: 80px 0 120px;
+
+    .contact_wrapper {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 48px;
     
-        p {
-            max-width: 400px;
+        :global {
+            h1 {
+                padding-bottom: 24px;
+            }
+
+            p {
+                max-width: 600px;  
+                // padding-bottom: 24px;                            
+            }
+            p:not(:last-child) {
+                padding-bottom: 24px;
+            }
         }
     }
 }
