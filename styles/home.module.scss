@@ -4,16 +4,17 @@
 	margin: 0 auto;
 	height: 100vh;
 	margin: 0 auto;
-}
 
-.home-container h1 {
-	max-width: 500px;
+    &:h1 {
+        max-width: 600px;
+    }
 }
 
 .home-container span:before {
 	content: 'Product Designer';
 	animation: animate infinite 8s; 
 }
+
 @keyframes animate {
 	0% {
 		content: 'Product Designer';
