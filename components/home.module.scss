@@ -1,5 +1,5 @@
 // HOME SECTION
-.home-container {
+.home_container {
 	max-width: 1200px;
 	margin: 0 auto;
 	height: 100vh;
@@ -10,7 +10,7 @@
     }
 }
 
-.home-container span:before {
+.home_container span:before {
 	content: 'Product Designer';
 	animation: animate infinite 8s; 
 }

@@ -1,9 +1,9 @@
-import './About.module.scss';
+import styles from './About.module.scss';
 
 const About = () => {
     return (
-        <section className="about-container">
-          <div className="about-wrapper">
+        <section className={styles.about_container}>
+          <div className={styles.about_wrapper}>
             <h1>about.</h1>
             <p>
             Prior to frontend development, I’ve worked in startups, nonprofits, and creative agencies.

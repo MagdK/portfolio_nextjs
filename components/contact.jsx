@@ -1,9 +1,9 @@
-import './Contact.module.scss';
+import styles from './Contact.module.scss';
 
 const Contact = () => {
     return (
-        <section className="contact-container">
-            <div className="contact-wrapper">
+        <section className={styles.contact_container}>
+            <div className={styles.contact_wrapper}>
                 <h1>contact.</h1>
                 <p>
                 You have gotten this far? Amazing, lets talk.

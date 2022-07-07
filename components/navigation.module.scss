@@ -11,22 +11,19 @@
 .nav_container {
 	text-align: center;
 
-	li, a {
-		display: inline-block;
-		text-align: center;
-		font-size: 16px;
-		line-height: 48px;
-		font-weight: 400;
-		
-		color: purple /* $color-grey-1 */;
-		text-decoration: none;
-		cursor: pointer;
-		padding: 0 24px;
-	}
-
-	li a {
-		text-decoration: none;
-		color: #000;
+	:global {
+		li, a {
+			display: inline-block;
+			text-align: center;
+			font-size: 16px;
+			line-height: 48px;
+			font-weight: 400;
+			
+			color: purple /* $color-grey-1 */;
+			text-decoration: none;
+			cursor: pointer;
+			padding: 0 24px;
+		}
 	}
 }
 

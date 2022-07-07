@@ -1,10 +1,10 @@
+import styles from './Home.module.scss';
 import Button from './Button';
-import './Home.module.scss';
 
 const Home = () => {
     return (
-        <section className="home-container">
-          <div className="home-wrapper">
+        <section className={styles.home_container}>
+          <div className={styles.home_wrapper}>
             <p>Hello, I am Magda,</p>
             <h1><span></span></h1>
             <p>based in the Netherlands.</p>

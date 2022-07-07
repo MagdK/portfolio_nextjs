@@ -1,15 +1,17 @@
-
+import styles from './Button.module.scss';
 
 
 const BUTTON_TYPE_CLASSES = {
     primary: 'primary',
-    secondary: 'secondary'
+    secondary: 'secondary',
+    thertiary: 'tertiary'
 }
 
 const Button = ({ children, buttonType, ...otherProps }) => {
+    let btnStyle = styles[BUTTON_TYPE_CLASSES[buttonType]]
     return (
         <button
-            className={`button-container ${BUTTON_TYPE_CLASSES[buttonType]}`} 
+            className={`button_container ${btnStyle}`} 
             {...otherProps}
         >
             {children}

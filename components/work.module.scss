@@ -1,14 +1,16 @@
-.work-container {
+.work_container {
 	height: 100vh;
     background-color: red;
 
-    .work-wrapper {
+    .work_wrapper {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 48px;
-    
-        p {
-            max-width: 600px;
+
+        :global {
+            p {
+                max-width: 600px;
+            }
         }
     }
 }
