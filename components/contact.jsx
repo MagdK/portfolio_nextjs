@@ -1,4 +1,5 @@
 import styles from './Contact.module.scss';
+import Button from './Button';
 
 const Contact = () => {
     return (
@@ -12,6 +13,19 @@ const Contact = () => {
                 I am available for Product Design and Frontend Development projects. 
                 Drop me a message and lets create something great together!
                 </p>
+                <Button 
+                    type="button" 
+                    buttonType="primary"
+                >
+                    Connect on LinkedIn
+                </Button>
+
+                <Button 
+                    type="button" 
+                    buttonType="tertiary"
+                >
+                    Send an email
+                </Button>
             </div>
         </section>
     )
