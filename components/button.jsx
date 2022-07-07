@@ -1,22 +1,40 @@
 import styles from './Button.module.scss';
 
 
-const BUTTON_TYPE_CLASSES = {
-    primary: 'primary',
-    secondary: 'secondary',
-    thertiary: 'tertiary'
+export const PrimaryButton = ({ children }) => {
+
+    return (
+        <div className={styles.button_container}>
+            <button
+                className={styles.primary}
+            >
+                {children}
+            </button>
+            <div className={styles.primary_shadow}></div>
+        </div>        
+    )
 }
 
-const Button = ({ children, buttonType, ...otherProps }) => {
-    let btnStyle = styles[BUTTON_TYPE_CLASSES[buttonType]]
+export const SecondaryButton = ({ children }) => {
+
     return (
         <button
-            className={`button_container ${btnStyle}`} 
-            {...otherProps}
+            className={styles.secondary}
         >
             {children}
         </button>
     )
 }
 
-export default Button;
+export const TertiaryButton = ({ children }) => {
+
+    return (
+        <button
+            className={styles.tertiary}
+        >
+            {children}
+        </button>
+    )
+}
+
+export default PrimaryButton;
