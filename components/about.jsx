@@ -1,5 +1,4 @@
-import '../pages/_app';
-import './about.module.scss';
+import './About.module.scss';
 
 const About = () => {
     return (

@@ -1,5 +1,4 @@
-import '../pages/_app';
-import './contact.module.scss';
+import './Contact.module.scss';
 
 const Contact = () => {
     return (

@@ -1,6 +1,5 @@
-import Button from './button';
-import '../pages/_app';
-import './home.module.scss';
+import Button from './Button';
+import './Home.module.scss';
 
 const Home = () => {
     return (

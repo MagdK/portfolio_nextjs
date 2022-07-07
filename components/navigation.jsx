@@ -1,11 +1,10 @@
-import '../pages/_app';
-import './navigation.module.scss';
+import styles from './Navigation.module.scss';
 
 const Navigation = () => {
     return (
-        <div className="header-container">
-            <h2 calssName="logo-container">m<span>.</span></h2>
-            <ul className="nav-container">
+        <div className={styles.header_container}>
+            <h2 className="logo-container">m<span>.</span></h2>
+            <ul className={styles.nav_container}>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Work</a></li>

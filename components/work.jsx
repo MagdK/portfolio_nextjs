@@ -1,5 +1,4 @@
-import '../pages/_app';
-import './work.module.scss';
+import './Work.module.scss';
 
 const Work = () => {
     return (
