@@ -1,3 +1,5 @@
+@import '../styles/variables.module.scss';
+
 .header_container {
 	display: flex;
 	justify-content: space-between;
@@ -6,6 +8,7 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	padding-top: 24px;
+	background-color: $color-white;
 }
 
 .nav_container {
@@ -19,7 +22,7 @@
 			line-height: 48px;
 			font-weight: 400;
 			
-			color: purple /* $color-grey-1 */;
+			color: $color-grey-1;
 			text-decoration: none;
 			cursor: pointer;
 			padding: 0 24px;
@@ -27,13 +30,7 @@
 	}
 }
 
-
-/* ul li a {
-    text-decoration: none;
-    color: #000;
-} */
-
 .nav_container li a:hover {
 	font-weight: 600;
-	color: red/* $color-primary */;
+	color: $color-primary;
 }

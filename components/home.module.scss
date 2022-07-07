@@ -1,13 +1,23 @@
+@import '../styles/variables.module.scss';
+
 // HOME SECTION
 .home_container {
-	max-width: 1200px;
-	margin: 0 auto;
-	height: 100vh;
-	margin: 0 auto;
+	height: 80vh;
+	background-color: $color-white;
+
+	.home_wrapper {
+		max-width: 1200px;
+        margin: 0 auto;
+        padding: 120px 48px;
+	}
 
     h1 {
         max-width: 1200px;
     }
+
+	h3, h4 {
+		padding-bottom: 8px;
+	}
 }
 
 .home_container span:before {
