@@ -1,3 +1,5 @@
+import '../../styles/work.module.scss';
+
 const Work = () => {
     return (
         <section className="work-container">

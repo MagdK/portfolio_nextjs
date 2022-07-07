@@ -1,0 +1,36 @@
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	height: 72px;
+	padding-top: 24px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+
+.nav-container {
+	text-align: center;}
+
+.nav-container li,
+.nav-container a {
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	line-height: 48px;
+	font-weight: 400;
+	
+	color: $color-grey-1;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0 24px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-container li a:hover {
+	font-weight: 600;
+	color: $color-primary;
+}

@@ -1,0 +1,15 @@
+.work-container {
+	height: 100vh;
+    background-color: red;
+}
+
+.work-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 48px;
+
+    &:p {
+        max-width: 600px;
+    }
+}
+
