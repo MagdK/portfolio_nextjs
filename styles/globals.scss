@@ -1,6 +1,9 @@
 @import "./variables.module.scss";
+@import "./typography.module.scss";
 
 @import "./navigation.module.scss";
+@import "./home.module.scss";
+@import "./about.module.scss";
 @import "./work.module.scss";
 
 * {
@@ -45,15 +48,6 @@ li {
 /* RESET OVER */
 
 
-
-// FONTS
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap');
-
-
-
-
-
-
 // GLOBAL STYLES
 body {
 	font-family: 'Poppins', sans-serif;
@@ -80,68 +74,4 @@ p {
 	line-height: 24px;
 	font-weight: 300;
 	padding: 16px 0;
-}
-
-
-
-// HOME SECTION
-.home-container {
-	max-width: 1200px;
-	margin: 0 auto;
-	height: 100vh;
-	margin: 0 auto;
-}
-
-.home-container h1 {
-	max-width: 500px;
-}
-
-.home-container span:before {
-	content: 'Product Designer';
-	animation: animate infinite 8s; 
-}
-@keyframes animate {
-	0% {
-		content: 'Product Designer';
-	}
-	33% {
-		content: 'Frontend Developer'
-	}
-	66% {
-		content: 'Cat Mother';
-	}
-}
-
-// ABOUT SECTION
-.about-container {
-	height: 100vh;
-	background-color: $color-grey-3;
-}
-
-.about-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 48px;
-}
-
-.about-wrapper p {
-	max-width: 600px;
-}
-
-
-
-// CONTACT SECTION
-.contact-container {
-	height: 100vh;
-	background-color: $color-grey-3;
-}
-
-.contact-wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 48px;
-}
-
-.contact-wrapper p {
-	max-width: 600px;
 }

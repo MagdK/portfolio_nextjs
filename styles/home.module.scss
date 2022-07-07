@@ -1,0 +1,27 @@
+// HOME SECTION
+.home-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.home-container h1 {
+	max-width: 500px;
+}
+
+.home-container span:before {
+	content: 'Product Designer';
+	animation: animate infinite 8s; 
+}
+@keyframes animate {
+	0% {
+		content: 'Product Designer';
+	}
+	33% {
+		content: 'Frontend Developer'
+	}
+	66% {
+		content: 'Cat Mother';
+	}
+}
