@@ -1,3 +1,5 @@
+import '../../pages/_app';
+
 const Footer = () => {
     return (
         <footer >

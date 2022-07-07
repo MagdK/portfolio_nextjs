@@ -1,4 +1,4 @@
-import '../../styles/navigation.module.scss';
+import '../../pages/_app';
 
 const Navigation = () => {
     return (

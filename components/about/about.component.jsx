@@ -1,3 +1,6 @@
+import '../../pages/_app';
+// import "../../styles/about.module.scss";
+
 const About = () => {
     return (
         <section className="about-container">

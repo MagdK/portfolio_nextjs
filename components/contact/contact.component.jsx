@@ -1,3 +1,5 @@
+import '../../pages/_app';
+
 const Contact = () => {
     return (
         <section className="contact-container">

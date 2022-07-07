@@ -1,4 +1,4 @@
-// import './button.styles.scss';
+import '../../pages/_app';
 
 const BUTTON_TYPE_CLASSES = {
     primary: 'primary',

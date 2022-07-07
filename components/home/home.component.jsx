@@ -1,4 +1,5 @@
-import Button from '../button/button.component'
+import Button from '../button/button.component';
+import '../../pages/_app';
 
 const Home = () => {
     return (

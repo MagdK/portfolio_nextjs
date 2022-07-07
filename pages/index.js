@@ -1,3 +1,5 @@
+import './_app';
+
 import Navigation from "../components/navigation/navigation.component";
 import Home from '../components/home/home.component';
 import About from '../components/about/about.component';

@@ -1,4 +1,4 @@
-import '../../styles/work.module.scss';
+import '../../pages/_app';
 
 const Work = () => {
     return (
