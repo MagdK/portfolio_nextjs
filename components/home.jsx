@@ -13,7 +13,7 @@ const Home = () => {
               <Button type="button" buttonType="secondary">Download resume</Button>
             </div>
             <div className={styles.home_wrapper_col_2}>
-              <img src="./assets/profile_pic.png"></img>
+              <h4>This is the place of the image</h4>
             </div>
           </div>
         </section>

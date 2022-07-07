@@ -12,7 +12,7 @@ const About = () => {
             Everything I’ve done has been in pursuit of understanding people more deeply, solving problems and fostering moments of empathy.
             </p>
             <p>
-            As a designer, I’m interested in how to create experiences that are impactful, intuitive, and perhaps, even a bit delightful.
+            As a designer and developer, I’m interested in how to create experiences that are impactful, intuitive, and perhaps, even a bit delightful.
             </p>
             <p>
             As a human, I’m frequently spotted drinking tea, staring at birds, and talking about my cats.

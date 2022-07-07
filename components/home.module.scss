@@ -4,11 +4,22 @@
 .home_container {
 	height: 80vh;
 	background-color: $color-white;
+	display: flex;
+	align-items: center;
 
 	.home_wrapper {
 		max-width: 1200px;
         margin: 0 auto;
         padding: 120px 48px;
+		display: flex;
+
+		.home_wrapper_col_1 {
+			width: calc(2 * ((100% - 48px * 2) / 3) + 48px);
+		}
+
+		.home_wrapper_col_2 {
+			width: calc((100% - 48px * 2) / 3);
+		}
 	}
 
     h1 {
