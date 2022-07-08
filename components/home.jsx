@@ -1,6 +1,7 @@
 import styles from './Home.module.scss';
 import { PrimaryButton, SecondaryButton, ShadowButton } from './Button';
 import ProfilePic from './Profile';
+import Link from 'next/link';
 
 const Home = () => {
     return (
@@ -11,7 +12,9 @@ const Home = () => {
               <h3><span></span></h3>
               <h4>based in the Netherlands.</h4>
               <div className={styles.btn_container}>
+              <a href="#link_work">
                 <PrimaryButton>View works</PrimaryButton>
+              </a>
                 <SecondaryButton>
                   <a
                     download
