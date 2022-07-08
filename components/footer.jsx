@@ -1,9 +1,9 @@
-
+import styles from './Footer.module.scss';
 
 const Footer = () => {
     return (
-        <footer >
-            <p>Made by Magda with ♥ and lots of 🍵</p>
+        <footer className={styles.footer_container}>
+            <p>Made by Magda with <span>♥</span> and lots of 🍵.</p>
         </footer>        
     )
 }

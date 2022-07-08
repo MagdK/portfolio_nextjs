@@ -16,11 +16,11 @@ const Navigation = () => {
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div className={styles.social_icons_container}>
-                <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer">
-                    <LinkedIn className={styles.linkedin_logo}></LinkedIn>
+                <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer" className={styles.linkedin_logo}>
+                    <LinkedIn></LinkedIn>
                 </a>
-                <a href="https://github.com/MagdK" target="_blank" rel="noreferrer">
-                    <Github className={styles.github_logo}></Github>
+                <a href="https://github.com/MagdK" target="_blank" rel="noreferrer" className={styles.github_logo}>
+                    <Github></Github>
                 </a>
                 </div>
             </div>

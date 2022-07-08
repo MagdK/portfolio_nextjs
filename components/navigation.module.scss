@@ -18,6 +18,10 @@
 
 		h2 {
 			line-height: 72px;
+
+			&:hover {
+				color: $color-primary
+			}
 		}
 	}
 
@@ -50,13 +54,12 @@
 	padding: 24px 0;
 
 	.linkedin_logo {
-		margin: 0 24px;
 		padding: 0 24px;
 		cursor: pointer;
 	}
 
 	.github_logo {
-		margin: 0 24px;
+		padding: 0 24px;
 		cursor: pointer;
 	}
 }
