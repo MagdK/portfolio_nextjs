@@ -6,7 +6,9 @@ const Navigation = () => {
     return (
         <div className={styles.header_container}>
             <div className={styles.nav_container}>
-                <h2 className={styles.logo_container}>m<span>.</span></h2>
+                <a href="#top">
+                    <h2 className={styles.logo_container}>m<span>.</span></h2>
+                </a>
                 <ul className={styles.menu_container}>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
