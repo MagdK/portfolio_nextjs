@@ -13,6 +13,7 @@
         padding: 120px 48px;
 		display: flex;
 		height: auto;
+		justify-content: space-around;
 
 		.home_wrapper_col_1 {
 			width: calc(3 * ((100% - 48px) / 5) + 48px);

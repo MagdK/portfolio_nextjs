@@ -1,7 +1,6 @@
 import styles from './Home.module.scss';
 import { PrimaryButton, SecondaryButton, ShadowButton } from './Button';
 import ProfilePic from './Profile';
-import Link from 'next/link';
 
 const Home = () => {
     return (

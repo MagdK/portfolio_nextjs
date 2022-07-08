@@ -1,6 +1,5 @@
-import Github from './Github';
-import LinkedIn from './Linkedin';
 import styles from './Navigation.module.scss';
+import Image from 'next/image';
 
 const Navigation = () => {
     return (
@@ -16,11 +15,11 @@ const Navigation = () => {
                     <li><a href="#contact_section">Contact</a></li>
                 </ul>
                 <div className={styles.social_icons_container}>
-                    <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer" className={styles.linkedin_logo}>
-                        <LinkedIn></LinkedIn>
+                    <a href="https://www.linkedin.com/in/magda-kovacs/"  className={styles.social_icon} target="_blank" rel="noreferrer">
+                        <Image src="/linkedin.svg" alt="LinkedIn logo" width="24" height="24" className={styles.social_icon_linkedin}/>
                     </a>
-                    <a href="https://github.com/MagdK" target="_blank" rel="noreferrer" className={styles.github_logo}>
-                        <Github></Github>
+                    <a href="https://github.com/MagdK" className={styles.social_icon} target="_blank" rel="noreferrer" >
+                        <Image src="/github.svg" alt="Github logo" href="https://github.com/MagdK" targer="_blank" width="24" height="24"/>
                     </a>
                 </div>
             </div>
