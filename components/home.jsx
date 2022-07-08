@@ -15,17 +15,16 @@ const Home = () => {
               <a href="#link_work">
                 <PrimaryButton>View works</PrimaryButton>
               </a>
-                <SecondaryButton>
-                  <a
-                    download
-                    href="public/magda_kovacs_frontend_resume_1.pdf"
+              <a
+                    href="/magda_kovacs_frontend_resume_1.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
-                    Download resume
-                    </a>
-                  </SecondaryButton>
+              >
+                <SecondaryButton>
+                  Download resume
+                </SecondaryButton>
+              </a>
               </div>
             </div>
             <div className={styles.home_wrapper_col_2}>
