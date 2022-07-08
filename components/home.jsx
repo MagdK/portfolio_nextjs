@@ -13,7 +13,7 @@ const Home = () => {
               <h4>based in the Netherlands.</h4>
               <div className={styles.btn_container}>
               <a href="#link_work">
-                <PrimaryButton>View works</PrimaryButton>
+                <PrimaryButton>View work</PrimaryButton>
               </a>
               <a
                     href="/magda_kovacs_frontend_resume_1.pdf"
