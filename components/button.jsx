@@ -1,45 +1,42 @@
 import styles from './Button.module.scss';
 
 
+// export const PrimaryButton = ({ children }) => {
+
+//     return (
+//         <div className={styles.button_container}>
+//             <button className={styles.primary}>
+//                 {children}
+//             </button>
+//             {/* <div className={styles.primary_shadow}></div> */}
+//         </div>        
+//     )
+// }
+
 export const PrimaryButton = ({ children }) => {
 
     return (
-        <div className={styles.button_container}>
-            <button
-                className={styles.primary}
-            >
-                {children}
-            </button>
-            <div className={styles.primary_shadow}></div>
-        </div>        
+        <button className={styles.primary_btn}>
+            {children}
+        </button> 
     )
 }
 
 export const SecondaryButton = ({ children }) => {
 
     return (
-        <div className={styles.button_container}>
-            <button
-                className={styles.secondary}
-            >
-                {children}
-            </button>
-            <div className={styles.secondary_shadow}></div>
-        </div>
+        <button className={styles.secondary_btn}>
+            {children}
+        </button> 
     )
 }
 
 export const TertiaryButton = ({ children }) => {
 
     return (
-        <div className={styles.button_container}>
-            <button
-                className={styles.tertiary}
-            >
-                {children}
-            </button>
-            <div className={styles.tertiary_shadow}></div>
-        </div>
+        <button className={styles.tertiary_btn}>
+            {children}
+        </button> 
     )
 }
 

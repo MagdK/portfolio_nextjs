@@ -1,136 +1,183 @@
 @import '../styles/variables.module.scss';
 
+// PRIMARY BTN
 
-.button_container {
-    display: flex;
+.primary_btn {
+    color: $color-grey-1;
     position: relative;
-    width: 250px;
+    background: transparent;
+    padding: 38px 0;
+    margin: 40px 40px 0 0;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-8px, -8px);
+
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: $color-grey-1;
+    text-align: center;
     height: 60px;
-
-    .primary {
-        display: inline;
-        position: absolute;
-        font-size: 20px;
-        line-height: 60px;
-        letter-spacing: 0.5px;
-        color: $color-grey-1;
-        text-align: center;
-        width: 250px;
-        height: 60px;
-        padding: 0 38px;
-        font-weight: 300;
-        border-radius: 6px;
-        border: 1px solid $color-grey-1;
-        z-index:1;
-        background-repeat:no-repeat;
-        overflow: hidden;
-        outline: none;
-        cursor: pointer;
-
+    padding: 0 38px;
+    font-weight: 300;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 1px solid $color-grey-1;
+      border-radius: inherit;
     }
-    
-    .primary_shadow {
-        position: absolute;
-        display: inline;
-        z-index: 10;
-        top: 8px;
-        left: 8px;
-        background-color: $color-primary;
-        opacity: .3;
-        height: 60px;
-        width: 250px;
-        border-radius: 6px;
-        cursor: pointer;
-
-        &:hover {
-            top: 0;
-            left: 0;
-            cursor: pointer;
-        }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $color-primary-light;
+      border-radius: inherit;
+      z-index: -10;
+      transform: translate(8px, 8px);
+      transition: transform 0.2s ease-in-out;
     }
-
-    .secondary {
-        display: inline;
-        position: absolute;
-        font-size: 20px;
-        line-height: 60px;
-        letter-spacing: 0.5px;
-        color: $color-grey-1;
-        text-align: center;
-        width: 250px;
-        height: 60px;
-        padding: 0;
-        font-weight: 300;
-        border-radius: 6px;
-        border: 1px solid $color-grey-1;
-        z-index:1;
-        background-repeat:no-repeat;
-        overflow: hidden;
-        outline: none;
-        cursor: pointer;
-
+  
+    &:hover {
+      transform: translate(0, 0);
     }
-    
-    .secondary_shadow {
-        position: absolute;
-        display: inline;
-        z-index: 10;
-        top: 8px;
-        left: 8px;
-        background-color: $color-grey-1;
-        opacity: .15;
-        height: 60px;
-        width: 250px;
-        border-radius: 6px;
-        cursor: pointer;
-
-        &:hover {
-            top: 0;
-            left: 0;
-            cursor: pointer;
-        }
+    &:hover::after {
+      transform: translate(0, 0);
     }
-
-    .tertiary {
-        display: inline;
-        position: absolute;
-        font-size: 20px;
-        line-height: 60px;
-        letter-spacing: 0.5px;
-        color: $color-grey-1;
-        text-align: center;
-        width: 250px;
-        height: 60px;
-        padding: 0;
-        font-weight: 300;
-        border-radius: 6px;
-        border: 1px solid $color-grey-1;
-        z-index:1;
-        background-repeat:no-repeat;
-        overflow: hidden;
-        outline: none;
-        cursor: pointer;
-
+    &:active::after {
+      transition: none;
+      transform: translate(4px, 4px);
     }
-    
-    .tertiary_shadow {
-        position: absolute;
-        display: inline;
-        z-index: 10;
-        top: 8px;
-        left: 8px;
-        background-color: $color-white;
-        opacity: .5;
-        height: 60px;
-        width: 250px;
-        border-radius: 6px;
-        cursor: pointer;
+}
+  
 
-        &:hover {
-            top: 0;
-            left: 0;
-            cursor: pointer;
-        }
+
+// SECONDARY BTN
+
+.secondary_btn {
+    color: $color-grey-1;
+    position: relative;
+    background: transparent;
+    padding: 38px 0;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-8px, -8px);
+
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: $color-grey-1;
+    text-align: center;
+    height: 60px;
+    padding: 0 38px;
+    font-weight: 300;
+  
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border: 1px solid $color-grey-1;
+      border-radius: inherit;
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: $color-grey-3;
+      border-radius: inherit;
+      z-index: -10;
+      transform: translate(8px, 8px);
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    &:hover {
+      transform: translate(0, 0);
+    }
+    &:hover::after {
+      transform: translate(0, 0);
+    }
+    &:active::after {
+      transition: none;
+      transform: translate(4px, 4px);
     }
 }
 
+
+
+// SECONDARY BTN
+
+.secondary_btn {
+    color: $color-grey-1;
+    position: relative;
+    background: transparent;
+    padding: 38px 0;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-8px, -8px);
+
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: $color-grey-1;
+    text-align: center;
+    height: 60px;
+    padding: 0 38px;
+    font-weight: 300;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border: 1px solid $color-grey-1;
+        border-radius: inherit;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-grey-3;
+        border-radius: inherit;
+        z-index: -10;
+        transform: translate(8px, 8px);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    &:hover {
+        transform: translate(0, 0);
+    }
+    &:hover::after {
+        transform: translate(0, 0);
+    }
+    &:active::after {
+        transition: none;
+        transform: translate(4px, 4px);
+    }
+}

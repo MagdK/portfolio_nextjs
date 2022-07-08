@@ -13,17 +13,10 @@ const Contact = () => {
                 I am available for Product Design and Frontend Development projects. 
                 Drop me a message and lets create something great together!
                 </p>
-                <PrimaryButton 
-                    type="button" 
-                >
-                    Connect on LinkedIn
-                </PrimaryButton>
-
-                <TertiaryButton 
-                    type="button" 
-                >
-                    Send an email
-                </TertiaryButton>
+                <div className={styles.btn_container}>
+                    <PrimaryButton>Connect on LinkedIn</PrimaryButton>
+                    <TertiaryButton>Send an email</TertiaryButton>
+                </div>
             </div>
         </section>
     )
