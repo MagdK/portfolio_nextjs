@@ -10,7 +10,7 @@ const Navigation = () => {
                     <h2 className={styles.logo_container}>m<span>.</span></h2>
                 </a>
                 <ul className={styles.menu_container}>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#top">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Work</a></li>
                     <li><a href="#">Contact</a></li>
