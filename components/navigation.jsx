@@ -16,8 +16,12 @@ const Navigation = () => {
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div className={styles.social_icons_container}>
+                <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer">
                     <LinkedIn className={styles.linkedin_logo}></LinkedIn>
+                </a>
+                <a href="https://github.com/MagdK" target="_blank" rel="noreferrer">
                     <Github className={styles.github_logo}></Github>
+                </a>
                 </div>
             </div>
         </div>
