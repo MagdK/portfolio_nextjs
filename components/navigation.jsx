@@ -11,9 +11,9 @@ const Navigation = () => {
                 </a>
                 <ul className={styles.menu_container}>
                     <li><a href="#top">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about_section">About</a></li>
+                    <li><a href="#work_section">Work</a></li>
+                    <li><a href="#contact_section">Contact</a></li>
                 </ul>
                 <div className={styles.social_icons_container}>
                     <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer" className={styles.linkedin_logo}>

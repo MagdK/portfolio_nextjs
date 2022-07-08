@@ -12,7 +12,7 @@ const Home = () => {
               <h3><span></span></h3>
               <h4>based in the Netherlands.</h4>
               <div className={styles.btn_container}>
-              <a href="#link_work">
+              <a href="#work_section">
                 <PrimaryButton>View work</PrimaryButton>
               </a>
               <a

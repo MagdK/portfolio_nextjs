@@ -3,7 +3,7 @@ import { PrimaryButton, TertiaryButton } from './Button';
 
 const Contact = () => {
     return (
-        <section className={styles.contact_container}>
+        <section className={styles.contact_container} id="contact_section">
             <div className={styles.contact_wrapper}>
                 <h1>contact.</h1>
                 <p>
