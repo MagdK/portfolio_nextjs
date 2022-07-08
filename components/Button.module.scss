@@ -123,9 +123,9 @@
 
 
 
-// SECONDARY BTN
+// TERTIARY BTN
 
-.secondary_btn {
+.tertiary_btn {
     color: $color-grey-1;
     position: relative;
     background: transparent;
@@ -163,7 +163,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: $color-grey-3;
+        background-color: $color-white;
         border-radius: inherit;
         z-index: -10;
         transform: translate(8px, 8px);

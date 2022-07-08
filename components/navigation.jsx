@@ -1,3 +1,5 @@
+import Github from './Github';
+import LinkedIn from './Linkedin';
 import styles from './Navigation.module.scss';
 
 const Navigation = () => {
@@ -12,8 +14,8 @@ const Navigation = () => {
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <div className={styles.social_icons_container}>
-                    <span>LinkedIn</span>
-                    <span>Github</span>
+                    <LinkedIn className={styles.linkedin_logo}></LinkedIn>
+                    <Github className={styles.github_logo}></Github>
                 </div>
             </div>
         </div>
