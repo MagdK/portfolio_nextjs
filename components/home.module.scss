@@ -15,7 +15,7 @@
 		height: auto;
 
 		.home_wrapper_col_1 {
-			width: calc(3 * ((100% - 48px) / 4) + 48px);
+			width: calc(3 * ((100% - 48px) / 5) + 48px);
 		}
 
 		.home_wrapper_col_2 {
@@ -32,12 +32,12 @@
 	}
 }
 
-.home_container span:before {
+.home_wrapper_col_1 span:before {
 	content: 'Product Designer';
 	animation: animate infinite 8s; 
 }
 
-/* @keyframes animate {
+@keyframes animate {
 	0% {
 		content: 'Product Designer';
 	}
@@ -47,4 +47,9 @@
 	66% {
 		content: 'Cat Mother';
 	}
-} */
+}
+
+.profile_pic {
+	width: 350px;
+	height: 350px;
+}

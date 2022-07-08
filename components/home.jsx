@@ -1,5 +1,6 @@
 import styles from './Home.module.scss';
 import { PrimaryButton, SecondaryButton, ShadowButton } from './Button';
+import ProfilePic from './Profile';
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.home_wrapper_col_2}>
-              <h4>This is the place of the image</h4>
+              <ProfilePic className={styles.profile_pic}></ProfilePic>
             </div>
           </div>
         </section>
