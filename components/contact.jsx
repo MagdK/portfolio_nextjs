@@ -15,7 +15,9 @@ const Contact = () => {
                 </p>
                 <div className={styles.btn_container}>
                 <PrimaryButton>Connect on LinkedIn</PrimaryButton>
-                <TertiaryButton>Send an email</TertiaryButton>
+                <a href="mailto:kovacsmagda@gmail.com">
+                    <TertiaryButton>Send an email</TertiaryButton>
+                </a>
               </div>
             </div>
         </section>
