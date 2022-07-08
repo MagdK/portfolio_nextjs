@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <footer >
-            <p>Made with 💕, 💃🏻, and lots of 🍵</p>
+            <p>Made by Magda with ♥ and lots of 🍵</p>
         </footer>        
     )
 }

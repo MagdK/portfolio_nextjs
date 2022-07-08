@@ -14,9 +14,9 @@ const Contact = () => {
                 Drop me a message and lets create something great together!
                 </p>
                 <div className={styles.btn_container}>
-                    <PrimaryButton>Connect on LinkedIn</PrimaryButton>
-                    <TertiaryButton>Send an email</TertiaryButton>
-                </div>
+                <PrimaryButton>Connect on LinkedIn</PrimaryButton>
+                <TertiaryButton>Send an email</TertiaryButton>
+              </div>
             </div>
         </section>
     )

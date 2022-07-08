@@ -12,7 +12,17 @@ const Home = () => {
               <h4>based in the Netherlands.</h4>
               <div className={styles.btn_container}>
                 <PrimaryButton>View works</PrimaryButton>
-                <SecondaryButton>Download resume</SecondaryButton>
+                <SecondaryButton>
+                  <a
+                    download
+                    href="public/magda_kovacs_frontend_resume_1.pdf"
+                    alt="alt text"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Download resume
+                    </a>
+                  </SecondaryButton>
               </div>
             </div>
             <div className={styles.home_wrapper_col_2}>
