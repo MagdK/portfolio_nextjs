@@ -19,6 +19,14 @@
 	
 			.home_wrapper_col_1 {
 				width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
+
+				.btn_container {
+					display:flex;
+					flex-flow: row wrap;
+					row-gap: $spacing-small;
+					column-gap: $spacing-small;
+					margin-top: $spacing-large;
+				}
 			}
 	
 			.home_wrapper_col_2 {
@@ -56,6 +64,14 @@
 			.home_wrapper_col_1 {
 				max-width: $grid-width-tablet;
 				padding-top: $spacing-small;
+
+				.btn_container {
+					display:flex;
+					flex-flow: row wrap;
+					row-gap: $spacing-small;
+					column-gap: $spacing-small;
+					margin-top: $spacing-large;
+				}
 			}
 	
 			.home_wrapper_col_2 {
