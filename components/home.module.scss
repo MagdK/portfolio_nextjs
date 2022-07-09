@@ -10,26 +10,26 @@
 	.home_wrapper {
 		width: $grid-width-desktop;
         margin: 0 auto;
-        padding: 120px $spacing-xlarge;
+        padding: $spacing-huge $spacing-large;
 		display: flex;
 		height: auto;
 		justify-content: space-around;
 
 		.home_wrapper_col_1 {
-			width: calc(3 * ((100% - 48px) / 5) + 48px);
+			width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
 		}
 
 		.home_wrapper_col_2 {
-			width: calc((100% - 48px) / 4);
+			width: calc((100% - $spacing-large) / 4);
 		}
 	}
 
     h1 {
-        max-width: 1200px;
+        max-width: $grid-width-desktop;
     }
 
 	h3, h4 {
-		padding-bottom: 8px;
+		padding-bottom: $spacing-xxsmall;
 	}
 }
 
@@ -54,6 +54,6 @@
 }
 
 .profile_pic {
-	width: 350px;
-	height: 350px;
+	width: calc($spacing-huge * 3);
+	height: calc($spacing-huge * 3);
 }
