@@ -6,24 +6,24 @@
 .contact_container {
 	height: 100%;
 	background-color: $color-grey-3;
-    padding: 80px 0 120px;
+    padding: $spacing-xxlarge 0 $spacing-huge;
 
     .contact_wrapper {
         max-width: $grid-width-desktop;
         margin: 0 auto;
-        padding: 0 48px;
+        padding: 0 $spacing-large;
     
         :global {
             h1 {
-                padding-bottom: 24px;
+                padding-bottom: $spacing-small;
             }
 
             p {
-                max-width: 600px;  
-                // padding-bottom: 24px;                            
+                max-width: calc($spacing-huge * 5);                          
             }
+
             p:not(:last-child) {
-                padding-bottom: 24px;
+                padding-bottom: $spacing-small;
             }
         }
     }
