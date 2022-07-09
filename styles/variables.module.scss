@@ -11,13 +11,15 @@ $color-white: white;
 
 
 // GRID
-$grid-width-desktop: 80rem;
+$grid-width-desktop: 80rem;     // 1280px
+$grid-width-tablet: 55rem;     // 880px
+$grid-width-mobile: 36rem;     // 580px
 
-$spacing-xxsmall: .5rem;     // 8px
-$spacing-xsmall: 1rem;       // 16px
-$spacing-small: 1.5rem;     // 24px
-$spacing-medium: 2rem;       // 32px
-$spacing-large: 3rem;       // 48px
-$spacing-xlarge: 4.5rem;      // 72px
-$spacing-xxlarge: 5rem;     // 80px
-$spacing-huge: 7.5rem;       // 120px
+$spacing-xxsmall: .5rem;        // 8px
+$spacing-xsmall: 1rem;          // 16px
+$spacing-small: 1.5rem;         // 24px
+$spacing-medium: 2rem;          // 32px
+$spacing-large: 3rem;           // 48px
+$spacing-xlarge: 4.5rem;        // 72px
+$spacing-xxlarge: 5rem;         // 80px
+$spacing-huge: 7.5rem;          // 120px

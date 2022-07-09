@@ -1,54 +1,94 @@
 @import '../styles/variables.module.scss';
 
 // HOME SECTION
-.home_container {
-	height: 80vh;
-	background-color: $color-white;
-	display: flex;
-	align-items: center;
 
-	.home_wrapper {
-		width: $grid-width-desktop;
-        margin: 0 auto;
-        padding: $spacing-huge $spacing-large;
+@media only screen and (min-width: $grid-width-tablet) {
+	.home_container {
+		height: 80vh;
+		background-color: $color-white;
 		display: flex;
-		height: auto;
-		justify-content: space-around;
-
-		.home_wrapper_col_1 {
-			width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
+		align-items: center;
+	
+		.home_wrapper {
+			width: $grid-width-desktop;
+			margin: 0 auto;
+			padding: $spacing-huge $spacing-large;
+			display: flex;
+			height: auto;
+			justify-content: space-around;
+	
+			.home_wrapper_col_1 {
+				width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
+			}
+	
+			.home_wrapper_col_2 {
+				width: calc((100% - $spacing-large) / 4);
+			}
 		}
-
-		.home_wrapper_col_2 {
-			width: calc((100% - $spacing-large) / 4);
+	
+		h1 {
+			max-width: $grid-width-desktop;
+		}
+	
+		h3, h4 {
+			padding-bottom: $spacing-xxsmall;
 		}
 	}
+}
 
-    h1 {
-        max-width: $grid-width-desktop;
-    }
-
-	h3, h4 {
-		padding-bottom: $spacing-xxsmall;
+@media only screen and (max-width: $grid-width-tablet) {
+	.home_container {
+		display: flex;
+		height: auto;
+		background-color: $color-white;
+		align-items:flex-end;
+		
+	
+		.home_wrapper {
+			display: flex;
+			max-width: $grid-width-tablet;
+			margin: 0 auto;
+			padding: $spacing-huge $spacing-large;
+			height: auto;
+			justify-content: space-around;
+			flex-direction: column-reverse;
+	
+			.home_wrapper_col_1 {
+				max-width: $grid-width-tablet;
+				padding-top: $spacing-small;
+			}
+	
+			.home_wrapper_col_2 {
+				max-width: $grid-width-tablet;
+			}
+		}
+	
+		h1 {
+			max-width: $grid-width-desktop;
+		}
+	
+		h3, h4 {
+			padding-bottom: $spacing-xxsmall;
+		}
 	}
 }
 
 .home_wrapper_col_1 span:before {
-	content: 'Product Designer';
+	content: 'Product designer';
 	animation: animate infinite 8s; 
 }
 
 @keyframes animate {
 	0% {
-		content: 'Product Designer';
+		content: 'Product designer';
 	}
-	33% {
-		content: 'Frontend Developer'
+	25% {
+		content: 'Frontend developer'
 	}
-	66% {
+	50% {
 		content: 'Feminist with cats';
 	}
-	80% {
+	75% {
 		content: ' I am a bit crazy'
 	}
 }
