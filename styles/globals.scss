@@ -47,29 +47,29 @@ li {
 // GLOBAL STYLES
 body {
 	font-family: 'Poppins', sans-serif;
-}
-
-main {
 	margin: 0 auto;
+
 }
 
 h1 {
 	font-size: 100px;
 	line-height: 100px;
+	font-weight: 700;
 	color: $color-primary;
 }
 
 h2 {
 	font-size: 36px;
 	line-height: 48px;
+	font-weight: 700;
 	color: $color-grey-1;
 }
 
 h3 {
 	font-size: 48px;
 	line-height: 48px;
-	color: $color-primary;
 	font-weight: 700;
+	color: $color-primary;
 }
 
 h4 {
@@ -80,9 +80,8 @@ h4 {
 }
 
 p {
-	color: $color-grey-2;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 300;
-	padding: 0;
+	color: $color-grey-2;
 }
