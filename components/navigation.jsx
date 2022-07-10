@@ -33,25 +33,23 @@ const Navigation = () => {
   
 
     return (
-        <div className={styles.header_container}>
-            <nav className={styles.nav_container}>
-              <input id="nav-toggle" type="checkbox"/>
+        <header className={styles.header}>
+            <div className={styles.logo}>
               <a href="#top">
                 <h2 className={styles.logo_container}>m<span>.</span></h2>
               </a>
-              <ul className={styles.menu_container}>
+            </div>
+            <div className={styles.navigation}>
+              <input className={styles.toggle_menu} type="checkbox"/>
+              <div className={styles.hamburger}></div>
+              <ul className={styles.menu}>
                 <li><a href="#top">Home</a></li>
                 <li><a href="#about_section">About</a></li>
                 <li><a href="#work_section">Work</a></li>
                 <li><a href="#contact_section">Contact</a></li>
               </ul>
-              <label className={styles.burger}>
-                <div className={styles.line}></div>
-                <div className={styles.line}></div>
-                <div className={styles.line}></div>
-              </label>
-            </nav>
-        </div>
+            </div>
+        </header>
     )
 }
 
