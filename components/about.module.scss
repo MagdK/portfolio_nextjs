@@ -3,14 +3,13 @@
 // ABOUT SECTION
 
 .about_container {
-	height: 100%;
-	background-color: $color-grey-3;
+    height: 100%;
+    background-color: $color-grey-3;
     padding: 80px 0 $spacing-huge;
 
     .about_wrapper {
         max-width: $grid-width-desktop;
         margin: 0 auto;
-        padding: 0 $spacing-large;
 
         :global {
             h1 {
@@ -20,10 +19,26 @@
             p {
                 max-width: calc($spacing-huge * 5);                         
             }
-            
+
             p:not(:last-child) {
                 padding-bottom: $spacing-small;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-width-mobile) {
+    .about_container {
+        .about_wrapper {
+            padding: 0 $spacing-large;
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-width-mobile) {
+    .about_container {
+        .about_wrapper {
+            padding: 0 $spacing-small;
         }
     }
 }

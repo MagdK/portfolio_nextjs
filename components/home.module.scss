@@ -89,6 +89,14 @@
 	}
 }
 
+@media only screen and (max-width: $grid-width-mobile) {
+	.home_container {
+		.home_wrapper {
+			padding: $spacing-huge $spacing-small;
+		}
+	}
+}
+
 .home_wrapper_col_1 span:before {
 	content: 'Product designer';
 	animation: animate infinite 8s; 

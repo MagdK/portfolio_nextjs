@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 
 const Navigation = () => {
-    const [show, setShow] = useState(true);
+  /*   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const controlNavbar = () => {
@@ -29,11 +29,11 @@ const Navigation = () => {
         window.removeEventListener('scroll', controlNavbar);
       };
     }
-  }, [lastScrollY]);
+  }, [lastScrollY]); */
   
 
     return (
-        <div className={styles.header_container, styles.`active ${show && 'hidden'}`}>
+        <div className={styles.header_container}>
             <div className={styles.nav_container}>
                 <a href="#top">
                     <h2 className={styles.logo_container}>m<span>.</span></h2>

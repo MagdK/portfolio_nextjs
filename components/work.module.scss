@@ -8,7 +8,6 @@
     .work_wrapper {
         max-width: $grid-width-desktop;
         margin: 0 auto;
-        padding: 0 $spacing-large;
 
         :global {
             h1 {
@@ -21,6 +20,22 @@
             p:not(:last-child) {
                 padding-bottom: $spacing-small;
             }
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-width-mobile) {
+    .work_container {
+        .work_wrapper {
+            padding: 0 $spacing-large;
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-width-mobile) {
+    .work_container {
+        .work_wrapper {
+            padding: 0 $spacing-small;
         }
     }
 }

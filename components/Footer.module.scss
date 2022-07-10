@@ -5,7 +5,6 @@
     height: $spacing-large;
 
     .footer_wrapper {
-        max-width: $grid-width-desktop;
         margin: 0 auto;
         padding: 0 $spacing-large;
     }
@@ -19,6 +18,22 @@
 
         span {
             color: $color-primary;
+        }
+    }
+}
+
+@media only screen and (min-width: $grid-width-mobile) {
+    .footer_container {
+        .footer_wrapper {
+            max-width: $grid-width-desktop;
+        }
+    }
+}
+
+@media only screen and (max-width: $grid-width-mobile) {
+    .footer_container {
+        .footer_wrapper {
+            max-width: $grid-width-mobile;
         }
     }
 }

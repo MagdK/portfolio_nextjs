@@ -51,11 +51,50 @@ body {
 
 }
 
-h1 {
-	font-size: 100px;
-	line-height: 100px;
-	font-weight: 700;
-	color: $color-primary;
+@media only screen and (min-width: $grid-width-mobile) {
+	h1 {
+		font-size: 100px;
+		line-height: 100px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
+	h3 {
+		font-size: 48px;
+		line-height: 48px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
+	h4 {
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 200;
+		color: $color-grey-1;
+	}
+}
+
+@media only screen and (max-width: $grid-width-mobile) {
+	h1 {
+		font-size: 60px;
+		line-height:60px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
+	h3 {
+		font-size: 28px;
+		line-height: 28px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
+	h4 {
+		font-size: 18px;
+		line-height: 26px;
+		font-weight: 200;
+		color: $color-grey-1;
+	}
 }
 
 h2 {
@@ -65,23 +104,10 @@ h2 {
 	color: $color-grey-1;
 }
 
-h3 {
-	font-size: 48px;
-	line-height: 48px;
-	font-weight: 700;
-	color: $color-primary;
-}
-
-h4 {
-	font-size: 24px;
-	line-height: 36px;
-	font-weight: 200;
-	color: $color-grey-1;
-}
-
 p {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 300;
 	color: $color-grey-2;
 }
+
