@@ -72,6 +72,11 @@ body {
 		font-weight: 200;
 		color: $color-grey-1;
 	}
+
+	p {
+		font-size: 20px;
+		line-height: 32px;
+	}
 }
 
 @media only screen and (max-width: $grid-width-mobile) {
@@ -95,6 +100,11 @@ body {
 		font-weight: 200;
 		color: $color-grey-1;
 	}
+
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
 }
 
 h2 {
@@ -105,8 +115,6 @@ h2 {
 }
 
 p {
-	font-size: 16px;
-	line-height: 24px;
 	font-weight: 300;
 	color: $color-grey-2;
 }

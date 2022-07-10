@@ -11,8 +11,7 @@ const Contact = () => {
                     You have gotten this far? Amazing, lets talk.
                     </p>
                     <p>
-                    I am available for Product Design and Frontend Development projects. Check out my <a href="https://github.com/MagdK" targer="_blank">Github</a> account
-                    Drop me a message and lets create something great together!
+                    I am available for product design and frontend development projects. Check out my <a href="https://github.com/MagdK" targer="_blank">Github</a> account, drop me a message and lets create something great together!
                     </p>
                 </div>
                 <div className={styles.btn_container}>
