@@ -11,7 +11,7 @@ const Contact = () => {
                     You have gotten this far? Amazing, lets talk.
                     </p>
                     <p>
-                    I am available for Product Design and Frontend Development projects. 
+                    I am available for Product Design and Frontend Development projects. Check out my <a href="https://github.com/MagdK" targer="_blank">Github</a> account
                     Drop me a message and lets create something great together!
                     </p>
                 </div>

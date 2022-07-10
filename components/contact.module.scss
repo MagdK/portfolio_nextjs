@@ -42,6 +42,17 @@
                 p:last-child {
                     margin-bottom: $spacing-large;
                 }
+
+                p {
+                    a {
+                        color: $color-primary;
+                        text-decoration: underline;
+                    }
+
+                    a:hover {
+                        text-decoration: none;
+                    }
+                }
             } 
         }
 
