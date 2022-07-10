@@ -5,6 +5,7 @@ secret: false
 title: Transactions
 client: Begame
 role: UX/UI
+tags: Wireframe, User flow, UX, UI, Responsive design, Whimsical, Marwel app, Sketch, Zeplin
 ---
 The following designs are part of an online bingo project. A tiny part and probably not the most important, but interesting nevertheless.
 

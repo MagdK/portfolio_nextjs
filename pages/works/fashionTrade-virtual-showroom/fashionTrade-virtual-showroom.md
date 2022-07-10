@@ -6,6 +6,7 @@ title: Brand showroom
 client: fashionTrade
 role: UX/UI designer
 websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
+tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
 ---
 
 This brilliant feature allows users to access their showrooms anywhere anytime. It also gives the brand the chance to tell their story better by creating a fully branded experience using inspirational content like videos, look books, images and allowing them to link their styles to it.

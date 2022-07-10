@@ -1,11 +1,12 @@
 ---
-date: "2017-01-16"
+date: "2015-07-16"
 draft: false
-title: API Marketing Page
+title: API info Page
 
 client: Syndy
 role: Design
 websiteURL: http://www.syndy.com
+tags: Iconography, Desktop layout, Mobile layout, Typography, Iconography, Photoshop
 ---
 
 At Syndy I was created a marketing page for Syndy's API. [Algirdas

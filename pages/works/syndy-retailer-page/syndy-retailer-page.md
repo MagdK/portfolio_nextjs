@@ -1,11 +1,12 @@
 ---
-date: "2017-05-16"
+date: "2018-05-16"
 draft: false
 title: Retailer page
 
 client: Syndy
 role: Design
 websiteURL: http://www.syndy.com/econtent-sourcing/
+tags: Desktop layout, Mobile layout, Iconography, Illustration, Photoshop
 ---
 
 Working at Syndy, a company with a unique solution to distribute and optimise

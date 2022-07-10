@@ -6,6 +6,7 @@ title: Email template design
 client: Syndy
 role: Design
 websiteURL: http://www.syndy.com/econtent-sourcing/
+tags: Email template, Photoshop, Typography
 ---
 
 My role was to create templates that are consistent, clean and minimalistic,

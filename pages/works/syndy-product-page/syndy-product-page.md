@@ -6,6 +6,7 @@ title: Product page
 client: Syndy
 role: Design
 websiteURL: http://www.syndy.com/econtent-sourcing/
+tags: Desktop layout, Mobile layout, Photoshop
 ---
 
 The challenge was to squeeze in all the great things you can do with Syndy’s

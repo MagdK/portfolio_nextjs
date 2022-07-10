@@ -1,11 +1,12 @@
 ---
 date: "2017-02-16"
 draft: false
-title: Product relationship icons
+title: Iconography
 
 client: Syndy
 role: Design
 websiteURL: http://www.syndy.com
+tags: Iconography, Colour theory, Sketch
 ---
 
 On Syndy’s platform the users are able to choose how

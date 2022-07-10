@@ -5,6 +5,7 @@ secret: false
 title: Profile picture upload
 client: Begame
 role: UX/UI
+tags:  Wireframe, User flow, UI, UX, High fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin,
 ---
 
 After I gathered enough knowledge from the product owner and marekting manager about bingo players, I introduced Anita and Susanne - our bingo personas - to our team to have a better understanding what our users' needs, goals and pain points are. These personas helped me realise that the whole bingo experience has to be a lot more personalised. For the users to be able to show their faces by uploading a profile picture is only a small step, but gives a personal touch to it all when they are in the bingo room chat, or when they make it to the leaderboard.
