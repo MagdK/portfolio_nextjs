@@ -131,6 +131,7 @@
 
 @media screen and (max-width: $grid-width-mobile) {
 	.header {
+		padding: 0 $spacing-small;
 
 		.navigation {
 			.hamburger,
