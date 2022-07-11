@@ -53,9 +53,11 @@
 					transition: 0.3s;
 
 					&:hover {
-						background-color: $color-grey-3;
-						text-indent: $spacing-xsmall ;
-						
+						background-color: $color-grey-4;
+					}
+
+					&:active {
+						background-color: $color-primary-light;
 					}
 				}
 			}
@@ -164,6 +166,11 @@
 
 						&:hover {
 							background-color: $color-grey-3;
+							text-indent: $spacing-xsmall ;
+						}
+
+						&:active {
+							background-color: $color-primary-light;
 						}
 					}
 				}
