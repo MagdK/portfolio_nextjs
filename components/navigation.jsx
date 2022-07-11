@@ -15,7 +15,7 @@ const Navigation = () => {
             </a>
           </div>
           <div className={styles.navigation}>
-            <input className={styles.toggle_menu} type="checkbox" checked={showSidebar} onClick={() => {setShowSidebar(!showSidebar)}}/>
+            <input className={styles.toggle_menu} type="checkbox" checked={showSidebar} onChange={() => {setShowSidebar(!showSidebar)}}/>
             <div className={styles.hamburger}></div>
             <ul className={styles.menu}>
               <li><a href="#top" onClick={closeSidebar}>Home</a></li>

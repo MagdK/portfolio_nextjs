@@ -1,7 +1,8 @@
 @import '../styles/variables.module.scss';
 
 .header {
-	position: relative;
+	position: fixed;
+	z-index: 9999;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -36,7 +37,7 @@
 			justify-content: center;
 			flex-direction: row;
 			align-items: center;
-			z-index: 1;
+			z-index: 9990;
 			transition: 0.5s;
 
 			li {
@@ -65,7 +66,7 @@
 			background: $color-grey-1;
 			border-radius: 6px;
 			cursor: pointer;
-			z-index: 2;
+			z-index: 9991;
 			transition: 0.3s;
 
 			&::before, 
@@ -94,7 +95,7 @@
 			position: absolute;
 			width: 30px;
 			height: 100%;
-			z-index: 3;
+			z-index: 9993;
 			cursor: pointer;
 			opacity: 0;
 
@@ -130,14 +131,17 @@
 @media screen and (max-width: $grid-width-mobile) {
 	.header {
 		padding: 10px 20px;
+		background-color: $color-primary;
 
 		.navigation {
+			overflow: hidden;
 			.hamburger,
 			.toggle_menu {
 				display: block;
 			}
 
 			.menu {
+				
 				justify-content: start;
 				flex-direction: column;
 				align-items: center;
