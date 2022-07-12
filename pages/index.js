@@ -5,6 +5,8 @@ import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
+import "swiper/css/bundle";
+
 export default function Main() {
   return (
     <div >

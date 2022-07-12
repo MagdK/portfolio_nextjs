@@ -1,0 +1,28 @@
+@import '../styles/variables.module.scss';
+
+.mySwiper {
+    background-color: $color-primary;
+
+    .mySwiper_module {
+        background-color: aqua;
+    }
+}
+
+.link_primary { 
+    color: $color-primary;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+.work_description {
+    p {
+        max-width: calc($spacing-huge * 5);                         
+    }
+    
+    p:not(:last-child) {
+        padding-bottom: $spacing-small;
+    }
+
+}

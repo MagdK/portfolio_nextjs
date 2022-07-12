@@ -1,4 +1,7 @@
 import styles from './Work.module.scss';
+import Link from 'next/link';
+
+import Button from './Button';
 
 const Work = () => {
     return (
@@ -8,6 +11,16 @@ const Work = () => {
             <p>
             Below are some of my projects I have worked on throughout my years of design and development.
             </p>
+
+          
+
+    
+              
+                  <Link href="/details">
+                    <a>Go to details</a>
+                  </Link>
+            
+            
           </div>
         </section>
     )
