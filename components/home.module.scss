@@ -14,8 +14,7 @@
 			margin: 0 auto;
 			padding: $spacing-huge $spacing-large;
 			display: flex;
-			height: auto;
-			justify-content: space-around;
+			// justify-content: space-around;
 	
 			.home_wrapper_col_1 {
 				width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
@@ -31,6 +30,7 @@
 	
 			.home_wrapper_col_2 {
 				width: calc((100% - $spacing-large) / 4);
+				margin: auto auto;
 			}
 		}
 	
