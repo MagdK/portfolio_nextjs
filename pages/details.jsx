@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './details.module.scss';
-import Navigation from "../components/Navigation";
+
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -16,7 +16,21 @@ import "swiper/css/bundle";
 const Details = () => {
     return (
       <>
-        <Navigation></Navigation>
+        <div className={styles.header_details}>
+          <div className={styles.logo}>
+            <Link href="/#home_section">
+              <a href="#top">
+                <h2 className={styles.logo_container}>m<span>.</span></h2>
+              </a>
+            </Link>
+          </div>
+          <p className={styles.link_primary}>
+            <Link href="/#work_section">
+              <a>Back to work</a>
+            </Link>
+          </p>
+        </div>
+
         <h3>Transactions</h3>
         <div className={styles.work_description}>
           <p>
@@ -35,11 +49,7 @@ const Details = () => {
             After a couple of iterations the result was a clean and easily scannable transactions page.
           </p>
         </div>
-        <p className={styles.link_primary}>
-          <Link href="/">
-            <a>Back to home</a>
-          </Link>
-        </p>
+        
         <Swiper
           slidesPerView={3}
           spaceBetween={30}

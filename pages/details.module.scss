@@ -1,5 +1,35 @@
 @import '../styles/variables.module.scss';
 
+
+.header_details {
+    position: fixed;
+	z-index: 9000;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $color-white;
+	padding: 0 $spacing-large;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+	transition: 0.3s;
+
+    .logo {
+		display: block;
+		width: 100%;
+
+		a {
+			h2 {
+				color: $color-grey-1;
+				line-height: 72px;
+
+				span {
+					color: $color-primary;
+				}
+			}
+		}
+	}
+}
+
 .mySwiper {
     background-color: $color-primary;
 
@@ -16,7 +46,9 @@
         text-decoration: none;
     }
 }
+
 .work_description {
+
     p {
         max-width: calc($spacing-huge * 5);                         
     }
