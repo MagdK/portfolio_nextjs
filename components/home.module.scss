@@ -24,7 +24,7 @@
 					flex-flow: row wrap;
 					row-gap: $spacing-small;
 					column-gap: $spacing-small;
-					margin-top: $spacing-large;
+					margin-top: $spacing-medium;
 				}
 			}
 	
@@ -33,13 +33,20 @@
 				margin: auto auto;
 			}
 		}
+
+		:global {
 	
-		h1 {
-			max-width: $grid-width-desktop;
-		}
-	
-		h3, h4 {
-			padding-bottom: $spacing-xxsmall;
+			h1 {
+				max-width: $grid-width-desktop;
+			}
+		
+			h3 {
+				padding-bottom: $spacing-xxsmall;
+			}
+
+			h4:first-child {
+				padding-bottom: $spacing-xxsmall;
+			}
 		}
 	}
 }
