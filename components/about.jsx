@@ -6,7 +6,7 @@ const About = () => {
           <div className={styles.about_wrapper}>
             <h1>about.</h1>
             <p>
-            Prior to frontend development, I’ve worked in startups, nonprofits, and creative agencies.
+            Prior to frontend development, I’ve worked in startups, nonprofits, and creative agencies as a designer.
             </p>
             <p>
             Everything I’ve done has been in pursuit of understanding people more deeply, solving problems and fostering moments of empathy.

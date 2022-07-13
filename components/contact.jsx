@@ -1,5 +1,6 @@
 import styles from './Contact.module.scss';
 import { PrimaryButton, TertiaryButton } from './Button';
+import Link from 'next/link';
 
 const Contact = () => {
     return (
@@ -11,7 +12,13 @@ const Contact = () => {
                     You have gotten this far? Amazing, lets talk.
                     </p>
                     <p>
-                    I am available for product design and frontend development projects. Check out my <a href="https://github.com/MagdK" targer="_blank">Github</a> account, drop me a message and lets create something great together!
+                    I am available for product design and frontend development projects. Check out my <a 
+                            href="https://github.com/MagdK"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                        Github
+                        </a> account, drop me a message and lets create something great together!
                     </p>
                 </div>
                 <div className={styles.btn_container}>
