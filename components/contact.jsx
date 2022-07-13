@@ -15,12 +15,17 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className={styles.btn_container}>
-                    <a href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" rel="noreferrer" className={styles.linkedin_btn}>
-                        <PrimaryButton >Connect on LinkedIn</PrimaryButton>
-                    </a>
-                    <a href="mailto:kovacsmagda@gmail.com" className={styles.email_btn}>
-                        <TertiaryButton >Send an email</TertiaryButton>
-                    </a>
+                        <PrimaryButton 
+                            href="https://www.linkedin.com/in/magda-kovacs/" target="_blank" 
+                            rel="noreferrer" 
+                        >
+                            Connect on LinkedIn
+                        </PrimaryButton>
+                        <TertiaryButton 
+                            href="mailto:kovacsmagda@gmail.com"
+                        >
+                            Send an email
+                        </TertiaryButton>
               </div>
             </div>
         </section>

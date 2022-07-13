@@ -1,5 +1,5 @@
 import styles from './Button.module.scss';
-
+import Link from 'next/link';
 
 // export const PrimaryButton = ({ children }) => {
 
@@ -13,30 +13,48 @@ import styles from './Button.module.scss';
 //     )
 // }
 
-export const PrimaryButton = ({ children }) => {
+export const PrimaryButton = ({ children, href, target, rel }) => {
 
     return (
-        <button className={styles.primary_btn}>
-            {children}
-        </button> 
+        <Link href={href}>
+            <a 
+                className={styles.primary_btn}
+                target={target} 
+                rel={rel}
+            >
+                {children}
+            </a>
+        </Link>
     )
 }
 
-export const SecondaryButton = ({ children }) => {
+export const SecondaryButton = ({ children, href, target, rel }) => {
 
-    return (
-        <button className={styles.secondary_btn}>
-            {children}
-        </button> 
+    return (    
+        <Link href={href}>
+            <a 
+                className={styles.secondary_btn}
+                target={target} 
+                rel={rel}
+            >
+                {children}
+            </a>
+        </Link>
     )
 }
 
-export const TertiaryButton = ({ children }) => {
+export const TertiaryButton = ({ children, href, target, rel }) => {
 
     return (
-        <button className={styles.tertiary_btn}>
-            {children}
-        </button> 
+        <Link href={href}>
+            <a 
+                className={styles.tertiary_btn}
+                target={target}
+                rel={rel}
+            >
+                {children}
+            </a>
+        </Link>
     )
 }
 

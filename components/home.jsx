@@ -12,19 +12,18 @@ const Home = () => {
               <h3><span></span></h3>
               <h4>based in the Netherlands.</h4>
               <div className={styles.btn_container}>
-                <a href="#work_section">
-                  <PrimaryButton>View work</PrimaryButton>
-                </a>
-                <a
-                      href="/magda_kovacs_frontend_resume_1.pdf"
-                      alt="alt text"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                <PrimaryButton 
+                  href="#work_section"
                 >
-                  <SecondaryButton>
-                    Download resume
-                  </SecondaryButton>
-                </a>
+                  View work
+                </PrimaryButton>
+                <SecondaryButton 
+                  href="/magda_kovacs_frontend_resume_1.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download resume
+                </SecondaryButton>
               </div>
             </div>
             <div className={styles.home_wrapper_col_2}>
