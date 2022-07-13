@@ -1,5 +1,3 @@
-import fs from 'fs';
-import path from 'path';
 import "swiper/css/bundle";
 
 import Navigation from "../components/Navigation";
@@ -10,7 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 
-export default function Main({ posts }) {
+export default function Main() {
   return (
     <div >
       <Navigation />
@@ -23,14 +21,4 @@ export default function Main({ posts }) {
       <Footer />
     </div>
   )
-}
-
-export async function getStaticProps() {
-  const files = fs.readdirSync(path.join("works"))
-
-  return {
-    props: {
-      posts: "The Posts"
-    }
-  }
 }
