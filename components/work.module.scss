@@ -21,6 +21,17 @@
                 padding-bottom: $spacing-small;
             }
         }
+
+        .work_list_card {
+            background-color: antiquewhite;
+            width: 30%;
+            padding: 16px;
+
+            p {
+                display: inline;
+                padding-right: 8px;
+            }
+        }
     }
 }
 

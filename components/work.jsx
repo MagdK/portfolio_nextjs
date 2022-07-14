@@ -12,7 +12,12 @@ const Work = () => {
             Below are some of my projects I have worked on throughout my years of design and development.
             </p>
 
-          
+            <div className={styles.work_list_card}>
+              <h4>Title</h4>
+              <p>Year</p>
+              <p>Company</p>
+            </div>
+            
 
     
               
