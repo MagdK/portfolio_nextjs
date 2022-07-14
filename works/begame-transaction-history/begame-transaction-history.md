@@ -16,9 +16,8 @@ When users are actively engaging with the website, there are different transacti
 
 Objectives
 - Research and observe spending behaviour.
-- Analize sales representatives' and retailers' behaviour.
-- Find a way to make the trading seasons fricktionless. 
-- Design a tools to be accessible and intuitive. 
+- Find a way to give the users clear overview of their spendings. 
+- Design a page to be accessible and intuitive. 
 
 Goal
 How might we create an experience that allows users to stay on top of their spendings and provides them clear overview of their transaction history?
