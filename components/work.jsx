@@ -1,7 +1,8 @@
 import styles from './Work.module.scss';
 import Link from 'next/link';
+import Image from 'next/image';
 
-import Button from './Button';
+// import Button from './Button';
 
 const Work = () => {
     return (
@@ -13,8 +14,9 @@ const Work = () => {
             </p>
             <Link href="/details">
               <div className={styles.work_list_card}>
-                <div>
-                  <h4>Title</h4>
+                <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="350" height="350"></Image>
+                <div className={styles.work_list_card_description}>
+                  <p>Transactions on Bingocams</p>
                 </div>
               </div> 
             </Link>
