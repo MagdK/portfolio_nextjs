@@ -101,6 +101,13 @@
 		.home_wrapper {
 			padding: $spacing-huge $spacing-small;
 
+			.home_wrapper_col_1 {
+
+				.btn_container {
+					margin-top: $spacing-small;
+				}
+			}
+
 			.home_wrapper_col_2 {
 					width: calc((100% - $spacing-large) / 2);
 			}

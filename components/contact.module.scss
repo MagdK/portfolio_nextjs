@@ -67,6 +67,10 @@
     .contact_container {
         .contact_wrapper {
             padding: 0 $spacing-small;
+
+            .btn_container {
+                margin-top: $spacing-small;
+            }
         }
     }
 }
