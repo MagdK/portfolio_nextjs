@@ -17,20 +17,31 @@
             p {
                 max-width: calc($spacing-huge * 5);                           
             }
-            p:not(:last-child) {
-                padding-bottom: $spacing-small;
-            }
         }
 
-        .work_list_card {
-            width: 30%;
-            height: 30%;
-            cursor: pointer;
-            padding: 16px 0 ;
+        .work_list_wrapper {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            gap: $spacing-small;
+            margin-top: $spacing-medium;
 
-            p {
-                display: inline;
-                padding-right: 8px;
+
+            .work_list_card {
+                width: 33%;
+                height: 33%;
+                cursor: pointer;
+
+                .work_list_card_description{
+                    .tag {
+                        font-size: 14px;
+                        line-height: 24px;
+                        display: inline;
+                        width: inherit;
+                        padding-bottom: 0;
+                    }
+                }
+    
             }
         }
     }
