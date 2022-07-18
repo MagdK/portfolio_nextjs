@@ -10,7 +10,7 @@ const Home = () => {
             <div className={styles.home_wrapper_col_1}>
               <h4>Hello, I am Magda,</h4>
               <h3><span></span></h3>
-              <h4>based in the Netherlands.</h4>
+              <h4>looking for my next challenge where I could deliver business value and level up my skills.</h4>
               <div className={styles.btn_container}>
                 <PrimaryButton 
                   href="#work_section"
