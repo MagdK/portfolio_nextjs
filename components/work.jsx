@@ -44,11 +44,14 @@ const Work = () => {
               </Link>
 
             </div>
-            <PrimaryButton 
-                            href="#" 
-                            rel="noreferrer" 
-                        >Show all
-            </PrimaryButton>
+            <div className={styles.btn_container}>
+              <PrimaryButton 
+                  href="#" 
+                  rel="noreferrer" 
+              >
+                  Show all
+              </PrimaryButton>
+            </div>
           </div>
         </section>
     )
