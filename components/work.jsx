@@ -13,13 +13,11 @@ const Work = () => {
             Below are some of my projects I have worked on throughout my years of design and development.
             </p>
             <div className={styles.work_list_wrapper}>
+              
               <Link href="/details">
                 <div className={styles.work_list_card}>
-
-                  <div className={styles.work_list_card_image}>
+                  
                     <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
-                    <div className={styles.work_list_card_image_overlay}></div>
-                  </div>
 
                   <div className={styles.work_list_card_description}>
                     <p>Bingocams transactions</p>
