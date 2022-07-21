@@ -15,7 +15,12 @@ const Work = () => {
             <div className={styles.work_list_wrapper}>
               <Link href="/details">
                 <div className={styles.work_list_card}>
-                  <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="400" height="400"></Image>
+                  <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
+
+                  <div className={styles.work_list_card_overlay}>
+                    <div className={styles.work_list_card_button}>Read more</div>
+                  </div>
+
                   <div className={styles.work_list_card_description}>
                     <p>Bingocams transactions</p>
                     <p className={styles.tag}>Development and design</p>
@@ -25,7 +30,7 @@ const Work = () => {
 
               <Link href="/details">
                 <div className={styles.work_list_card}>
-                  <Image src="/images/works/begame-profile-picture-upload.png" alt="Transaction Image" width="400" height="400"></Image>
+                  <Image src="/images/works/begame-profile-picture-upload.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
                   <div className={styles.work_list_card_description}>
                     <p>Bingocams profile picture upload</p>
                     <p className={styles.tag}>Design</p>
@@ -35,7 +40,7 @@ const Work = () => {
 
               <Link href="/details">
                 <div className={styles.work_list_card}>
-                  <Image src="/images/works/begame-design-system.png" alt="Transaction Image" width="400" height="400"></Image>
+                  <Image src="/images/works/begame-design-system.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
                   <div className={styles.work_list_card_description}>
                     <p>Bingocams design system</p>
                     <p className={styles.tag}>Design</p>
