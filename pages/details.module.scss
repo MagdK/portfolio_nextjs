@@ -48,9 +48,18 @@
 		}
 	}
 
-	h3 {
+	h2 {
 		padding: 0 0 $spacing-xsmall;
+		color: $color-primary
 	}	
+
+	.work_description {
+		p {
+			li {
+				list-style-type: circle; 
+			}
+		}
+	}
 }
 
 .mySwiper {

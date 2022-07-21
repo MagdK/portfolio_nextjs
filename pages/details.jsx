@@ -33,7 +33,7 @@ const Details = () => {
             <Link href="/#work_section">
                 <p className={styles.navigation_link}>Back to works</p>
             </Link>
-            <h3>Bingocams transactions</h3>
+            <h2>Bingocams transactions</h2>
             <div className={styles.work_description}>
               <p>
                 <h5>Project overview</h5>
