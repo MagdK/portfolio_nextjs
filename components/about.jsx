@@ -9,7 +9,7 @@ const About = () => {
             Prior to frontend development, I’ve worked in startups, nonprofits, and creative agencies as a designer.
             </p>
             <p>
-            Everything I’ve done has been in pursuit of understanding people more deeply, solving problems and fostering moments of empathy.
+            Everything I’ve done has been in pursuit of <b className={styles.highlight}>understanding people</b> more deeply, <b className={styles.highlight}>solving problems</b> and fostering moments of <b className={styles.highlight}>empathy</b>.
             </p>
             <p>
             As a designer and developer, I’m interested in how to create experiences that are impactful, intuitive, and perhaps, even a bit delightful.

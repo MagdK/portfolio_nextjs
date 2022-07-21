@@ -17,11 +17,24 @@
             }
 
             p {
-                max-width: calc($spacing-huge * 5);                         
+                max-width: calc($spacing-huge * 5);
+
+                
             }
 
             p:not(:last-child) {
                 padding-bottom: $spacing-small;
+            }
+        }
+
+        .highlight {
+            text-decoration: underline;
+            font-weight: inherit;
+            text-decoration-color: rgba($color-primary, 0.15);
+            @supports (text-decoration-skip-ink: none) and (text-underline-offset: 1em) {
+                text-underline-offset: -0.65em;
+                text-decoration-thickness: 0.6em;
+                text-decoration-skip-ink: none;
             }
         }
     }
