@@ -31,10 +31,26 @@
 }
 
 
+
 .details_content_wrapper {
 	max-width: $grid-width-desktop;
     margin: 0 auto;
     padding: $spacing-huge $spacing-large;
+
+	.navigation_link {
+		color: $color-grey-2;
+		cursor: pointer;
+		padding: 0 0 $spacing-medium;
+
+		&:hover {
+			color: $color-primary;
+			text-decoration: underline;
+		}
+	}
+
+	h3 {
+		padding: 0 0 $spacing-xsmall;
+	}	
 }
 
 .mySwiper {
@@ -48,6 +64,7 @@
 .link_primary { 
     color: $color-primary;
     text-decoration: underline;
+	transition: transform .5s ease;
 
     &:hover {
         text-decoration: none;

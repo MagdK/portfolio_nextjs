@@ -12,7 +12,7 @@ Project overview
 To give a clear overview of all user transactions and help users keep track of their spendings on the site. 
 
 Problem
-When users are actively engaging with the website, there are different transactions that happen during their experience: deposits, withdrawals, game plays. At the moment the site has only one table without filtering options to list all these transactions. This improvement is meant to help them keep track all of it easier.
+When users are actively engaging with the website, there are different transactions that happen during their experience: deposits, withdrawals and different kind of game plays. At the moment the site has only one table to list all these transactions. By improving the transactions page will give the users a better overview of their spendings.
 
 Objectives
 - Research and observe spending behaviour.
