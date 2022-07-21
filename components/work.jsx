@@ -15,10 +15,10 @@ const Work = () => {
             <div className={styles.work_list_wrapper}>
               <Link href="/details">
                 <div className={styles.work_list_card}>
-                  <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
 
-                  <div className={styles.work_list_card_overlay}>
-                    <div className={styles.work_list_card_button}>Read more</div>
+                  <div className={styles.work_list_card_image}>
+                    <Image src="/images/works/begame-transaction-history.png" alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
+                    <div className={styles.work_list_card_image_overlay}></div>
                   </div>
 
                   <div className={styles.work_list_card_description}>
