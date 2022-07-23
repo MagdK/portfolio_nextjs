@@ -1,4 +1,5 @@
 import "swiper/css/bundle";
+import Head from 'next/head';
 
 import Navigation from "../components/Navigation";
 import Home from '../components/Home';
@@ -11,6 +12,9 @@ import Footer from '../components/Footer';
 export default function Main() {
   return (
     <div >
+      <Head>
+        <title>magdadot.com</title>
+      </Head>
       <Navigation />
       <main >
         <Home />
