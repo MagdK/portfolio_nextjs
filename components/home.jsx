@@ -8,9 +8,9 @@ const Home = () => {
         <section className={styles.home_container}>
           <div className={styles.home_wrapper}>
             <div className={styles.home_wrapper_col_1}>
-              <h4>Hello, I am Magda,</h4>
+              <p>Hello, I am Magda,</p>
               <h3><span></span></h3>
-              <h4>looking for my next challenge to deliver business value and level up my skills.</h4>
+              <p>looking for my next challenge to deliver business value and level up my skills.</p>
               <div className={styles.btn_container}>
                 <PrimaryButton 
                   href="#work_section"

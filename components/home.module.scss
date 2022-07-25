@@ -44,7 +44,7 @@
 				padding-bottom: $spacing-xxsmall;
 			}
 
-			h4:first-child {
+			p:first-child {
 				padding-bottom: $spacing-xxsmall;
 			}
 		}
@@ -85,13 +85,20 @@
 				width: calc((100% - $spacing-large) / 2);
 			}
 		}
+
+		:global {
 	
-		h1 {
-			max-width: $grid-width-desktop;
-		}
-	
-		h3, h4 {
-			padding-bottom: $spacing-xxsmall;
+			h1 {
+				max-width: $grid-width-desktop;
+			}
+		
+			h3 {
+				padding-bottom: $spacing-xxsmall;
+			}
+
+			p:first-child {
+				padding-bottom: $spacing-xxsmall;
+			}
 		}
 	}
 }
@@ -109,7 +116,7 @@
 			}
 
 			.home_wrapper_col_2 {
-					width: calc((100% - $spacing-large) / 2);
+				width: calc((100% - $spacing-large) / 2);
 			}
 		}
 
