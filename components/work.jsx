@@ -49,7 +49,7 @@ const Work = () => {
             </div>
             <div className={styles.btn_container}>
               <PrimaryButton 
-                  href="#" 
+                  href="/works" 
                   rel="noreferrer" 
               >
                   Show all

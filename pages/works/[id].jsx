@@ -18,5 +18,5 @@ export async function getStaticProps() {
     }
   }
 }
-rk
+
 export default Work;

@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 import path from 'path';
 import fs from 'fs';
@@ -15,6 +16,9 @@ const Works = ({ works }) => {
                     <div key={work.slug}>
                         <h2>{work.frontmatter.title}</h2>
                         <h4>{work.frontmatter.date}</h4>
+                        <Link href={`/works/${work.slug}`}>
+                            <a>Details</a>
+                        </Link>
                     </div>
                 )
             })}
@@ -28,7 +32,7 @@ export async function getStaticProps() {
 
 
     const works = files.map(filename => {
-        // Create slug
+        // Create slug - https://magdadot.com/works/<slug>
         const slug = path.basename(filename, '.md')
 
         // Get fronmatter
