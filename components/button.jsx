@@ -1,18 +1,6 @@
 import styles from './Button.module.scss';
 import Link from 'next/link';
 
-// export const PrimaryButton = ({ children }) => {
-
-//     return (
-//         <div className={styles.button_container}>
-//             <button className={styles.primary}>
-//                 {children}
-//             </button>
-//             {/* <div className={styles.primary_shadow}></div> */}
-//         </div>        
-//     )
-// }
-
 export const PrimaryButton = ({ children, href, target, rel }) => {
 
     return (
