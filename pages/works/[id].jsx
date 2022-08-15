@@ -9,7 +9,7 @@ const Work = ({ slug, frontmatter, content }) => {
 
   return (
     <div className={styles.details_content_wrapper}>
-      <h1>{frontmatter.title}</h1>
+      <h3>{frontmatter.title}</h3>
       <div dangerouslySetInnerHTML={{__html: content}}></div>
     </div>
   )
