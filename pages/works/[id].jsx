@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import styles from './details.module.scss';
+import { PrimaryButton, SecondaryButton } from '../../components/Button';
 
 const Work = ({ slug, frontmatter, content }) => {
 
@@ -11,6 +12,23 @@ const Work = ({ slug, frontmatter, content }) => {
     <div className={styles.details_content_wrapper}>
       <h3>{frontmatter.title}</h3>
       <div dangerouslySetInnerHTML={{__html: content}}></div>
+
+      <div className={styles.btn_container}>
+            <PrimaryButton 
+              href="https://micah-rolodex.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Website
+            </PrimaryButton>
+            <SecondaryButton 
+              href="https://github.com/MagdK/rolodex"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repo
+            </SecondaryButton>
+          </div>
     </div>
   )
 }

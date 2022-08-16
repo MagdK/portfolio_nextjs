@@ -1,5 +1,5 @@
 import styles from './Home.module.scss';
-import { PrimaryButton, SecondaryButton, ShadowButton } from './Button';
+import { PrimaryButton, SecondaryButton } from './Button';
 import Image from 'next/image'
 import profilePic from '../public/crazy_profile_pic.png'
 
