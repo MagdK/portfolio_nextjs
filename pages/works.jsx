@@ -28,7 +28,7 @@ const Works = ({ works }) => {
 
 export async function getStaticProps() {
     // Get files from the work directory
-    const files = glob.sync(path.join("works/*/*.md"))
+    const files = glob.sync(path.join("public/works/*/*.md"))
 
 
     const works = files.map(filename => {

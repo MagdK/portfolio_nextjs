@@ -85,14 +85,14 @@ const Work = ({ slug, frontmatter, content, images }) => {
 // Every time the page gets rendered, this function should return the data, that will be shown on the page
 export async function getStaticProps(context) {
   const slug = context.params.id;
-  const filePath = `works/${slug}/${slug}.md`;
+  const filePath = `public/works/${slug}/${slug}.md`;
   const markdownWithMeta = fs.readFileSync(filePath, 'utf-8');
 
   const {data, content} = matter(markdownWithMeta);
   const html = await markdownToHtml(content)
   const images = glob
-    .sync(path.join(`works/${slug}/*.+(png|gif|jpg|jpeg)`))
-    .map(img_path => "/" + img_path)
+    .sync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
+    .map(img_path => img_path.replace('public', ''))
 
   return {
     props: {
@@ -116,7 +116,7 @@ export async function getStaticPaths() {
   return {
     fallback: false, // can also be true or 'blocking'
     // paths: [{ params: { id: 'begame-design-system' } }],
-    paths: glob.sync(path.join("works/*")).map(dir => {
+    paths: glob.sync(path.join("public/works/*")).map(dir => {
       return { params: {id: path.basename(dir) }}
     })
   }
