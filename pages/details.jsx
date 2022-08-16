@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './details.module.scss';
+import styles from '../../details.module.scss';
 
 
 // import required modules
