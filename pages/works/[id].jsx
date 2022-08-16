@@ -1,10 +1,12 @@
 import fs from 'fs';
 import glob from 'glob';
+import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import styles from './details.module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
+import Image from 'next/image';
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
@@ -17,9 +19,9 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
-import path from 'path';
 
-const Work = ({ slug, frontmatter, content }) => {
+
+const Work = ({ slug, frontmatter, content, images }) => {
 
   return (
     <div className={styles.details_content_wrapper}>
@@ -44,6 +46,12 @@ const Work = ({ slug, frontmatter, content }) => {
         >
           Github repo
         </SecondaryButton>
+      </div>
+
+      <div>
+        {images.map((image) => {
+          return(<Image src={image} key={image} alt={image} width={1200} height={1200}/>)
+        })}
       </div>
 
       <Swiper
@@ -73,6 +81,8 @@ const Work = ({ slug, frontmatter, content }) => {
   )
 }
 
+// https://nextjs.org/docs/api-reference/data-fetching/get-static-props#getstaticprops-return-values
+// Every time the page gets rendered, this function should return the data, that will be shown on the page
 export async function getStaticProps(context) {
   const slug = context.params.id;
   const filePath = `works/${slug}/${slug}.md`;
@@ -80,12 +90,16 @@ export async function getStaticProps(context) {
 
   const {data, content} = matter(markdownWithMeta);
   const html = await markdownToHtml(content)
+  const images = glob
+    .sync(path.join(`works/${slug}/*.+(png|gif|jpg|jpeg)`))
+    .map(img_path => "/" + img_path)
 
   return {
     props: {
       slug: slug,
       frontmatter: data,
-      content: html
+      content: html,
+      images: images
     }
   }
 }
