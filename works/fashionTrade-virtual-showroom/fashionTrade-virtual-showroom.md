@@ -9,12 +9,12 @@ websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
 tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
 ---
 Project overview
-To simplify and digitalise fashion wholesale, we were entrusted with establishing an online showroom experience for brands and retailers.
+To simplify and digitalise fashion wholesale, the product team was entrusted with establishing an online showroom experience for brands and retailers.
 
 Problem
-The objective of fashionTrade was to simplify and digitalise wholesale trading between brands and retailers. Fashion wholesales, unlike other sectors, did not embrace the digital era; instead, trade takes place mostly through spreadsheets and on paper.
+The objective of fashionTrade was to simplify and digitalise wholesale trading between brands and retailers. Fashion wholesales, unlike other sectors, did not embrace the digital era; instead, trade takes place mostly via spreadsheet and paper.
 
-The purpose of this project was to provide a platform for companies to present their collections and make them available to merchants so that they could place orders without hassle.
+The purpose of this project was to provide a platform for companies to present their collections and make them available to retailers so that they could place orders without hassle.
 
 Objectives
 - Research and observe trading behaviour.
@@ -34,7 +34,7 @@ Needs
 Wants
 - Trade without the need of in person meetings.
 - Boost sales on both sides.
-- To reach retailers without forcing them to register on yet an other platform. 
+- To reach retailers without forcing them to register on the platform. 
 
 
 This brilliant feature allows users to access their showrooms anywhere anytime. It also gives the brand the chance to tell their story better by creating a fully branded experience using inspirational content like videos, look books, images and allowing them to link their styles to it.
