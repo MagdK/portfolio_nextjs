@@ -3,7 +3,7 @@ date: "2022-03-16"
 draft: false
 title: Image of the day with NASA's API
 
-client: -
+client: none
 role: Design and development
 websiteURL: https://ask-nasa-javascript.herokuapp.com/
 github: https://github.com/MagdK/ask-nasa-javascript

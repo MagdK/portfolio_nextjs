@@ -3,7 +3,7 @@ date: "2022-08-16"
 draft: false
 title: Personal portfolio
 
-client: -
+client: none
 role: Design and development
 websiteURL: http://www.magdadot.com
 github: https://github.com/MagdK/portfolio_nextjs

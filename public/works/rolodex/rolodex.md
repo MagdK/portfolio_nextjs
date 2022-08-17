@@ -3,7 +3,7 @@ date: "2022-07-16"
 draft: false
 title: Rolodex project using React
 
-client: -
+client: none
 role: Design and development
 websiteURL: https://micah-rolodex.herokuapp.com/
 github: https://github.com/MagdK/rolodex
