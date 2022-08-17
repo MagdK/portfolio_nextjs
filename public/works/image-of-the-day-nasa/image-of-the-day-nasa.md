@@ -1,7 +1,7 @@
 ---
 date: "2022-03-16"
 draft: false
-title: Image of the day with NASA's API
+title: Image of the day NASA
 
 client: none
 role: Design and development
