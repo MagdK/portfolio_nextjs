@@ -2,7 +2,7 @@
 date: "2020-08-15"
 draft: false
 secret: false
-title: Design system for Bingocams.co.uk
+title: Design system for Bingocams
 client: Begame
 role: UX/UI
 cover_image: "begame-design-system.png"
