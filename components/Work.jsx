@@ -1,28 +1,37 @@
-import styles from './Works.module.scss';
+import styles from './Work.module.scss';
 import Link from 'next/link';
 // import Image from 'next/image';
 
-const Works = ({ works }) => {
-    console.log(works)
+const Work = ({ works }) => {
+    
     return (
-        <div className={styles.card_list}>
-            {works.map((work) => {
+        <section className={styles.work_container} id="work_section">
+            <div className={styles.work_wrapper}>
+                <h1>work.</h1>
+                <p>
+                    Below are some of my projects I have worked on throughout my years of design and development.
+                </p>
+                <div className={styles.card_list}>
+                    {works.map((work) => {
 
-                return(
-                    <div key={work.slug}>
-                        <h2>{work.frontmatter.title}</h2>
-                        <h4>{work.frontmatter.date}</h4>
-                        <Link href={`/works/${work.slug}`}>
-                            <a>Details</a>
-                        </Link>
-                    </div>
-                )
-            })}
-        </div>
+                        return(
+                            
+                            <div key={work.slug}>
+                                <h2>{work.frontmatter.title}</h2>
+                                <h4>{work.frontmatter.date}</h4>
+                                <Link href={`/works/${work.slug}`}>
+                                    <a>Details</a>
+                                </Link>
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
+        </section>
     )
 }
 
-export default Works;
+export default Work;
 
 
 // const Work = () => {

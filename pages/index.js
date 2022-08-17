@@ -9,7 +9,7 @@ import Head from 'next/head';
 import Navigation from "../components/Navigation";
 import Home from '../components/Home';
 import About from '../components/About';
-import Works from '../components/Works';
+import Work from '../components/Work';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -24,7 +24,7 @@ export default function Main({works}) {
       <main >
         <Home />
         <About />
-        <Works works={works} />
+        <Work works={works} />
         <Contact />
       </main>
       <Footer />
