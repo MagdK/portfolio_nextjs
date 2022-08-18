@@ -52,7 +52,7 @@ const Work = ({ works }) => {
                             console.log(works, "hello")
                             worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6)) }}
                     >
-                        {worksToDisplay.length === 6 ? "Show more" : "Show less"}
+                        {worksToDisplay.length === 6 ? "Show all" : "Show less"}
                     </PrimaryButton>
         
                 </div>
