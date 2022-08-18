@@ -22,7 +22,7 @@ const Work = ({ works }) => {
                                 
                                 <Link href={`/works/${work.slug}`}>
                                     <a>
-                                        <Image src={`/works/${work.slug}/${work.slug}.png`} alt="Transaction Image" width="400" height="400" className={styles.work_image}></Image>
+                                        <Image src={`/works/${work.slug}/${work.slug}.png`} alt={`${work.slug}`} width="400" height="400" className={styles.work_image}></Image>
                                         <p>{work.frontmatter.title}</p>
                                         <p className={styles.tag}>{work.frontmatter.role}</p>
                                     </a>
