@@ -22,13 +22,14 @@
         .work_list_wrapper {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             width: 100%;
             gap: $spacing-small;
             margin-top: $spacing-medium;
 
             .work_list_card {
-                width: 33%;
-                height: 33%;
+                width: 31%;
+                height: 31%;
                 cursor: pointer;
 
                 .work_image {
