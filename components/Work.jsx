@@ -2,9 +2,13 @@ import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
 import { PrimaryButton } from './Button';
+import { useState } from 'react';
 
 const Work = ({ works }) => {
     
+    const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
+
+
     return (
         <section className={styles.work_container} id="work_section">
             <div className={styles.work_wrapper}>
@@ -14,15 +18,23 @@ const Work = ({ works }) => {
                 </p>
                 <div className={styles.work_list_wrapper}>
                     
-                    {works.map((work) => {
+                    {worksToDisplay.map((work) => {
 
                         return(
                             
-                            <div className={styles.work_list_card} key={work.slug}>
+                            <div 
+                                className={styles.work_list_card} 
+                                key={work.slug}
+                            >
                                 
                                 <Link href={`/works/${work.slug}`}>
                                     <a>
-                                        <Image src={`/works/${work.slug}/${work.slug}.png`} alt={`${work.slug}`} width="400" height="400" className={styles.work_image}></Image>
+                                        <Image 
+                                            src={`/works/${work.slug}/${work.slug}.png`} 
+                                            alt={`${work.slug}`} width="400" height="400" 
+                                            className={styles.work_image}
+                                        >
+                                        </Image>
                                         <p>{work.frontmatter.title}</p>
                                         <p className={styles.tag}>{work.frontmatter.role}</p>
                                     </a>
@@ -35,9 +47,13 @@ const Work = ({ works }) => {
                 </div>
                 <div className={styles.btn_container}>
                     <PrimaryButton 
-                    href="#work_section"
+                        href="#work_section"
+                        onClick={ (event) => {
+                            event.preventDefault()
+                            console.log(works, "hello")
+                            setWorksToDisplay(works)} }
                     >
-                        Show all
+                        {worksToDisplay.length === 6 ? "Show more" : "Show less"}
                     </PrimaryButton>
         
                 </div>
