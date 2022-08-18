@@ -5,9 +5,8 @@ import { PrimaryButton } from './Button';
 import { useState } from 'react';
 
 const Work = ({ works }) => {
-    
-    const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
 
+    const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
 
     return (
         <section className={styles.work_container} id="work_section">
@@ -51,7 +50,7 @@ const Work = ({ works }) => {
                         onClick={ (event) => {
                             event.preventDefault()
                             console.log(works, "hello")
-                            setWorksToDisplay(works)} }
+                            worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6)) }}
                     >
                         {worksToDisplay.length === 6 ? "Show more" : "Show less"}
                     </PrimaryButton>
