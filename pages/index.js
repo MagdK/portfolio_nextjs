@@ -49,7 +49,13 @@ export async function getStaticProps() {
           slug, 
           frontmatter
       }
-  })
+  }).sort(function(a,b){
+    // Turn your strings into dates, and then subtract them
+    // to get a value that is either negative, positive, or zero.
+    console.log(a.frontmatter.date, "a pont")
+    console.log(new Date(a.frontmatter.date), "new date a")
+    return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+  });
 
 
   // Get slug and frontmatter from works
