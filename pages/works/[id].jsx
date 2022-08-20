@@ -42,7 +42,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
         <Link href="/#work_section">
           <p className={styles.navigation_link}>Back</p>
         </Link>
-        <h2>{frontmatter.title}</h2>
+        <h1>{frontmatter.title}</h1>
         <div className={styles.work_description} dangerouslySetInnerHTML={{__html: content}}></div>
 
 

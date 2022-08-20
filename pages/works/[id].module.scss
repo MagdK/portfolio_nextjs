@@ -46,15 +46,31 @@
 		}
 	}
 
+	
+	h1 {
+		font-size: 36px;
+		line-height: 48px;
+		font-weight: 700;
+		color: $color-primary;
+	}
+
 	h2 {
-		padding: 0 0 $spacing-xsmall;
-		color: $color-primary
+		padding: $spacing-xsmall 0 $spacing-xxsmall;
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 600;
+		color: $color-grey-2;
 	}	
 
 	.work_description {
 		
-		li {
-			list-style-type: circle; 
+		ul {
+
+			padding-top: -24px;
+
+			li {
+				list-style-type: circle; 
+			}
 		}
 	}
 
