@@ -34,8 +34,9 @@ const Work = ({ works }) => {
                                             className={styles.work_image}
                                         >
                                         </Image>
-                                        <p>{work.frontmatter.title}</p>
-                                        <p className={styles.tag}>{work.frontmatter.role}</p>
+                                    
+                                        <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
+                                        <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
                                     </a>
                                 </Link>
                             </div>

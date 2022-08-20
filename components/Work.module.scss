@@ -42,28 +42,30 @@
                         transform: scale(1.05);
                     }
 
-                    .work_list_card_description p:first-child {
+                    .work_title_tag {
+                        color: $color-primary;
+                    }
+
+                    .work_role_tag {
                         color: $color-primary;
                     }
                 }
 
-                .work_list_card_description {
-                    :global {
-                        p {
-                            font-size: 16px;
-                            line-height: 24px;
+                .work_title_tag {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $color-grey-2;
+                }
 
-                            .tag {
-                                font-size: 10px;
-                                line-height: 22px;
-                                display: inline;
-                                width: inherit;
-                                padding-bottom: 0;
-                                margin-top: 8px;
-                                color: #79796c;
-                            }
-                        }
-                    }
+                .work_role_tag {
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-weight: 300;
+                    display: inline;
+                    width: inherit;
+                    padding-bottom: 0;
+                    margin-top: 8px;
+                    color: $color-grey-2;
                 }
             }
         }
