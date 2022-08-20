@@ -7,6 +7,7 @@ import html from 'remark-html';
 import styles from './details.module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
@@ -23,36 +24,54 @@ import "swiper/css/bundle";
 
 const Work = ({ slug, frontmatter, content, images }) => {
 
+
   return (
-    <div className={styles.details_content_wrapper}>
-      <h3>{frontmatter.title}</h3>
-      <div dangerouslySetInnerHTML={{__html: content}}></div>
-
-      <div className={styles.btn_container}>
-        {/* if(frontmatter.websiteURL) {
-
-        } */}
-        <PrimaryButton 
-          href="https://micah-rolodex.herokuapp.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Website
-        </PrimaryButton>
-        <SecondaryButton 
-          href="https://github.com/MagdK/rolodex"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Github repo
-        </SecondaryButton>
+    <div className={styles.details_container}>
+        
+      <div className={styles.header_details}>
+        <div className={styles.logo}>
+          <Link href="/#home_section">
+            <a href="#top">
+              <h2 className={styles.logo_container}>m<span>.</span></h2>
+            </a>
+          </Link>
+        </div>
       </div>
 
-      <div>
-        {images.map((image) => {
-          return(<Image src={image} key={image} alt={image} width={1200} height={1200}/>)
-        })}
-      </div>
+      <div className={styles.details_content_wrapper}>
+        <Link href="/#work_section">
+          <p className={styles.navigation_link}>Back</p>
+        </Link>
+        <h3>{frontmatter.title}</h3>
+        <div dangerouslySetInnerHTML={{__html: content}}></div>
+
+
+        {(frontmatter.websiteURL && frontmatter.github) &&
+          <div className={styles.btn_container}>
+            <PrimaryButton 
+            href={`${frontmatter.websiteURL}`}
+            target="_blank"
+            rel="noreferrer"
+            >
+            Website
+            </PrimaryButton>
+
+            <SecondaryButton 
+              href={`${frontmatter.github}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github repo
+            </SecondaryButton>
+          </div>
+        }
+
+        <div>
+          {images.map((image) => {
+            return(<Image src={image} key={image} objectFit={'contain'} alt={image} width={1200} height={1200}/>)
+          })}
+        </div>
+    </div>
 
       <Swiper
             slidesPerView={4}

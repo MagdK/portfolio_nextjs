@@ -19,7 +19,7 @@ import "swiper/css/bundle";
 const Details = () => {
     return (
       <div className={styles.details_container}>
-        {/* <div className={styles.details_wrapper}> */}
+        
           <div className={styles.header_details}>
             <div className={styles.logo}>
               <Link href="/#home_section">
