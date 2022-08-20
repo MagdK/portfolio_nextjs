@@ -4,7 +4,7 @@ draft: false
 secret: false
 title: Profile picture upload
 client: Begame
-role: UX/UI
+role: Design
 tags:  Wireframe, User flow, UI, UX, High fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin,
 ---
 

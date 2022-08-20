@@ -4,7 +4,7 @@ draft: false
 title: Brand showroom
 
 client: fashionTrade
-role: UX/UI designer
+role: Design
 websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
 tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
 ---

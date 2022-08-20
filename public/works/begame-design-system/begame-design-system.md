@@ -4,7 +4,7 @@ draft: false
 secret: false
 title: Design system for Bingocams
 client: Begame
-role: UX/UI
+role: Design
 cover_image: "begame-design-system.png"
 tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Sketch, Zeplin, Abstract
 ---
