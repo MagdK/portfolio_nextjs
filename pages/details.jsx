@@ -29,6 +29,7 @@ const Details = () => {
               </Link>
             </div>
           </div>
+          
           <div className={styles.details_content_wrapper}>
             <Link href="/#work_section">
                 <p className={styles.navigation_link}>Back to works</p>

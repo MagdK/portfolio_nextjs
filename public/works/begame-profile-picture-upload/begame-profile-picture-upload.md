@@ -8,22 +8,22 @@ role: Design
 tags:  Wireframe, User flow, UI, UX, High fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin,
 ---
 
-Project overview
+#### Project overview
 To give a more personalised gaming experience by allowing users to upload and update their profile picture. 
 
-Problem
+#### Problem
 Only providing a name while players are participating in a bingo game, conversing in the chat, or a winner is announced at the end of the game is insufficiently personalized.
 
-Objectives
+#### Objectives
 - Allow users to upload and update their profile pictures.
 
-Goal
+#### Goal
 How might we create an experience that allows users to have a more personalised experience on the bingo site?
 
-Needs
+#### Needs
 - Ability to upload and update profile picture in the account detail page.
 
-Wants
+#### Wants
 - Allow users to visually represent themselves to the others.
 
 After I gathered enough knowledge from the product owner and marekting manager about bingo players, I introduced Anita and Susanne - our bingo personas - to our team to have a better understanding what our users' needs, goals and pain points are. These personas helped me realise that the whole bingo experience has to be a lot more personalised. For the users to be able to show their faces by uploading a profile picture is only a small step, but gives a personal touch to it all when they are in the bingo room chat, or when they make it to the leaderboard.

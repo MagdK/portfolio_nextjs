@@ -8,28 +8,28 @@ role: Design
 tags: Wireframe, User flow, UX, UI, Responsive design, Whimsical, Marwel app, Sketch, Zeplin
 ---
 
-Project overview
+#### Project overview
 To give a clear overview of all user transactions and help users keep track of their spendings on the site. 
 
-Problem
+#### Problem
 When users are actively engaging with the website, there are different transactions that happen during their experience: deposits, withdrawals and different kind of game plays. At the moment the site has only one table to list all these transactions. By improving the transactions page will give the users a better overview of their spendings.
 
-Objectives
+#### Objectives
 - Research and observe spending behaviour.
 - Find a way to give the users clear overview of their spendings. 
 - Design a page to be accessible and intuitive. 
 
-Goal
+#### Goal
 How might we create an experience that allows users to stay on top of their spendings and provides them clear overview of their transaction history?
 
-Needs
+#### Needs
 - Ability to differentiate between transaction types.
 - Ability to differentiate between transaction occurances by providing a transaction ID. 
 - Ability to differentiate and get informed about transaction statuses. 
 - Ability to access transaction methods. 
 - Ability to access transaction times. 
 
-Wants
+#### Wants
 - Track transactions without needing to reach out to customer support.
 - Clear overview of all transactions.
 
