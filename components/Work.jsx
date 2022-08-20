@@ -31,12 +31,13 @@ const Work = ({ works }) => {
                                         <Image 
                                             src={`/works/${work.slug}/${work.slug}.png`} 
                                             alt={`${work.slug}`} width="400" height="400" 
-                                            className={styles.work_image}
+                                            className={styles.work_card_image}
                                         >
                                         </Image>
-                                    
-                                        <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
-                                        <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
+                                        <div className={styles.work_card_description_wrapper}>
+                                            <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
+                                            <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
+                                        </div>
                                     </a>
                                 </Link>
                             </div>

@@ -38,34 +38,43 @@
 
                 &:hover {
 
-                    .work_image {
+                    .work_card_image {
                         transform: scale(1.05);
                     }
 
+                    .work_card_description_wrapper {
+
+                        .work_title_tag {
+                            color: $color-primary;
+                        }
+    
+                        .work_role_tag {
+                            color: $color-primary;
+                        }
+                    }
+                }
+
+                .work_card_description_wrapper {
+
+                    padding-top: ($spacing-xxsmall / 2); 
+
                     .work_title_tag {
-                        color: $color-primary;
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-weight: 400;
+                        color: $color-grey-2;
                     }
-
+    
                     .work_role_tag {
-                        color: $color-primary;
+                        font-size: 14px;
+                        line-height: 18px;
+                        font-weight: 300;
+                        display: inline;
+                        width: inherit;
+                        padding-bottom: 0;
+                        margin-top: 8px;
+                        color: $color-grey-2;
                     }
-                }
-
-                .work_title_tag {
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: $color-grey-2;
-                }
-
-                .work_role_tag {
-                    font-size: 14px;
-                    line-height: 20px;
-                    font-weight: 300;
-                    display: inline;
-                    width: inherit;
-                    padding-bottom: 0;
-                    margin-top: 8px;
-                    color: $color-grey-2;
                 }
             }
         }
