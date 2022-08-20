@@ -3,7 +3,7 @@
 .work_container {
 	height: 100%;
     background-color: $color-white;
-    padding: $spacing-xxlarge 0 $spacing-huge;
+    padding: $spacing-huge 0 ($spacing-huge * 1.5);
 
     .work_wrapper {
         max-width: $grid-width-desktop;

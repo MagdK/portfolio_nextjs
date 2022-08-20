@@ -5,7 +5,7 @@
 .contact_container {
     height: 100%;
     background-color: $color-grey-3;
-    padding: $spacing-xxlarge 0 $spacing-huge;
+    padding: $spacing-huge 0 ($spacing-huge * 1.5);
 
     .contact_wrapper {
         max-width: $grid-width-desktop;
