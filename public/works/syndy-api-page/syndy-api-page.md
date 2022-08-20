@@ -1,7 +1,7 @@
 ---
 date: "2015-07-16"
 draft: false
-title: API info Page
+title: API info page
 
 client: Syndy
 role: Design

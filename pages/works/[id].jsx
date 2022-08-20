@@ -4,7 +4,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import styles from './details.module.scss';
+import styles from './[id].module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from 'next/image';
 import Link from 'next/link';
