@@ -1,66 +1,30 @@
 @import '../styles/variables.module.scss';
 
+
+// GENERAL
 .work_container {
-	height: 100%;
-    background-color: $color-white;
     padding: $spacing-huge 0 ($spacing-huge * 1.5);
 
     .work_wrapper {
-        max-width: $grid-width-desktop;
-        margin: 0 auto;
-
-        :global {
-            h1 {
-                padding-bottom: $spacing-small;
-            }
-
-            p {
-                max-width: calc($spacing-huge * 5);                           
-            }
-        }
 
         .work_list_wrapper {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-            gap: $spacing-small;
-            margin-top: $spacing-medium;
 
             .work_list_card {
-                width: 31%;
-                height: 31%;
-                cursor: pointer;
-
+    
                 .work_card_image {
                     transition: transform .5s ease;
                 }
 
-                &:hover {
-
-                    .work_card_image {
-                        transform: scale(1.05);
-                    }
-
-                    .work_card_description_wrapper {
-
-                        .work_title_tag {
-                            color: $color-primary;
-                        }
-                    }
-                }
-
                 .work_card_description_wrapper {
-
                     padding-top: ($spacing-xxsmall / 2); 
-
+    
                     .work_title_tag {
                         font-size: 16px;
                         line-height: 22px;
                         font-weight: 400;
                         color: $color-grey-2;
                     }
-    
+
                     .work_role_tag {
                         font-size: 14px;
                         line-height: 18px;
@@ -70,6 +34,16 @@
                         padding-bottom: 0;
                         margin-top: 8px;
                         color: $color-grey-2;
+                    }
+                }
+
+                &:hover {
+                    .work_card_image {
+                        transform: scale(1.05);
+                    }
+
+                    .work_title_tag {
+                        color: $color-primary;
                     }
                 }
             }
@@ -85,15 +59,8 @@
     }
 }
 
-@media only screen and (min-width: $grid-width-mobile) {
-    .work_container {
-        .work_wrapper {
-            padding: 0 $spacing-large;
-        }
-    }
-}
-
-@media only screen and (max-width: $grid-width-mobile) {
+// MOBILE
+@media only screen and (max-width: $grid-width-tablet) {
     .work_container {
         .work_wrapper {
             padding: 0 $spacing-small;
@@ -110,6 +77,69 @@
                     height: 100%;
                     cursor: pointer;
                     padding-bottom: $spacing-medium;
+                }
+            }
+        }
+    }
+}
+
+
+// TABLET
+@media only screen and (min-width: $grid-width-mobile) {
+    .work_container {
+        .work_wrapper {
+            max-width: $grid-width-tablet;
+            padding: 0 $spacing-large;
+
+            .work_list_wrapper {
+                display: flex;
+                flex-flow: row wrap;
+                width: 100%;
+                gap: $spacing-small;
+                margin-top: $spacing-medium;
+    
+                .work_list_card {
+                    width: 47%;
+                    height: 47%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+// DESKTOP
+@media only screen and (min-width: $grid-width-tablet) {
+    .work_container {
+        height: 100%;
+        background-color: $color-white;
+
+        .work_wrapper {
+            max-width: $grid-width-desktop;
+            margin: 0 auto;
+
+            :global {
+                h1 {
+                    padding-bottom: $spacing-small;
+                }
+                
+                 p {
+                    max-width: calc($spacing-huge * 5);                           
+                }
+            }
+
+            .work_list_wrapper {
+                display: flex;
+                flex-flow: row wrap;
+                width: 100%;
+                gap: $spacing-small;
+                margin-top: $spacing-medium;
+
+                .work_list_card {
+                    width: 31%;
+                    height: 31%;
+                    cursor: pointer;
                 }
             }
         }
