@@ -52,13 +52,14 @@ const Work = ({ works }) => {
                     <PrimaryButton 
                     href="#work_section" 
                     onClick={ (event) => {
-                        worksToDisplay.length === 6 ? setWorksToDisplay(works) && event.preventDefault()  : setWorksToDisplay(works.slice(0, 6))  }}
-                        
+                        worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6)) 
+
+                        worksToDisplay.length === 6 ? event.preventDefault() : console.log("not prevented")
+                    }}
                     >
                     {worksToDisplay.length === 6 ? "Show all" : "Show less"}
                                     
                     </PrimaryButton>
-                    
                     
                 </div>
             </div>
