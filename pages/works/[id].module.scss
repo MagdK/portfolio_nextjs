@@ -52,19 +52,20 @@
 		line-height: 48px;
 		font-weight: 700;
 		color: $color-primary;
+		padding: $spacing-xsmall 0 $spacing-xsmall;
 	}
 
 	h2 {
-		padding: $spacing-xsmall 0 $spacing-xxsmall;
 		font-size: 16px;
 		line-height: 22px;
 		font-weight: 600;
 		color: $color-grey-2;
+		padding: $spacing-xsmall 0 $spacing-xxsmall;
 	}	
 
 	p {
 		font-size: 16px;
-		line-height: 24px;
+		line-height: 28px;
 		font-weight: 300;
 		color: $color-grey-2;
 	}
@@ -73,7 +74,7 @@
 		li {
 			list-style-type: circle; 
 			font-size: 16px;
-			line-height: 24px;
+			line-height: 28px;
 			font-weight: 300;
 			color: $color-grey-2;
 		}
@@ -82,6 +83,17 @@
 			padding-bottom: $spacing-small;
 		}
 	}
+
+	
+	a {
+		color: $color-primary;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+	
 
 
 	.btn_container {
