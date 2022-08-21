@@ -15,7 +15,7 @@ const About = () => {
         As a designer and developer, I’m interested in how to create experiences that are impactful, intuitive, and perhaps, even a bit delightful.
         </p>
         <p>
-        As a human, I’m frequently spotted drinking tea, staring at birds, and talking about my cats.
+        As a human, I’m frequently spotted drinking tea, reading books, and talking about my cats.
         </p>
       </div>
     </section>

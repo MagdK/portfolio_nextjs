@@ -71,9 +71,18 @@ const Work = ({ slug, frontmatter, content, images }) => {
           </div>
         }
 
-        <div>
+        <div className={styles.image_container}>
           {images.map((image) => {
-            return(<Image src={image} key={image} objectFit={'contain'} alt={image} width={1200} height={1200}/>)
+            return(<Image 
+              src={image} 
+              key={image} 
+              alt={image} 
+
+              width="100%" 
+              height="100%" 
+              layout="responsive" 
+              objectFit="contain" 
+              />)
           })}
         </div>
     </div>
