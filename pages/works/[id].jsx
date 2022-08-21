@@ -41,7 +41,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
       <div className={styles.details_content_wrapper}>
 
         <Link href="/#work_section">
-          <a>
+          <a className={styles.back_link}>
             Go back
           </a>
         </Link>

@@ -85,12 +85,17 @@
 	}
 
 	
-	a {
+	.back_link {
 		color: $color-primary;
 		text-decoration: underline;
 	}
 
-	a:hover {
+	.back_link:hover {
+		text-decoration: none;
+	}
+
+	.back_link:active {
+		color: $color-grey-1;
 		text-decoration: none;
 	}
 	
