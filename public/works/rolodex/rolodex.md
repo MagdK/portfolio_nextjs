@@ -1,7 +1,7 @@
 ---
 date: "2022-07-16"
 draft: false
-title: Rolodex using React
+title: Rolodex
 
 client: none
 role: Design and development

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { PrimaryButton } from './Button';
 import { useState } from 'react';
 
+
 const Work = ({ works }) => {
 
     const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
@@ -47,16 +48,18 @@ const Work = ({ works }) => {
 
                 </div>
                 <div className={styles.btn_container}>
+                    
                     <PrimaryButton 
-                        href="#work_section"
-                        onClick={ (event) => {
-                            event.preventDefault()
-                            console.log(works, "hello")
-                            worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6)) }}
+                    href="#work_section" 
+                    onClick={ (event) => {
+                        worksToDisplay.length === 6 ? setWorksToDisplay(works) && event.preventDefault()  : setWorksToDisplay(works.slice(0, 6))  }}
+                        
                     >
-                        {worksToDisplay.length === 6 ? "Show all" : "Show less"}
+                    {worksToDisplay.length === 6 ? "Show all" : "Show less"}
+                                    
                     </PrimaryButton>
-        
+                    
+                    
                 </div>
             </div>
         </section>
