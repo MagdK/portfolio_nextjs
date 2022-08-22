@@ -20,10 +20,14 @@ jobs:
           node-version: "lts/*"
           cache: "npm"
 
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
       - name: Build
-        run: |
-          npm i --legacy-peer-deps
-          npm run export
+        run: npm run export
+        env:
+          NODE_ENV: production
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
