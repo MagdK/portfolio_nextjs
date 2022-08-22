@@ -1,6 +1,6 @@
 import styles from './Home.module.scss';
 import { PrimaryButton, SecondaryButton } from './Button';
-import Image from 'next/image'
+import Image from './Image'
 import profilePic from '../public/crazy_profile_pic.png'
 
 const Home = () => {
@@ -12,12 +12,12 @@ const Home = () => {
           <h3><span></span></h3>
           <p>looking for my next challenge to deliver business value and level up my skills.</p>
           <div className={styles.btn_container}>
-            <PrimaryButton 
+            <PrimaryButton
               href="#work_section"
             >
               View work
             </PrimaryButton>
-            <SecondaryButton 
+            <SecondaryButton
               href="/magda_kovacs_frontend_resume_1.pdf"
               target="_blank"
               rel="noopener noreferrer"

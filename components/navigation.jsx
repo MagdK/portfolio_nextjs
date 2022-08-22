@@ -1,5 +1,4 @@
 import styles from './Navigation.module.scss';
-import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 
 

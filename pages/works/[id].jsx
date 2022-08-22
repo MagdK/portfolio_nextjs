@@ -6,7 +6,7 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import styles from './[id].module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
-import Image from 'next/image';
+import Image from '../../components/Image';
 import Link from 'next/link';
 
 // import required modules
@@ -27,7 +27,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
 
   return (
     <div className={styles.details_container}>
-        
+
       <div className={styles.header_details}>
         <div className={styles.logo}>
           <Link href="/#home_section">
@@ -53,7 +53,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
 
         {(frontmatter.websiteURL && frontmatter.github) &&
           <div className={styles.btn_container}>
-            <PrimaryButton 
+            <PrimaryButton
             href={`${frontmatter.websiteURL}`}
             target="_blank"
             rel="noreferrer"
@@ -61,7 +61,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
             Website
             </PrimaryButton>
 
-            <SecondaryButton 
+            <SecondaryButton
               href={`${frontmatter.github}`}
               target="_blank"
               rel="noreferrer"
@@ -73,15 +73,15 @@ const Work = ({ slug, frontmatter, content, images }) => {
 
         <div className={styles.image_container}>
           {images.map((image) => {
-            return(<Image 
-              src={image} 
-              key={image} 
-              alt={image} 
+            return(<Image
+              src={image}
+              key={image}
+              alt={image}
 
-              width="100%" 
-              height="100%" 
-              layout="responsive" 
-              objectFit="contain" 
+              width="100%"
+              height="100%"
+              layout="responsive"
+              objectFit="contain"
               />)
           })}
         </div>
