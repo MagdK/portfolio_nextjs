@@ -1,15 +1,9 @@
 // /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-// }
-
-// module.exports = nextConfig
-
-
-
-// next.config.js
 const isProd = process.env.NODE_ENV === 'production'
-
-module.exports = {
-  assetPrefix: isProd ? '/your-github-repo-name/' : ''
+const nextConfig = {
+  reactStrictMode: true,
+  assetPrefix: isProd ? '/portfolio_nextjs/' : '',
+  images: { loader: 'custom' }
 }
+
+module.exports = nextConfig
