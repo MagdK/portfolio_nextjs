@@ -8,6 +8,7 @@ import styles from './[id].module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from '../../components/Image';
 import Link from 'next/link';
+// import probe from "probe-image-size"; // for static site generation - image size
 
 // import required modules
 import { FreeMode, Pagination } from "swiper";
@@ -20,10 +21,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/bundle";
+import Footer from '../../components/Footer';
 
 
 const Work = ({ slug, frontmatter, content, images }) => {
-
 
   return (
     <div className={styles.details_container}>
@@ -87,7 +88,7 @@ const Work = ({ slug, frontmatter, content, images }) => {
         </div>
     </div>
 
-      <Swiper
+      {/* <Swiper
             slidesPerView={4}
             spaceBetween={30}
             freeMode={true}
@@ -109,7 +110,8 @@ const Work = ({ slug, frontmatter, content, images }) => {
             <SwiperSlide className={styles.mySwiper_module}>Slide 10</SwiperSlide>
             <SwiperSlide className={styles.mySwiper_module}>Slide 11</SwiperSlide>
             <SwiperSlide className={styles.mySwiper_module}>Slide 12</SwiperSlide>
-          </Swiper>
+      </Swiper> */}
+      <Footer />
     </div>
   )
 }
