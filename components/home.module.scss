@@ -121,18 +121,18 @@
 }
 
 .home_wrapper_col_1 span:before {
-	content: 'Product designer';
+	content: 'Problem solver';
 	animation: animate infinite 8s; 
 }
 
 @keyframes animate {
 	0% {
-		content: 'Product designer';
+		content: 'Problem solver';
 	}
 	33% {
-		content: 'Frontend developer';
+		content: 'Product designer';
 	}
 	66% {
-		content: 'Problem solver'; //Feminist with cats
+		content: 'Frontend developer'; 
 	}
 }
