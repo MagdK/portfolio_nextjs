@@ -124,6 +124,11 @@
 	content: 'Problem solver';
 	animation: animate infinite 8s; 
 }
+.home_wrapper_col_2 {
+	.profile_pic {
+		border-radius: 50%;
+	}
+}
 
 @keyframes animate {
 	0% {

@@ -8,7 +8,7 @@ const Contact = () => {
                 <h1>contact.</h1>
                 <div className={styles.contact_description}>
                     <p>
-                    You have gotten this far? Amazing, lets talk.
+                    You have gotten this far? Amazing, let&apos;s talk.
                     </p>
                     <p>
                     I am available for product design and frontend development projects. Check out my <a 
