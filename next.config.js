@@ -2,11 +2,11 @@
 const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/portfolio_nextjs/' : '',
-  basePath: isProd ? '/portfolio_nextjs' : '',
+//   assetPrefix: isProd ? '/portfolio_nextjs/' : '',
+//   basePath: isProd ? '/portfolio_nextjs' : '',
   images: {
     loader: 'custom',
-    path: isProd ? '/portfolio_nextjs/' : ''
+//     path: isProd ? '/portfolio_nextjs/' : ''
   }
 }
 
