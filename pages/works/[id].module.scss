@@ -32,6 +32,7 @@
 
 .details_content_wrapper {
 	max-width: $grid-width-desktop;
+	min-height: 100vh;
     margin: 0 auto;
     padding: $spacing-huge $spacing-large;
 
