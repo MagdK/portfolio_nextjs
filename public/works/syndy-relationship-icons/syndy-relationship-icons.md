@@ -11,8 +11,8 @@ tags: Iconography, Colour theory, Sketch
 
 On Syndy’s platform the users are able to choose how
 products are related. I had the chance to take a peek into user experience
-design working together with [Rogier Pennink][Rogier] and [Khalid
-Laouhi][Khalid].
+design working together with [*Rogier Pennink*][Rogier] and [*Khalid
+Laouhi*][Khalid].
 
 My task was to create icons to give visual guidance for the users. There were
 four cases: multi-pack, variety-pack, outer package and variant. First I needed

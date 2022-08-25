@@ -69,6 +69,16 @@
 		line-height: 28px;
 		font-weight: 300;
 		color: $color-grey-2;
+
+		:global {
+			em {
+				color: $color-primary;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
 	}
 
 	ul {
