@@ -12,7 +12,7 @@ tags: Desktop layout, Mobile layout, Photoshop
 The challenge was to squeeze in all the great things you can do with Syndy’s
 platform just into one page.
 
-I worked on this site with [Algirdas Desceras][Algis], former head of marketing
+I worked on this site with [*Algirdas Desceras*][Algis], former head of marketing
 at Syndy.  He created the wireframe and gave me the copy to work with. I created
 icons to illustrate what is Syndy used for.
 

@@ -11,7 +11,7 @@ tags: Desktop layout, Mobile layout, Iconography, Illustration, Photoshop
 
 Working at Syndy, a company with a unique solution to distribute and optimise
 product content, I had the chance to recreate their retailer page on the corporate website in
-collaboration with the marketing lead, [**Algirdas Desceras**][Algis]. My role was to
+collaboration with the marketing lead, [*Algirdas Desceras*][Algis]. My role was to
 transform the copy into a nice looking, eye-catching page. The colour choices are
 based on the guides created for Syndy’s platform.
 As a result, we ended up with a clean and simple page that explains

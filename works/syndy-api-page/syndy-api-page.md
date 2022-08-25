@@ -11,7 +11,7 @@ tags: Iconography, Desktop layout, Mobile layout, Typography, Iconography, Photo
 
 At Syndy I was created a marketing page for Syndy's API. [Algirdas
 Desceras][Algis] created the wireframe and I also got some help from the dev
-guys [Rogier Pennink][Rogier] and [Boris Samoyenko][Boris] during the designing
+guys [*Rogier Pennink*][Rogier] and [*Boris Samoyenko*][Boris] during the designing
 process.
 
 The task was to make sure that the visitor understands what a big advantage is
