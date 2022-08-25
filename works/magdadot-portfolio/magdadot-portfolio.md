@@ -10,4 +10,4 @@ github: https://github.com/MagdK/portfolio_nextjs
 tags: Layout, Figma, HTML, Modular CSS, NextJS
 ---
 
-This NextJS project was created to present my past and current projects as a product designer and frontend developer. I used NextJS as a React freamwork, SCSS to style the site and stored the project descriptions in markdown files. I used media quearies to make the site responsive. Click through this site to see and experience the end result. 
+This NextJS project was created to present my past and current projects as a product designer and frontend developer. I used NextJS as a React freamwork, SCSS to style the site and stored the project descriptions in markdown files. I used media quearies to make the site responsive. Click through this site to see and experience the end result or check out the Github repository. 
