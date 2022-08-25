@@ -124,7 +124,9 @@ export async function getStaticProps(context) {
   const markdownWithMeta = fs.readFileSync(filePath, 'utf-8');
 
   const {data, content} = matter(markdownWithMeta);
-  const html = await markdownToHtml(content)
+  const html = await markdownToHtml(content);
+  const replacedHref = html.replaceAll("href", 'target="_blank" href');
+
   const images = glob
     .sync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
     .map(img_path => img_path.replace('public', ''))
@@ -133,7 +135,7 @@ export async function getStaticProps(context) {
     props: {
       slug: slug,
       frontmatter: data,
-      content: html,
+      content: replacedHref,
       images: images
     }
   }
