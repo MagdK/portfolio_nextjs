@@ -17,7 +17,7 @@ const Contact = () => {
                             rel="noreferrer"
                         >
                         Github
-                        </a> account, drop me a message and lets create something great together!
+                        </a> account, drop me a message and let&apos;s create something great together!
                     </p>
                 </div>
                 <div className={styles.btn_container}>
