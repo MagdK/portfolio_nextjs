@@ -7,6 +7,7 @@ import html from 'remark-html';
 import styles from './[id].module.scss';
 import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from '../../components/Image';
+import Mp4Video from '../../components/Mp4Video';
 import Link from 'next/link';
 // import probe from "probe-image-size"; // for static site generation - image size
 
@@ -24,7 +25,7 @@ import "swiper/css/bundle";
 import Footer from '../../components/Footer';
 
 
-const Work = ({ slug, frontmatter, content, images }) => {
+const Work = ({ slug, frontmatter, content, images, videos }) => {
 
   return (
     <div className={styles.details_container}>
@@ -72,6 +73,17 @@ const Work = ({ slug, frontmatter, content, images }) => {
           </div>
         }
 
+        <div className={styles.image_container} style={{ marginTop: '2em' }}>
+          {videos.map((image) => {
+            return (<Mp4Video
+              src={image}
+              width="100%"
+              height="100%"
+              layout="responsive"
+              objectFit="contain"
+            />)
+          })}
+        </div>
         <div className={styles.image_container}>
           {images.map((image) => {
             return(<Image
@@ -130,13 +142,17 @@ export async function getStaticProps(context) {
   const images = glob
     .sync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
     .map(img_path => img_path.replace('public', ''))
+  const videos = glob
+    .sync(path.join(`public/works/${slug}/!(${slug}).+(mp4)`))
+    .map(video_path => video_path.replace('public', ''))
 
   return {
     props: {
       slug: slug,
       frontmatter: data,
       content: replacedHref,
-      images: images
+      images: images,
+      videos: videos,
     }
   }
 }
