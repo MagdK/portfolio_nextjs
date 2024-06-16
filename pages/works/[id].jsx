@@ -50,17 +50,17 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
 
 
         <h1>{frontmatter.title}</h1>
-        <div className={styles.work_description} dangerouslySetInnerHTML={{__html: content}}></div>
+        <div className={styles.work_description} dangerouslySetInnerHTML={{ __html: content }}></div>
 
 
         {(frontmatter.websiteURL && frontmatter.github) &&
           <div className={styles.btn_container}>
             <PrimaryButton
-            href={`${frontmatter.websiteURL}`}
-            target="_blank"
-            rel="noreferrer"
+              href={`${frontmatter.websiteURL}`}
+              target="_blank"
+              rel="noreferrer"
             >
-            Website
+              Website
             </PrimaryButton>
 
             <SecondaryButton
@@ -76,6 +76,7 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
         <div className={styles.image_container} style={{ marginTop: '2em' }}>
           {videos.map((image) => {
             return (<Mp4Video
+              key={image}
               src={image}
               width="100%"
               height="100%"
@@ -86,7 +87,7 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
         </div>
         <div className={styles.image_container}>
           {images.map((image) => {
-            return(<Image
+            return (<Image
               src={image}
               key={image}
               alt={image}
@@ -95,10 +96,10 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
               height="100%"
               layout="responsive"
               objectFit="contain"
-              />)
+            />)
           })}
         </div>
-    </div>
+      </div>
 
       {/* <Swiper
             slidesPerView={4}
@@ -124,7 +125,7 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
             <SwiperSlide className={styles.mySwiper_module}>Slide 12</SwiperSlide>
       </Swiper> */}
       <Footer />
-    </div>
+    </div >
   )
 }
 
@@ -135,7 +136,7 @@ export async function getStaticProps(context) {
   const filePath = `public/works/${slug}/${slug}.md`;
   const markdownWithMeta = fs.readFileSync(filePath, 'utf-8');
 
-  const {data, content} = matter(markdownWithMeta);
+  const { data, content } = matter(markdownWithMeta);
   const html = await markdownToHtml(content);
   const replacedHref = html.replaceAll("href", 'target="_blank" href');
 
@@ -170,7 +171,7 @@ export async function getStaticPaths() {
     fallback: false, // can also be true or 'blocking'
     // paths: [{ params: { id: 'begame-design-system' } }],
     paths: glob.sync(path.join("public/works/*")).map(dir => {
-      return { params: {id: path.basename(dir) }}
+      return { params: { id: path.basename(dir) } }
     })
   }
 }

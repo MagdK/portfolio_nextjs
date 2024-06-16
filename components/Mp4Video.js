@@ -1,7 +1,7 @@
 export default function Mp4Video({ width, height, src }) {
   return (
     <video
-      controls autoplay muted loop playsinline
+      autoPlay muted loop playsInline
       src={src} type="video/mp4"
       width={width} height={height}>
       {/* <source src={src} type="video/mp4" />*/}
