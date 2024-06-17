@@ -26,7 +26,7 @@ Unfortunately, my time at the company ended before I could see the impact of the
 
 ## Process
 Resources\
-A confluence entry about the requirments,  which was written by the [*Felicia van Jaarsveld*][Felicia], one of Wonderkind's POs.
+A confluence entry about the requirments,  which was written by the [*Felicia van Jaarsveld*][Felicia], one of Wonderkind's product owners.
 Desktop layout for campaigns page with filter designs proposal created by [*Ira Bykova*][Ira], the previous UXer. 
 
 Research\
