@@ -37,7 +37,9 @@ Validation\
 Unfortunately I did not have access to testing the solution with actual users, the PO, [*Felicia van Jaarsveld*][Felicia] reviewed the user flow. 
 
 Handover to dev\
-This project used Vuetify components from the beginning, so I ensured that my solution consisted of Vuetify components as much as possible. I thoroughly researched the Vuetify library to identify suitable sidebar components, examine the appearance of accordions, and determine how well they could be customized to our needs. We already had chips/pill components, which only required the addition of a remove option. I regularly checked in with our front-end lead, [*Oleksandr Zinchenko*][Alex], for guidance. Additionally, I had the opportunity to create the Storybook components for the collapse/accordion elements.
+This project used Vuetify components from the beginning, so I ensured that my solution consisted of Vuetify components as much as possible. I thoroughly researched the Vuetify library to identify suitable sidebar components, examine the appearance of accordions, and determine how well they could be customised to our needs. 
+I have created guidlines for the dev and QA. We already had chips/pill components, which only required the addition of a remove option. I regularly checked in with our front-end lead, [*Oleksandr Zinchenko*][Alex], for guidance. 
+Additionally, I had the opportunity to create the Storybook components for the collapse/accordion elements after the filtering flow was done.
 
 
 [Felicia]: https://nl.linkedin.com/in/feliciavanj?trk=public_post_feed-actor-name
