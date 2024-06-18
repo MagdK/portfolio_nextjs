@@ -1,6 +1,6 @@
 ---
 date: "2015-07-16"
-draft: false
+draft: true
 title: API info page
 
 client: Syndy
