@@ -1,7 +1,7 @@
 ---
 date: "2019-05-18"
 draft: false
-title: Brand showroom
+title: Digital showroom for B2B fashiontech app
 
 client: fashionTrade
 role: Design
@@ -10,37 +10,51 @@ tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InV
 ---
 
 ## Project overview
-To simplify and digitalise fashion wholesale, the product team was entrusted with establishing an online showroom experience for brands and retailers.
+### Objective
+Create an digital showroom experience that enables brands to tell their stories and showcase their collections, while also helping retailers find the perfect brands for their stores.
 
-## Problem
-The objective of fashionTrade was to simplify and digitalise wholesale trading between brands and retailers. Fashion wholesales, unlike other sectors, did not embrace the digital era; instead, trade takes place mostly via spreadsheet and paper.
+### Duration
+2 months
 
-The purpose of this project was to provide a platform for companies to present their collections and make them available to retailers so that they could place orders without hassle.
+### My role
+- Analyse workshop data
+- Design the end-to end-experience
+- Produce the flow/interaction prototyping, design mockups, desing assets and guidelines
 
-## Objectives 
-- Research and observe trading behaviour.
-- Analize sales representatives' and retailers' behaviour.
-- Find a way to make the trading seasons fricktionless. 
-- Design a tools to be accessible and intuitive. 
+### Team
+UX designer, customer success, product owner, front-end developers
+
+## Problem statement
+Fashion wholesalers, unlike those in other sectors, did not embrace the digital era; instead, trade took place in person, mostly via spreadsheets and paper. This approach is inefficient in terms of time and cost. The main challenge for brands transitioning to an online trading tool was the inability to effectively tell their brand's story.
+
+"How might we help brands to tell their stories?"
+
+"How might we help retailers to find the perfect brands for their stores?"
 
 ## Goal
-How might we create an experience that allows brands to engage and connect with retailers in order to enhance their trading season?
+Come up with a tool that helps brands to tell their stories and showcase their new collection in a time and cost effective way. 
 
-## Needs
-- Ability for brands to create virtual showrooms to represent their seasonal collections.
-- Ability for brands to create a retailer specific order proposal by using the iOS application's scanner tool.
-- Ability for brands to send order proposals to retailers.
-- Ability for retailers to adjust and/or accept order proposals.
+## User research
+1. Workshop with brand owners - conducted by PO and lead UX/UIer
 
-## Wants 
-- Trade without the need of in person meetings.
-- Boost sales on both sides.
-- To reach retailers without forcing them to register on the platform. 
 
+2. Gather insights from workshop, understand the needs and pain points of brands.
+  - Insight #1: Brands need to be able to tell their stories in order to connect with the right retailers and to be able to make sales.
+  - Insight #2: Collections in the digital showroom need to be customisable based on the brand's needs.
+  - Insight #3: Brands can have multiple collection at the same time.
+
+3. Come up with a solution to help brands have an online presence, provide them tools that allows them to tell their stories in order to make online trading smoother.
+
+
+4. Usability testing, in depth testing with brand sales representatives.
+5. Implementation support. 
+
+
+## Results
+User satisfaction
+Thanks to the continuous feedback from many of the brand users during the development process, an easy to use feature has been added to the platform that made it possible for brands to be visible online.
 
 This brilliant feature allows users to access their showrooms anywhere anytime. It also gives the brand the chance to tell their story better by creating a fully branded experience using inspirational content like videos, look books, images and allowing them to link their styles to it.
-Buyers can access the brand content, scan through the upcoming collections and place orders without the need of leaving their office/store.
 
-Working closely with brand users, sales, development team and the product owner, first we needed to get to a common understanding regarding the users and market's problems: visiting showrooms was costly and time consuming. An other pain point: if a meeting happens outside of the physical showroom, sales reps need to carry a huge amount of samples to the meeting.
-
-After defining the general problem, my roles with the design team was to create prototypes and conduct user researches to get feedback about our understanding and assumptions. Based on the findings, we iterated on the user flow, validated them with sales representatives, made sure that the experience is smooth for brand and retailer users too and created an omni-channel experience. 
+## Conclusion
+The production of the online showroom feature was successfully achieved, it increased brand user satisfaction and demonstrated the value of user-centered design approach. 
