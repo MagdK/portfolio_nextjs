@@ -10,7 +10,7 @@ tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InV
 ---
 
 ## Project overview
-### Objective
+## Objective
 Create an digital showroom experience that enables brands to tell their stories and showcase their collections, while also helping retailers find the perfect brands for their stores.
 
 ## Duration
