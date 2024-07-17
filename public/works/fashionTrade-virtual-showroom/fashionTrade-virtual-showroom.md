@@ -13,15 +13,15 @@ tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InV
 ### Objective
 Create an digital showroom experience that enables brands to tell their stories and showcase their collections, while also helping retailers find the perfect brands for their stores.
 
-### Duration
+## Duration
 2 months
 
-### My role
+## My role
 - Analyse workshop data
 - Design the end-to end-experience
 - Produce the flow/interaction prototyping, design mockups, desing assets and guidelines
 
-### Team
+## Team
 UX designer, customer success, product owner, front-end developers
 
 ## Problem statement
