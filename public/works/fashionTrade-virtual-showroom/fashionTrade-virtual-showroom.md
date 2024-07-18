@@ -35,19 +35,19 @@ Fashion wholesalers, unlike those in other sectors, did not embrace the digital 
 Come up with a tool that helps brands to tell their stories and showcase their new collection in a time and cost effective way. 
 
 ## User research
-1. Workshop with brand owners - conducted by PO and lead UX/UIer
+- Workshop with brand owners - conducted by PO and lead UX/UIer
 
 
-2. Gather insights from workshop, understand the needs and pain points of brands.
-  - Insight #1: Brands need to be able to tell their stories in order to connect with the right retailers and to be able to make sales.
-  - Insight #2: Collections in the digital showroom need to be customisable based on the brand's needs.
-  - Insight #3: Brands can have multiple collection at the same time.
+- Gather insights from workshop, understand the needs and pain points of brands.
+  1.  Insight #1: Brands need to be able to tell their stories in order to connect with the right retailers and to be able to make sales.
+  2.  Insight #2: Collections in the digital showroom need to be customisable based on the brand's needs.
+  3.   Insight #3: Brands can have multiple collection at the same time.
 
-3. Come up with a solution to help brands have an online presence, provide them tools that allows them to tell their stories in order to make online trading smoother.
+- Come up with a solution to help brands have an online presence, provide them tools that allows them to tell their stories in order to make online trading smoother.
 
 
-4. Usability testing, in depth testing with brand sales representatives.
-5. Implementation support. 
+- Usability testing, in depth testing with brand sales representatives.
+- Implementation support. 
 
 
 ## Results
