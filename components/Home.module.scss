@@ -122,7 +122,9 @@
 
 .home_wrapper_col_1 span:before {
 	content: 'Problem solver';
-	animation: animate infinite 8s; 
+	animation: animate infinite 5s; 
+	content: 'Product designer';
+	animation: animate infinite 5s;
 }
 .home_wrapper_col_2 {
 	.profile_pic {
@@ -132,12 +134,9 @@
 
 @keyframes animate {
 	0% {
-		content: 'Problem solver';
-	}
-	33% {
 		content: 'Product designer';
 	}
-	66% {
-		content: 'Frontend developer'; 
+	50% {
+		content: 'Problem solver'; 
 	}
 }
