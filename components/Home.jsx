@@ -10,7 +10,7 @@ const Home = () => {
         <div className={styles.home_wrapper_col_1}>
           <p>Hello, I am Magda,</p>
           <h3><span></span></h3>
-          <p>looking for my next challenge to deliver business value<br/> and level up my skills.</p>
+          <p>looking for my next challenge to deliver business value and level up my skills.</p>
           <div className={styles.btn_container}>
             <PrimaryButton
               href="#work_section"
