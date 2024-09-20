@@ -8,16 +8,10 @@ const Contact = () => {
                 <h1>contact.</h1>
                 <div className={styles.contact_description}>
                     <p>
-                    You have gotten this far? Amazing, let&apos;s talk.
+                    Made it this far? Fantastic! I&apos;d love to chat.
                     </p>
                     <p>
-                    I am available for product design and frontend development projects. Check out my <a 
-                            href="https://github.com/MagdK"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                        Github
-                        </a> account, drop me a message and let&apos;s create something great together!
+                    I&apos;m open to collaborating on exciting product design projects. Feel free to reach out, and let&apos;s build something amazing together!
                     </p>
                 </div>
                 <div className={styles.btn_container}>
