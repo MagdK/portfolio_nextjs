@@ -5,11 +5,11 @@ secret: false
 title: Transactions on an online gaming platform
 client: Begame
 role: UX research, UX/UI design
-tags: Wireframe, User flow, UX, UI, Responsive design, Whimsical, Marwel app, Sketch, Zeplin
+tags: Wireframe, User flow, UX, UI, Prototype, Responsive design, Whimsical, Marwel app, Sketch, Zeplin, Jira
 ---
 
 ## My role
-UX research | UI design | UX design | Cross-functionally collaboration
+UX research | UX/UI design | Cross-functionally collaboration
 
 ## Duration
 2 months
