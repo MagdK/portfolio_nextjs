@@ -4,45 +4,26 @@ draft: false
 title: Filtering on a B2B recruitment platform
 
 client: Wonderkind
-role: UX/UI design
+role: UX/UI design | development of components
 tags: UX/UI, Desktop layout, Design system, Figma, Vuetify, Storybook
 ---
 
-Working at Wonderkind, a company that has developed an innovative talent attraction technology to automate social media campaigns, I had the opportunity to engage in UX processes for a short time. During this period, I was fortunate to be assigned the task of creating a scalable and reusable filtering solution.
+## My role
+UX/UI design | Creation of Vuetify components
+
+## Duration
+1 month
+
+## Objective 
+To design a scalable and user-friendly filtering solution to streamline the process of creating job lists for social media campaigns, reducing the time and errors associated with manually selecting jobs.
 
 ## Problem
-To create job lists for social media campaigns, a Wonderkind user must select specific jobs. This task is time-consuming and error-prone, as the user has to sift through numerous pages of jobs to manually choose the ones needed for the job list.
-
-## Objectives
-- Research enterprise filtering solutions.
-- Find a way to give users a clear overview of their data.
-- Design a scalable and intuitive filtering solution.
-
-## Goal
-The main goal is to reduce time and minimise errors during the job list creation process by introducing a user-friendly, scalable, and easy-to-use filtering solution.
-
-## Impact
-Unfortunately, my time at the company ended before I could see the impact of the solution.
+Wonderkind users faced a time-consuming and error-prone process when creating job lists. They had to manually sift through numerous pages of jobs to select the relevant ones for social media campaigns, leading to inefficiencies.
 
 ## Process
-Resources\
-A confluence entry about the requirments,  which was written by the [*Felicia van Jaarsveld*][Felicia], one of Wonderkind's product owners.
-Desktop layout for campaigns page with filter designs proposal created by [*Ira Bykova*][Ira], the previous UXer. 
+Research | Design | Validation | Handover | Storybook component
 
-Research\
-Using the [*Filter UX design pattern*][Article] article as a reference, I considered multiple filtering patterns. Ultimately, I chose the sidebar filter solution for its scalability. Since users need to see the results of each additional filter immediately, I decided against batch filtering and opted to show results per filter instead.
-It was clear that the list of filters only will increase with time. The solution was also reusable on other page if need be.
+I led the design process for integrating a filtering feature into the talent attraction platform, collaborating closely with the product owner and front-end lead. I developed prototypes that were reviewed and validated with real users through the customer success team. After receiving approval, I created comprehensive guidelines to facilitate a smooth handover to development and QA teams. Additionally, I contributed to building the Storybook components for the accordion elements, ensuring consistency throughout the implementation.
 
-Validation\
-Unfortunately I did not have access to testing the solution with actual users, the PO, [*Felicia van Jaarsveld*][Felicia] reviewed the user flow. 
-
-Handover to dev\
-This project used Vuetify components from the beginning, so I ensured that my solution consisted of Vuetify components as much as possible. I thoroughly researched the Vuetify library to identify suitable sidebar components, examine the appearance of accordions, and determine how well they could be customised to our needs. 
-I have created guidlines for the dev and QA. We already had chips/pill components, which only required the addition of a remove option. I regularly checked in with our front-end lead, [*Oleksandr Zinchenko*][Alex], for guidance. 
-Additionally, I had the opportunity to create the Storybook components for the collapse/accordion elements after the filtering flow was done.
-
-
-[Felicia]: https://nl.linkedin.com/in/feliciavanj?trk=public_post_feed-actor-name
-[Alex]: https://nl.linkedin.com/in/oleksandr-zinchenko-phd-55526a72
-[Ira]: https://nl.linkedin.com/in/erabykova
-[Article]: https://www.pencilandpaper.io/articles/ux-pattern-analysis-enterprise-filtering
+## Impact
+While the full impact of the solution could not be measured due to my departure from the company, the scalable filtering solution was expected to significantly reduce the time and effort required for job list creation. It aimed to streamline the user experience, enhance productivity, and minimize errors. By ensuring a reusable and intuitive filtering system, the project also laid the groundwork for future enhancements and consistency across Wonderkind's platform.
