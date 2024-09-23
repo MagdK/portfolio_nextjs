@@ -1,5 +1,5 @@
 ---
-date: "2021-07-15"
+date: "2020-04-15"
 draft: false
 secret: false
 title: Profile picture upload for an online gaming platform
@@ -8,31 +8,29 @@ role: UX research, UX/UI design
 tags:  Wireframe, User flow, UI, UX, High fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin,
 ---
 
+## My role
+UX research | UX/UI design
+
+## Duration
+2 weeks
+
 ## Project overview 
-To give a more personalised gaming experience by allowing users to upload and update their profile picture.  
+Bingocams.co.uk is a community-driven platform where players engage in social interactions and share a passion for bingo. The objective of the project was to improve the user experience on Bingocams.co.uk by introducing personalized visual representations for players during bingo games and social interactions.
+The goal was to implement a system that allows players to upload profile pictures, enhancing their presence in the gaming environment.
+Also foster a more engaging and personalized experience to strengthen community connections.
 
 ## Problem
-Only providing a name while players are participating in a bingo game, conversing in the chat, or a winner is announced at the end of the game is insufficiently personalized.
+Bingocams.co.uk only displayed player names during bingo games and interactions, which resulted in a lack of personalization. This absence of visual representation diminished the social experience, limiting players' ability to connect and engage meaningfully with one another during gameplay and announcements.
 
-## Objectives
-Allow users to upload and update their profile pictures.  
+## Impact
+- Enhanced Personalization: Users experienced a more personalized gaming environment, allowing them to express their identities visually, which increased their sense of belonging within the community.
 
-## Goal
-How might we create an experience that allows users to have a more personalised experience on the bingo site?
+- Increased Engagement: The ability to display profile pictures fostered more meaningful interactions during gameplay and chat, leading to higher levels of user engagement and participation.
 
-## Needs
-Ability to upload and update profile picture in the account detail page.
+- Stronger Community Connections: Visual representation helped users connect with each other on a more personal level, enhancing social interactions and building a stronger sense of community among players.
 
-## Wants
-Allow users to visually represent themselves to the others.
+- Reduced User Churn: By improving the overall user experience and making it more engaging, the platform likely saw a decrease in user churn rates, as players felt more connected and invested in the community.
 
-After I gathered enough knowledge from the product owner and marekting manager about bingo players, I introduced Anita and Susanne - our bingo personas - to our team to have a better understanding what our users' needs, goals and pain points are. These personas helped me realise that the whole bingo experience has to be a lot more personalised. For the users to be able to show their faces by uploading a profile picture is only a small step, but gives a personal touch to it all when they are in the bingo room chat, or when they make it to the leaderboard.
+- Positive Feedback: The introduction of profile pictures may have resulted in positive user feedback, contributing to a better reputation for the platform and encouraging new user registrations.
 
-I brought up the topic with stakeholders and pushed for this small feature for the sake of our users.
-
-I sketched out the user flow and built a simple prototype in InVision to explain the flow to PO and dev.
-It is pretty straightforward: The user clicks on the account menu, goes to the account detail page and selects the profile picture accordion in order to upload their photo. From that point, the process is pretty self explenatory. They can take a selfie with their camera or just upload an already existing photo from their device. The image can be repositioned and zoomed in or out if needed.
-
-The image upload flow is easy to use on any devices. The profile picture will be visible in chat rooms, on the leaderboard, on their personal hub and of in the top navigation and account menu.
-
-I did a thorough research on other platforms to get a good idea how the tool should function, what should be included. Aligned with the PO on how much time we can spend on implementing the feature, with front-end if it will be built from scratch or with a plugin, to know how much free hand do I get during the design process. The UI was created in Sketch, final pages were exported to Zeplin, and I was checking on with front-end during the implementation to make sure all is well.
+- Increased Time Spent on Platform: With a more engaging and personalized experience, users likely spent more time on the site, participating in games and interactions, which could lead to higher revenue opportunities.
