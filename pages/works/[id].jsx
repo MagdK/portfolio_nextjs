@@ -9,6 +9,7 @@ import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from '../../components/Image';
 import Mp4Video from '../../components/Mp4Video';
 import Link from 'next/link';
+
 // import probe from "probe-image-size"; // for static site generation - image size
 
 // import required modules
