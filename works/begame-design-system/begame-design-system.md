@@ -4,13 +4,13 @@ draft: false
 secret: false
 title: Design system for Bingocams
 client: Begame
-role: Design
+role: UI design
 cover_image: "begame-design-system.png"
-tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Sketch, Zeplin, Abstract
+tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Bootstrap,  Sketch, Zeplin, Abstract
 ---
 
 ## Project overview
-To be able to have a consistent visual language and smoother collaboration between the design and development teams, we need to create and maintine a design system. 
+To streamline collaboration between design and development teams and ensure a cohesive visual language across the platform, I led the creation and ongoing maintenance of a robust design system. Built on Bootstrap, this system not only enhanced consistency in design but also allowed for faster implementation of features and smoother communication between teams. It became the backbone of our UI development, providing reusable components and design guidelines that scaled efficiently as the product evolved.
 
 ## Problem
 Bingocams.co.uk gets a UI refresh. Not relying on a consistent and well structured component library makes the design and implementation process hard and gives an inconsistent experience to the users. 
