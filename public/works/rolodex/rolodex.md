@@ -4,7 +4,7 @@ draft: true
 title: Rolodex
 
 client: none
-role: UI design and development
+role: UI design | development
 websiteURL: https://react-rolodex-app.onrender.com/
 github: https://github.com/MagdK/rolodex
 tags: HTML/CSS, React, API

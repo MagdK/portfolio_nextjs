@@ -12,10 +12,10 @@ const About = () => {
         Everything I’ve done has been in pursuit of <b className={styles.highlight}>understanding people</b> more deeply and <b className={styles.highlight}>solving problems</b>.
         </p>
         <p>
-        As a designer and developer, I’m interested in how to create experiences that are <b className={styles.highlight}>impactful</b>, <b className={styles.highlight}>intuitive</b>, and perhaps, even a bit <b className={styles.highlight}>delightful</b>.
+        As a <b className={styles.highlight}>designer and developer</b>, I’m interested in how to create experiences that are <b className={styles.highlight}>impactful</b>, <b className={styles.highlight}>intuitive</b>, and perhaps, even a bit <b className={styles.highlight}>delightful</b>.
         </p>
         <p>
-        When I’m not working, I’m usually found sipping tea, reading about the latest design trends, or chatting about my cats—who inspire me with their curiosity and playfulness.
+        When I’m not working, you’ll find me sipping tea and exploring the latest design trends, always eager to discover new ideas and inspiration.
         </p>
       </div>
     </section>

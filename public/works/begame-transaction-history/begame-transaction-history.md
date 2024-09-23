@@ -4,9 +4,10 @@ draft: false
 secret: false
 title: Transactions on an online gaming platform
 client: Begame
-role: UX research, UX/UI design
+role: UX research | UX/UI design
 tags: Wireframe, User flow, UX, UI, Prototype, Responsive design, Whimsical, Marwel app, Sketch, Zeplin, Jira
 ---
+
 
 ## My role
 UX research | UX/UI design | Cross-functionally collaboration
@@ -32,7 +33,7 @@ Bingocams community members experience difficulty in obtaining a clear and organ
 ## Impact
 The redesign of the transactions page significantly enhanced user experience by providing a clearer and more organized overview of deposit and withdrawal activities. This improvement led to several key outcomes:
 
-- Reduced Support Inquiries: By clarifying transaction durations and improving the overall layout, users had fewer questions, resulting in decreased inquiries to customer support.
+- <mark>Reduced Support Inquiries</mark>: By clarifying transaction durations and improving the overall layout, users had fewer questions, resulting in decreased inquiries to customer support.
 
 - Increased User Satisfaction: A more intuitive transaction process enhanced user confidence and satisfaction, fostering a more positive relationship with the platform.
 
