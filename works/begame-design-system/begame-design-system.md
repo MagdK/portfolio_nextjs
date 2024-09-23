@@ -1,5 +1,5 @@
 ---
-date: "2020-08-15"
+date: "2020-06-15"
 draft: false
 secret: false
 title: Design system for an online gaming platform
