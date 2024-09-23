@@ -1,10 +1,10 @@
 ---
 date: "2023-05-20"
 draft: false
-title: Wonderkind filtering
+title: Filtering on a B2B recruitment platform
 
 client: Wonderkind
-role: Design
+role: UX/UI design
 tags: UX/UI, Desktop layout, Design system, Figma, Vuetify, Storybook
 ---
 

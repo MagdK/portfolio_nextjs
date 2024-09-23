@@ -4,7 +4,7 @@ draft: true
 title: Personal portfolio
 
 client: none
-role: Design and development
+role: UX/UI design and development
 websiteURL: http://www.magdadot.com
 github: https://github.com/MagdK/portfolio_nextjs
 tags: Layout, Figma, HTML, Modular CSS, NextJS

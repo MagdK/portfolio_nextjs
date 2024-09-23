@@ -1,10 +1,10 @@
 ---
 date: "2019-05-18"
 draft: false
-title: Digital showroom for B2B fashiontech app
+title: Digital showroom for a B2B fashiontech app
 
 client: fashionTrade
-role: Design
+role: UX research, UX/UI design
 websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
 tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
 ---

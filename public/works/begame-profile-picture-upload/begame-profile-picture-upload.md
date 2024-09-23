@@ -2,9 +2,9 @@
 date: "2021-07-15"
 draft: false
 secret: false
-title: Profile picture upload for Bingocams
+title: Profile picture upload for an online gaming platform
 client: Begame
-role: Design
+role: UX research, UX/UI design
 tags:  Wireframe, User flow, UI, UX, High fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin,
 ---
 

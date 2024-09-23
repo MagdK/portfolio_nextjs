@@ -4,7 +4,7 @@ draft: false
 secret: false
 title: Transactions on an online gaming platform
 client: Begame
-role: Design
+role: UX research, UX/UI design
 tags: Wireframe, User flow, UX, UI, Responsive design, Whimsical, Marwel app, Sketch, Zeplin
 ---
 
