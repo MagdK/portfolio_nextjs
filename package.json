@@ -18,7 +18,7 @@
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "sass": "^1.53.0",
-    "swiper": "^8.3.0"
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "eslint": "8.16.0",
