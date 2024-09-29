@@ -4,14 +4,13 @@ name: Deploy to Github Pages
 on:
   push:
     branches:
-      - main
-
+      - '*'
   workflow_dispatch:
 
 jobs:
-  deployment:
+  next_build_and_export:
+    name: "Build website"
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -28,6 +27,25 @@ jobs:
         run: npm run export
         env:
           NODE_ENV: production
+
+      - name: Upload exported website
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-output
+          path: out
+
+  # Only run the steps below if it's the main branch
+  deployment:
+    name: "Deploy to GitHub Pages"
+    if: github.ref == 'refs/heads/main'
+    needs: next_build_and_export
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download exported website
+        uses: actions/download-artifact@v3
+        with:
+          name: build-output
+          path: ./out
 
       - name: Create CNAME file with the content www.magdadot.com
         run: echo "www.magdadot.com" > "./out/CNAME"
