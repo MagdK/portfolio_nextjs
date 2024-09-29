@@ -1,5 +1,5 @@
 import fs from 'fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
@@ -93,6 +93,7 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
               key={image}
               alt={image}
 
+              unoptimized={true}
               width="100%"
               height="100%"
               layout="responsive"
@@ -141,11 +142,9 @@ export async function getStaticProps(context) {
   const html = await markdownToHtml(content);
   const replacedHref = html.replaceAll("href", 'target="_blank" href');
 
-  const images = glob
-    .sync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
+  const images = globSync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
     .map(img_path => img_path.replace('public', ''))
-  const videos = glob
-    .sync(path.join(`public/works/${slug}/!(${slug}).+(mp4)`))
+  const videos = globSync(path.join(`public/works/${slug}/!(${slug}).+(mp4)`))
     .map(video_path => video_path.replace('public', ''))
 
   return {
@@ -171,7 +170,7 @@ export async function getStaticPaths() {
   return {
     fallback: false, // can also be true or 'blocking'
     // paths: [{ params: { id: 'begame-design-system' } }],
-    paths: glob.sync(path.join("public/works/*")).map(dir => {
+    paths: globSync(path.join("public/works/*")).map(dir => {
       return { params: { id: path.basename(dir) } }
     })
   }

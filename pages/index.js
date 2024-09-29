@@ -1,5 +1,5 @@
 import fs from 'fs';
-import glob from 'glob';
+import { globSync } from 'glob';
 import path from 'path';
 import matter from 'gray-matter';
 
@@ -14,7 +14,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 
-export default function Main({works}) {
+export default function Main({ works }) {
   return (
     <div >
       <Head>
@@ -34,22 +34,22 @@ export default function Main({works}) {
 
 export async function getStaticProps() {
   // Get files from the work directory
-  const files = glob.sync(path.join("public/works/*/*.md"))
+  const files = globSync(path.join("public/works/*/*.md"))
 
   const works = files.map(filename => {
-      // Create slug - https://magdadot.com/works/<slug>
-      const slug = path.basename(filename, '.md')
+    // Create slug - https://magdadot.com/works/<slug>
+    const slug = path.basename(filename, '.md')
 
-      // Get frontmatter
-      const markdownWithMeta = fs.readFileSync(filename, 'utf-8')
+    // Get frontmatter
+    const markdownWithMeta = fs.readFileSync(filename, 'utf-8')
 
-      const {data:frontmatter} = matter(markdownWithMeta)
+    const { data: frontmatter } = matter(markdownWithMeta)
 
-      return {
-          slug, 
-          frontmatter
-      }
-  }).sort(function(a,b){
+    return {
+      slug,
+      frontmatter
+    }
+  }).sort(function(a, b) {
     // Turn your strings into dates, and then subtract them
     // to get a value that is either negative, positive, or zero.
     console.log(a.frontmatter.date, "a pont")
@@ -60,8 +60,8 @@ export async function getStaticProps() {
 
   // Get slug and frontmatter from works
   return {
-      props: {
+    props: {
       works
-      }
+    }
   }
 }
