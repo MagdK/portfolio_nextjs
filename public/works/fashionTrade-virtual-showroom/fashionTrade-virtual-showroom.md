@@ -14,7 +14,7 @@ tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InV
 Create an digital showroom experience that enables brands to tell their stories and showcase their collections, while also helping retailers find the perfect brands for their stores.
 
 ## Duration
-2 months
+The MVP was launched after two months, and the iteration process to improve the showroom has continued ever since.
 
 ## My role
 - Analyse workshop data
