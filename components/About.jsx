@@ -15,7 +15,7 @@ const About = () => {
         As a <b className={styles.highlight}>designer and developer</b>, I’m interested in how to create experiences that are <b className={styles.highlight}>impactful</b>, <b className={styles.highlight}>intuitive</b>, and perhaps, even a bit <b className={styles.highlight}>delightful</b>.
         </p>
         <p>
-        When I’m not working, you’ll find me sipping tea and exploring the latest design trends, always eager to discover new ideas and inspiration.
+        When I’m not working, you’ll find me sipping tea and exploring the latest design trends, always eager to learn more about the human mind and body.
         </p>
       </div>
     </section>
