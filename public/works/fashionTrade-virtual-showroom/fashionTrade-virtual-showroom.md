@@ -18,21 +18,25 @@ The MVP was launched after two months, and the iteration process to improve the 
 
 ## My role
 - Analyse workshop data
-- Design the end-to end-experience
-- Produce the flow/interaction prototyping, design mockups, desing assets and guidelines
+- Develop personas and empathy map
+- Design the end-to-end experience
+- Write user stories
+- Create low-fidelity wireframes, test them with users and iterate 
+- Create high-fidelity prototypes, test them with users and iterate
+- Create desing assets and guidelines for development
 
 ## Team
-UX designer, customer success, product owner, front-end developers
+UX/UI designer(me), a product owner, the customer success team, and the development team
 
 ## Problem statement
-Fashion wholesalers, unlike those in other sectors, did not embrace the digital era; instead, trade took place in person, mostly via spreadsheets and paper. This approach is inefficient in terms of time and cost. The main challenge for brands transitioning to an online trading tool was the inability to effectively tell their brand's story.
+Fashion wholesalers face challenges adapting to digital-first environments, often relying on outdated, in-person sales methods that depend on spreadsheets and paper. These traditional approaches make it difficult for brands to efficiently communicate their unique stories and align with modern business practices. This lack of a digital solution restricts operational efficiency and limits the reach of brand narratives in an increasingly online marketplace.
 
 "How might we help brands to tell their stories?"
 
 "How might we help retailers to find the perfect brands for their stores?"
 
 ## Goal
-Come up with a tool that helps brands to tell their stories and showcase their new collection in a time and cost effective way. 
+Our goal is to build a digital showroom experience that empowers brands to showcase their unique stories online. This will streamline processes, reduce costs, and facilitate a smooth transition to modern, digital-first operations, aligning fashion wholesalers with contemporary industry practices.
 
 ## User research
 - Workshop with brand owners - conducted by PO and lead UX/UIer
