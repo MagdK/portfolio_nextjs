@@ -10,7 +10,11 @@ tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive
 ---
 
 ## My role
-I collaborated with the front-end development team and another product designer to spearhead the creation and ongoing maintenance of a comprehensive design system. My role encompassed designing and documenting reusable components, ensuring design consistency, and facilitating a smooth handoff between design and development.
+I collaborated with the front-end development team and another product designer to spearhead the creation and ongoing maintenance of a comprehensive design system. 
+
+- Designing and documenting reusable components
+- Ensuring design consistency 
+- Facilitating a smooth handoff between design and development
 
 ## Tools
 Sketch, Zeplin, BootstrapVue, Material Icons, Jira
