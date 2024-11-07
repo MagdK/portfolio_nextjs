@@ -32,7 +32,7 @@ Google Docs, Google Sheets, Sketch, Zeplin, InVision, and Jira.
 ## Problem statement
 Fashion wholesalers face challenges in adapting to digital-first environments, often relying on in-person sales supported by spreadsheets and paper. These traditional approaches lead to inefficiencies, heavy logistical costs, and difficulty in conveying brand identity in an online format. As the industry transitions to digital, brands need an effective, story-driven solution to streamline operations and improve visibility.
 
-## Key "How Might We" Questions
+## Key "How Might We" questions
 
 - How might we help brands effectively tell their stories?
 - How might we enable retailers to discover brands that best suit their store concepts?
