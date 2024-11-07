@@ -9,50 +9,68 @@ websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
 tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
 ---
 
-## Project overview
 ## Objective
-Create an digital showroom experience that enables brands to tell their stories and showcase their collections, while also helping retailers find the matching brands for their stores.
+Create a digital showroom experience enabling fashion brands to effectively tell their stories, showcase collections, and connect with retailers who seek brands that align with their store concepts.
 
 ## Duration
-Version 1 was launched after two months
+The MVP of the showroom feature was launched within two months, with ongoing iterations to enhance the functionality and user experience.
 
 ## My role
-- Analysed workshop data and user interview notes
-- Developed personas and empathy maps
-- Crafted user stories and collaborated on user journey maps
-- Authored the problem statement, hypothesis statement, and value proposition
-- Defined the project’s goal statement
-- Actively participated in brainstorming sessions (including Crazy 8s and "How Might We" activities)
-- Created low-fidelity wireframes, conducted user tests, and iterated on designs
-- Designed high-fidelity prototypes, tested with users, and made iterative improvements
-- Developed design assets and provided guidelines for development
+- Analysed data from workshops and user interviews
+- Developed personas and empathy maps based on user insights
+- Authored user stories and participated in mapping user journeys
+- Drafted the problem statement, hypothesis, and value proposition
+- Set the project’s goal statement
+- Engaged in brainstorming activities, including Crazy 8s and "How Might We" exercises
+- Designed low-fidelity wireframes, tested with users, and iterated based on feedback
+- Created high-fidelity prototypes, conducted further user testing, and implemented iterative improvements
+- Produced design assets and detailed handover guidelines for the development team
 
 ## Tools
-Google (docs, slides, sheets), Sketch, Zeplin, InVision, Jira
+Google Docs, Google Sheets, Sketch, Zeplin, InVision, and Jira.
 
 ## Problem statement
-Fashion wholesalers struggle to adapt to digital-first environments, often relying on outdated in-person sales methods that involve spreadsheets, paper, and heavy travel burdens. These traditional approaches make it difficult for brands to efficiently communicate their unique stories and align with modern business practices. This lack of a digital solution restricts operational efficiency and limits the reach of brand narratives in an increasingly online marketplace.
+Fashion wholesalers face challenges in adapting to digital-first environments, often relying on in-person sales supported by spreadsheets and paper. These traditional approaches lead to inefficiencies, heavy logistical costs, and difficulty in conveying brand identity in an online format. As the industry transitions to digital, brands need an effective, story-driven solution to streamline operations and improve visibility.
 
-"How might we help brands to tell their story?"
-"How might we help retailers to find the right brands for their stores?"
+## Key "How Might We" Questions
+
+- How might we help brands effectively tell their stories?
+- How might we enable retailers to discover brands that best suit their store concepts?
+
 
 ## Hypothesis statement
-We believe that by creating a digital showroom experience tailored to the unique needs of fashion wholesalers, we can provide brands with an engaging platform that conveys their story and identity effectively online. If successful, this solution will not only streamline the sales process but will also reduce operational costs and improve brand visibility, empowering wholesalers to align with modern, digital-first business practices.
+By creating a digital showroom experience tailored to the needs of fashion wholesalers, we believe we can help brands share their stories and showcase their identities online. If successful, this feature will streamline sales, reduce operational costs, and enhance brand visibility, empowering wholesalers to align with modern, digital-first business practices.
 
 ## Value proposition
-Our digital showroom feature offers fashion wholesalers an efficient, visually dynamic way to present their brands online, blending storytelling with ease of use. This allows wholesalers to engage buyers globally, reduce logistical burdens, and build stronger brand recognition through a seamless digital interface that supports their transition to a more sustainable and efficient digital landscape.
+Our digital showroom feature provides fashion wholesalers a dynamic platform to showcase their brands online. By blending storytelling with user-friendly design, this solution reduces logistical challenges, enhances global brand reach, and supports the shift to a sustainable digital environment.
 
 ## Goal statement
-Our goal is to build a digital showroom experience that empowers brands to showcase their unique stories online. This will streamline processes, reduce costs, and facilitate a smooth transition to modern, digital-first operations, aligning fashion wholesalers with contemporary industry practices.
+Our goal is to develop a digital showroom experience that enables brands to convey their unique stories online, improving operational efficiency, reducing costs, and supporting a smooth transition to modern digital practices.
 
-## Wireframes
-Based on the findings from the Empathize and Define stages of the process, I created low-fidelity wireframes for user validation. After several iterations, I moved on to developing high-fidelity prototypes. Throughout the process, I maintained continuous communication with the development team to address technical limitations. Once the final solution was reached, I provided design guidelines to ensure a smooth handover for the development team.
+## Process
+
+- Empathize
+I analysed the data from user interviews and workshops with fashion brands to understand their needs and pain points. Using these insights, I created empathy maps and personas to capture the motivations and challenges of our users.
+
+- Define
+Based on user insights, I formulated a problem statement, a hypothesis statement, and a clear value proposition, defining the need for a digital solution that supports storytelling and streamlines brand discovery for retailers.
+
+- Ideate
+With the foundational insights in place, I participated in ideation sessions lead by the UX lead, including Crazy 8s and "How Might We" exercises, to brainstorm possible solutions. I collaborated with the team to align on a goal statement that would guide our design approach.
+
+- Prototype
+I created low-fidelity wireframes and validated them with users to ensure the core functionality met their needs. After several iterations based on user feedback, I moved on to high-fidelity prototypes, incorporating design elements that would enable brands to build an immersive, story-driven digital showroom.
+
+- Test
+Throughout the prototyping phase, I conducted continuous user testing and iterated on the designs to improve usability and user satisfaction. I also regularly communicated with the development team to address any technical constraints, ensuring a smooth transition from design to development.
 
 ## Results
-Thanks to continuous feedback from brand users throughout the process, the digital brand showroom feature was successfully integrated into the platform, significantly enhancing the user experience and making it easier for brands to gain visibility online.
 
-This feature empowered brands to access their digital showrooms anytime, anywhere, while enabling them to create a fully branded experience. By using inspirational content such as videos, lookbooks, and images, brands were able to better tell their stories and connect their styles with their offerings.
+User Satisfaction and Platform Adoption:
+With continuous feedback from brand users, the digital brand showroom feature was successfully launched, making it easier for brands to gain online visibility.
 
-Additionally, retailers had a greater chance of discovering brands that aligned with their store concepts.
+This feature empowered brands to access their showrooms anytime, anywhere, and offered tools to create a branded experience through videos, lookbooks, and images, allowing brands to better tell their stories and link their styles to product offerings.
 
-As a result of this long-awaited feature, brand sign-ups on the platform saw a significant increase.
+For retailers, the showroom feature made it easier to discover brands that matched their store aesthetics and needs, ultimately improving brand-retailer connections on the platform.
+
+As a result, brand sign-ups increased significantly, demonstrating the demand and effectiveness of this digital solution.
