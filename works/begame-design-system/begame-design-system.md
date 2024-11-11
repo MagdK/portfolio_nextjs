@@ -17,7 +17,7 @@ I collaborated with the front-end development team and another product designer 
 - Facilitating a smooth handoff between design and development
 
 ## Tools
-Sketch, Zeplin, BootstrapVue, Material Icons, Jira
+Sketch, Zeplin, BootstrapVue, Material Icons, Confluence, Jira
 
 ## Duration
 The foundational work on the design system took approximately two months. I then continued to maintain and refine the system over the following two years, adapting it to new product requirements and feedback.

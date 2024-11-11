@@ -49,19 +49,19 @@ Our goal is to develop a digital showroom experience that enables brands to conv
 
 ## Process
 
-- Empathize
+- Empathize:
 I analysed the data from user interviews and workshops with fashion brands to understand their needs and pain points. Using these insights, I created empathy maps and personas to capture the motivations and challenges of our users.
 
-- Define
+- Define:
 Based on user insights, I formulated a problem statement, a hypothesis statement, and a clear value proposition, defining the need for a digital solution that supports storytelling and streamlines brand discovery for retailers.
 
-- Ideate
+- Ideate:
 With the foundational insights in place, I participated in ideation sessions lead by the UX lead, including Crazy 8s and "How Might We" exercises, to brainstorm possible solutions. I collaborated with the team to align on a goal statement that would guide our design approach.
 
-- Prototype
+- Prototype:
 I created low-fidelity wireframes and validated them with users to ensure the core functionality met their needs. After several iterations based on user feedback, I moved on to high-fidelity prototypes, incorporating design elements that would enable brands to build an immersive, story-driven digital showroom.
 
-- Test
+- Test:
 Throughout the prototyping phase, I conducted continuous user testing and iterated on the designs to improve usability and user satisfaction. I also regularly communicated with the development team to address any technical constraints, ensuring a smooth transition from design to development.
 
 ## Results
