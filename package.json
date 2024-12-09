@@ -22,7 +22,7 @@
     "swiper": "^11.1.14"
   },
   "devDependencies": {
-    "eslint-config-next": "^14.2.13",
+    "eslint-config-next": "^15.0.4",
     "vite": "^5.4.8"
   }
 }
