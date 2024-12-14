@@ -11,8 +11,8 @@ import Mp4Video from '../../components/Mp4Video';
 import Link from 'next/link';
 import Footer from '../../components/Footer';
 
-const Work = ({ slug, frontmatter, content, images, videos }) => {
-
+// Props are coming from getStaticProps()
+export default ({ slug, frontmatter, content, images, videos }) => {
   return (
     <div className={styles.details_container}>
 
@@ -142,5 +142,3 @@ export async function getStaticPaths() {
     })
   }
 }
-
-export default Work;
