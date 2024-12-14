@@ -9,22 +9,9 @@ import { PrimaryButton, SecondaryButton } from '../../components/Button';
 import Image from '../../components/Image';
 import Mp4Video from '../../components/Mp4Video';
 import Link from 'next/link';
-
-// import probe from "probe-image-size"; // for static site generation - image size
-
-// import required modules
-import { FreeMode, Pagination } from "swiper";
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import "swiper/css/bundle";
 import Footer from '../../components/Footer';
 
+// import probe from "probe-image-size"; // for static site generation - image size
 
 const Work = ({ slug, frontmatter, content, images, videos }) => {
 
@@ -102,30 +89,6 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
           })}
         </div>
       </div>
-
-      {/* <Swiper
-            slidesPerView={4}
-            spaceBetween={30}
-            freeMode={true}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[FreeMode, Pagination]}
-            className={styles.mySwiper}
-          >
-            <SwiperSlide className={styles.mySwiper_module}>Slide 1</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 2</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 3</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 4</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 5</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 6</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 7</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 8</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 9</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 10</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 11</SwiperSlide>
-            <SwiperSlide className={styles.mySwiper_module}>Slide 12</SwiperSlide>
-      </Swiper> */}
       <Footer />
     </div >
   )
