@@ -3,7 +3,6 @@ import { globSync } from 'glob';
 import path from 'path';
 import matter from 'gray-matter';
 
-import "swiper/css/bundle";
 import Head from 'next/head';
 
 import Navigation from "../components/Navigation";
