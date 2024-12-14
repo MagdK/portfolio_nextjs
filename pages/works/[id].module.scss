@@ -165,4 +165,7 @@
     p:not(:last-child) {
         padding-bottom: $spacing-small;
     }	
+
+    img { width: 100%; }
+    p:has(> img) { max-width: 100% }
 }
