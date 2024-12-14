@@ -6,6 +6,8 @@ title: Transactions for an online gaming platform
 client: Begame
 role: UX research | UX/UI design
 tags: Wireframe, User flow, UX, UI, Prototype, Responsive design, Whimsical, Marwel app, Sketch, Zeplin, Jira
+listVideos: true
+listImages: true
 ---
 
 

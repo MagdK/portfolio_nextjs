@@ -7,6 +7,8 @@ client: Syndy
 role: UI design
 websiteURL: http://www.syndy.com/econtent-sourcing/
 tags: Email template, Photoshop, Typography
+listVideos: true
+listImages: true
 ---
 
 My role was to create templates that are consistent, clean and minimalistic,

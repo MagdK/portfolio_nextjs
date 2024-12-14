@@ -7,6 +7,8 @@ client: Begame
 role: UI design
 cover_image: "begame-design-system.png"
 tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Bootstrap,  Sketch, Zeplin, Abstract
+listVideos: true
+listImages: true
 ---
 
 ## My role

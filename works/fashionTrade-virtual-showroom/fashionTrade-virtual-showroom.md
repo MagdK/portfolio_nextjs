@@ -7,6 +7,8 @@ client: fashionTrade
 role: UX research | UX/UI design
 websiteURL: https://www.fashiontrade.com/brands/digital-showroom-fashion/
 tags: Wireframe, User flows, Desktop layout, iOS app design, Sketch, Zeplin, InVision
+listVideos: true
+listImages: true
 ---
 
 ## Objective

@@ -8,6 +8,8 @@ role: UX/UI design | development
 websiteURL: https://nasa-image-of-the-day.onrender.com/
 github: https://github.com/MagdK/ask-nasa-javascript
 tags: Layout, HTML, CSS, JavaScript, APOD NASA
+listVideos: true
+listImages: true
 ---
 
 In this JavaScript project I used one of NASA’s free API called [*Astronomical Picture of the Day*][Astronomical Picture of the Day] (APOD).  
