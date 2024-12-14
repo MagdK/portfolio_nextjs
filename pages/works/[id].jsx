@@ -11,8 +11,6 @@ import Mp4Video from '../../components/Mp4Video';
 import Link from 'next/link';
 import Footer from '../../components/Footer';
 
-// import probe from "probe-image-size"; // for static site generation - image size
-
 const Work = ({ slug, frontmatter, content, images, videos }) => {
 
   return (
