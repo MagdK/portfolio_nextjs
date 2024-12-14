@@ -6,6 +6,8 @@ title: Profile picture upload for an online gaming platform
 client: Begame
 role: UX research | UX/UI design
 tags:  Wireframe, User flow, UI, UX, High-fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin, Jira
+listVideos: true
+listImages: true
 ---
 
 ## My role

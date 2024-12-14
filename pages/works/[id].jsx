@@ -61,33 +61,39 @@ const Work = ({ slug, frontmatter, content, images, videos }) => {
           </div>
         }
 
-        <div className={styles.image_container} style={{ marginTop: '2em' }}>
-          {videos.map((image) => {
-            return (<Mp4Video
-              key={image}
-              src={image}
-              width="100%"
-              height="100%"
-              layout="responsive"
-              objectFit="contain"
-            />)
-          })}
-        </div>
-        <div className={styles.image_container}>
-          {images.map((image) => {
-            return (<Image
-              src={image}
-              key={image}
-              alt={image}
+        {/* TODO: Remove once listing videos is not needed */}
+        {frontmatter.listVideos &&
+          <div className={styles.image_container} style={{ marginTop: '2em' }}>
+            {videos.map((image) => {
+              return (<Mp4Video
+                key={image}
+                src={image}
+                width="100%"
+                height="100%"
+                layout="responsive"
+                objectFit="contain"
+              />)
+            })}
+          </div>
+        }
+        {/* TODO: Remove once listing images is not needed */}
+        {frontmatter.listImages &&
+          <div className={styles.image_container}>
+            {images.map((image) => {
+              return (<Image
+                src={image}
+                key={image}
+                alt={image}
 
-              unoptimized={true}
-              width="100%"
-              height="100%"
-              layout="responsive"
-              objectFit="contain"
-            />)
-          })}
-        </div>
+                unoptimized={true}
+                width="100%"
+                height="100%"
+                layout="responsive"
+                objectFit="contain"
+              />)
+            })}
+          </div>
+        }
       </div>
       <Footer />
     </div >

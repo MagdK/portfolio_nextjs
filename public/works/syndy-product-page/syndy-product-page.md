@@ -7,6 +7,8 @@ client: Syndy
 role: UI design
 websiteURL: http://www.syndy.com/econtent-sourcing/
 tags: Desktop layout, Mobile layout, Photoshop
+listVideos: true
+listImages: true
 ---
 
 The challenge was to squeeze in all the great things you can do with Syndy’s

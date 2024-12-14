@@ -7,6 +7,8 @@ client: Syndy
 role: UI design
 websiteURL: http://www.syndy.com
 tags: Iconography, Colour theory, Sketch
+listVideos: true
+listImages: true
 ---
 
 On Syndy’s platform the users are able to choose how

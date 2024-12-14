@@ -7,6 +7,8 @@ client: Syndy
 role: UI design
 websiteURL: http://www.syndy.com/econtent-sourcing/
 tags: Desktop layout, Mobile layout, Iconography, Illustration, Photoshop
+listVideos: true
+listImages: true
 ---
 
 Working at Syndy, a company with a unique solution to distribute and optimise
