@@ -17,11 +17,8 @@ const Work = ({ works }) => {
                     Below are some of my projects I have worked on throughout my years of design and development.
                 </p>
                 <div className={styles.work_list_wrapper}>
-
                     {worksToDisplay.map((work) => {
-
                         return (
-
                             <div
                                 className={styles.work_list_card}
                                 key={work.slug}

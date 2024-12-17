@@ -78,12 +78,6 @@ export default ({ slug, frontmatter, content, images, videos }) => {
                 src={image}
                 key={image}
                 alt={image}
-
-                unoptimized={true}
-                width="100%"
-                height="100%"
-                layout="responsive"
-                objectFit="contain"
               />)
             })}
           </div>
