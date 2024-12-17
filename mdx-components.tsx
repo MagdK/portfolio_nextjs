@@ -1,5 +1,5 @@
 import type { MDXComponents } from 'mdx/types'
-import Image, { ImageProps } from 'next/image'
+import Image, { ImageProps } from 'next/legacy/image'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
