@@ -10,7 +10,6 @@ export default function Image(props) {
     <NextImage
       {...props}
       loader={customLoader}
-      upoptimized
       sizes="100vw"
       width={1000}
       height={750}

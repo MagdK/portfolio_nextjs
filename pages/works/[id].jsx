@@ -12,13 +12,13 @@ import Link from 'next/link';
 import Footer from '../../components/Footer';
 
 // Props are coming from getStaticProps()
-export default ({ slug, frontmatter, content, images, videos }) => {
+const Page = ({ slug, frontmatter, content, images, videos }) => {
   return (
     <div className={styles.details_container}>
 
       <div className={styles.header_details}>
         <div className={styles.logo}>
-          <Link href="/#home_section" href="#top">
+          <Link href="#top">
             <h2 className={styles.logo_container}>m<span>.</span></h2>
           </Link>
         </div>
@@ -87,6 +87,7 @@ export default ({ slug, frontmatter, content, images, videos }) => {
     </div >
   )
 }
+export default Page
 
 // https://nextjs.org/docs/api-reference/data-fetching/get-static-props#getstaticprops-return-values
 // Every time the page gets rendered, this function should return the data, that will be shown on the page
