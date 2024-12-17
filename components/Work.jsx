@@ -20,7 +20,7 @@ const Work = ({ works }) => {
 
                     {worksToDisplay.map((work) => {
 
-                        return(
+                        return (
 
                             <div
                                 className={styles.work_list_card}
@@ -28,18 +28,16 @@ const Work = ({ works }) => {
                             >
 
                                 <Link href={`/works/${work.slug}`}>
-                                    <a>
-                                        <Image
-                                            src={`/works/${work.slug}/${work.slug}.png`}
-                                            alt={`${work.slug}`} width="400" height="400"
-                                            className={styles.work_card_image}
-                                        >
-                                        </Image>
-                                        <div className={styles.work_card_description_wrapper}>
-                                            <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
-                                            <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
-                                        </div>
-                                    </a>
+                                    <Image
+                                        src={`/works/${work.slug}/${work.slug}.png`}
+                                        alt={`${work.slug}`} width="400" height="400"
+                                        className={styles.work_card_image}
+                                    >
+                                    </Image>
+                                    <div className={styles.work_card_description_wrapper}>
+                                        <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
+                                        <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
+                                    </div>
                                 </Link>
                             </div>
                         )
@@ -50,14 +48,14 @@ const Work = ({ works }) => {
                 <div className={styles.btn_container}>
 
                     <PrimaryButton
-                    href="#work_section"
-                    onClick={ (event) => {
-                        worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6))
+                        href="#work_section"
+                        onClick={(event) => {
+                            worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6))
 
-                        worksToDisplay.length === 6 ? event.preventDefault() : console.log("not prevented")
-                    }}
+                            worksToDisplay.length === 6 ? event.preventDefault() : console.log("not prevented")
+                        }}
                     >
-                    {worksToDisplay.length === 6 ? "Show all" : "Show less"}
+                        {worksToDisplay.length === 6 ? "Show all" : "Show less"}
 
                     </PrimaryButton>
 

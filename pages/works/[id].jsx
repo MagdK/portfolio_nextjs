@@ -18,20 +18,16 @@ export default ({ slug, frontmatter, content, images, videos }) => {
 
       <div className={styles.header_details}>
         <div className={styles.logo}>
-          <Link href="/#home_section">
-            <a href="#top">
-              <h2 className={styles.logo_container}>m<span>.</span></h2>
-            </a>
+          <Link href="/#home_section" href="#top">
+            <h2 className={styles.logo_container}>m<span>.</span></h2>
           </Link>
         </div>
       </div>
 
       <div className={styles.details_content_wrapper}>
 
-        <Link href="/#work_section">
-          <a className={styles.back_link}>
-            Go back
-          </a>
+        <Link href="/#work_section" className={styles.back_link}>
+          Go back
         </Link>
 
 
