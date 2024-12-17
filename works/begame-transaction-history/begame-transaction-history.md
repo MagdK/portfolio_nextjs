@@ -25,7 +25,7 @@ UserTesting.com, Whimsical, Sketch, Zeplin, BootstrapVue, Material Icons, Jira
 To improve the user experience for an online gaming app, this project aimed to streamline deposit and withdrawal processes. The primary goals were to reduce overspending, lower user churn, and enhance user satisfaction with transaction clarity and accessibility.
 
 ## Research
-To gather insights, I conducted user research through unmoderated tests on UserTesting.com and interviewed five new users and five long-term users (recruited via customer support) to identify specific pain points and expectations around transaction processes.
+To gather insights, I conducted user research through unmoderated tests on UserTesting.com and interviewed five new users and five long-term users to identify specific pain points and expectations around transaction processes.
 
 ## Key findings
 While users reported that depositing and withdrawing funds were straightforward, they often felt uncertain about the transaction duration and processing times. This lack of clarity led to frequent support inquiries, creating frustration and increasing support workload.
