@@ -3,8 +3,6 @@ import { globSync } from 'glob';
 import path from 'path';
 import matter from 'gray-matter';
 
-import Head from 'next/head';
-
 import Navigation from "../components/Navigation";
 import Home from '../components/Home';
 import About from '../components/About';
@@ -13,12 +11,15 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 
-export default function Main({ works }) {
+export const metadata = {
+  title: 'magdadot.com',
+}
+
+export default async function Page() {
+  const works = await loadWorks();
+
   return (
     <div >
-      <Head>
-        <title>magdadot.com</title>
-      </Head>
       <Navigation />
       <main >
         <Home />
@@ -31,7 +32,7 @@ export default function Main({ works }) {
   )
 }
 
-export async function getStaticProps() {
+async function loadWorks() {
   // Get files from the work directory
   const files = globSync(path.join("public/works/*/*.md"))
 
@@ -41,7 +42,6 @@ export async function getStaticProps() {
 
     // Get frontmatter
     const markdownWithMeta = fs.readFileSync(filename, 'utf-8')
-
     const { data: frontmatter } = matter(markdownWithMeta)
 
     return {
@@ -51,16 +51,9 @@ export async function getStaticProps() {
   }).sort(function(a, b) {
     // Turn your strings into dates, and then subtract them
     // to get a value that is either negative, positive, or zero.
-    console.log(a.frontmatter.date, "a pont")
-    console.log(new Date(a.frontmatter.date), "new date a")
     return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
   });
 
-
   // Get slug and frontmatter from works
-  return {
-    props: {
-      works
-    }
-  }
+  return works
 }

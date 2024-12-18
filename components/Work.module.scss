@@ -16,7 +16,7 @@
                 }
 
                 .work_card_description_wrapper {
-                    padding-top: ($spacing-xxsmall / 2); 
+                    padding-top: calc($spacing-xxsmall / 2);
     
                     .work_title_tag {
                         font-size: 16px;

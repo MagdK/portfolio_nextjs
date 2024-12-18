@@ -4,26 +4,21 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import styles from './[id].module.scss';
-import { PrimaryButton, SecondaryButton } from '../../components/Button';
-import Image from '../../components/Image';
-import Mp4Video from '../../components/Mp4Video';
+import styles from './page.module.scss';
+import { PrimaryButton, SecondaryButton } from '../../../components/Button';
+import Image from '../../../components/Image';
+import Mp4Video from '../../../components/Mp4Video';
 import Link from 'next/link';
-import Footer from '../../components/Footer';
+import Footer from '../../../components/Footer';
+import Navigation from '../../../components/Navigation';
 
-// Props are coming from getStaticProps()
-const Page = ({ slug, frontmatter, content, images, videos }) => {
+const Page = async ({ params }) => {
+  const { id } = await params
+  const { frontmatter, content, images, videos } = await loadWork(id)
+
   return (
     <div className={styles.details_container}>
-
-      <div className={styles.header_details}>
-        <div className={styles.logo}>
-          <Link href="#top">
-            <h2 className={styles.logo_container}>m<span>.</span></h2>
-          </Link>
-        </div>
-      </div>
-
+      <Navigation />
       <div className={styles.details_content_wrapper}>
 
         <Link href="/#work_section" className={styles.back_link}>
@@ -91,8 +86,7 @@ export default Page
 
 // https://nextjs.org/docs/api-reference/data-fetching/get-static-props#getstaticprops-return-values
 // Every time the page gets rendered, this function should return the data, that will be shown on the page
-export async function getStaticProps(context) {
-  const slug = context.params.id;
+async function loadWork(slug) {
   const filePath = `public/works/${slug}/${slug}.md`;
   const markdownWithMeta = fs.readFileSync(filePath, 'utf-8');
 
@@ -106,13 +100,11 @@ export async function getStaticProps(context) {
     .map(video_path => video_path.replace('public', ''))
 
   return {
-    props: {
-      slug: slug,
-      frontmatter: data,
-      content: replacedHref,
-      images: images,
-      videos: videos,
-    }
+    slug: slug,
+    frontmatter: data,
+    content: replacedHref,
+    images: images,
+    videos: videos,
   }
 }
 
@@ -121,15 +113,8 @@ async function markdownToHtml(markdown) {
   return result.toString()
 }
 
-// https://nextjs.org/docs/api-reference/data-fetching/get-static-paths#getstaticpaths-return-values
-// [ {p: {id: 'begame'}}, {p: {id: 'syndy'}} ]
-// => /works/begame, /work/syndy
-export async function getStaticPaths() {
-  return {
-    fallback: false, // can also be true or 'blocking'
-    // paths: [{ params: { id: 'begame-design-system' } }],
-    paths: globSync(path.join("public/works/*")).map(dir => {
-      return { params: { id: path.basename(dir) } }
-    })
-  }
+export async function generateStaticParams() {
+  return globSync(path.join("public/works/*")).map(dir => {
+    return { id: path.basename(dir) }
+  })
 }
