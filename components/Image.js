@@ -1,15 +1,9 @@
 import { default as NextImage } from "next/image";
 
-// opt-out of image optimization, no-op
-const customLoader = ({ src, width, quality }) => {
-  return src
-}
-
-export default function Image(props) {
+export default async function Image(props) {
   return (
     <NextImage
       {...props}
-      loader={customLoader}
       sizes="100vw"
       width={1000}
       height={750}
