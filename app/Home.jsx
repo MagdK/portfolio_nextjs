@@ -1,6 +1,6 @@
 import styles from './Home.module.scss';
-import { PrimaryButton, SecondaryButton } from './Button';
-import Image from './Image'
+import { PrimaryButton, SecondaryButton } from '../components/Button';
+import Image from 'next/image'
 import profilePic from '../public/crazy_profile_pic.png'
 
 const Home = () => {
@@ -27,7 +27,11 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.home_wrapper_col_2}>
-          <Image className={styles.profile_pic} src={profilePic} alt="Image of Magda Kovacs"  />
+          <Image
+            className={styles.profile_pic}
+            src={profilePic}
+            alt="Image of Magda Kovacs"
+          />
         </div>
       </div>
     </section>

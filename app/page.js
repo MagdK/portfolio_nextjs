@@ -4,10 +4,10 @@ import path from 'path';
 import matter from 'gray-matter';
 
 import Navigation from "../components/Navigation";
-import Home from '../components/Home';
-import About from '../components/About';
-import Work from '../components/Work';
-import Contact from '../components/Contact';
+import Home from './Home';
+import About from './About';
+import Work from './Work';
+import Contact from './Contact';
 import Footer from '../components/Footer';
 
 

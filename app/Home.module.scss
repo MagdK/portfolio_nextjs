@@ -8,13 +8,13 @@
 		background-color: $color-white;
 		display: flex;
 		align-items: center;
-	
+
 		.home_wrapper {
 			width: $grid-width-desktop;
 			margin: 0 auto;
 			padding: $spacing-huge $spacing-large;
 			display: flex;
-	
+
 			.home_wrapper_col_1 {
 				width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
 
@@ -26,7 +26,7 @@
 					margin-top: $spacing-medium;
 				}
 			}
-	
+
 			.home_wrapper_col_2 {
 				width: calc((100% - $spacing-large) / 4);
 				margin: auto auto;
@@ -34,11 +34,11 @@
 		}
 
 		:global {
-	
+
 			h1 {
 				max-width: $grid-width-desktop;
 			}
-		
+
 			h3 {
 				padding-bottom: $spacing-xxsmall;
 			}
@@ -56,7 +56,7 @@
 		height: auto;
 		background-color: $color-white;
 		align-items:flex-end;
-		
+
 		.home_wrapper {
 			display: flex;
 			max-width: $grid-width-tablet;
@@ -65,7 +65,7 @@
 			height: auto;
 			justify-content: space-around;
 			flex-direction: column-reverse;
-	
+
 			.home_wrapper_col_1 {
 				max-width: $grid-width-tablet;
 				padding-top: $spacing-small;
@@ -78,18 +78,18 @@
 					margin-top: $spacing-medium;
 				}
 			}
-	
+
 			.home_wrapper_col_2 {
 				width: calc((100% - $spacing-large) / 2);
 			}
 		}
 
 		:global {
-	
+
 			h1 {
 				max-width: $grid-width-desktop;
 			}
-		
+
 			h3 {
 				padding-bottom: $spacing-xxsmall;
 			}
@@ -116,17 +116,20 @@
 			.home_wrapper_col_2 {
 				width: calc((100% - $spacing-large) / 2);
 			}
-		}	
+		}
 	}
 }
 
 .home_wrapper_col_1 span:before {
 	content: 'Problem solver';
-	animation: animate infinite 8s; 
+	animation: animate infinite 8s;
 }
 .home_wrapper_col_2 {
 	.profile_pic {
 		border-radius: 50%;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
 	}
 }
 
@@ -138,7 +141,7 @@
 		content: 'Product designer';
 	}
 	66% {
-		content: 'Front-end developer'; 
+		content: 'Front-end developer';
 
 	}
 }

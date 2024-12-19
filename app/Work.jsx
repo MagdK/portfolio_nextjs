@@ -2,12 +2,12 @@
 
 import styles from './Work.module.scss';
 import Link from 'next/link';
-import Image from './Image'
-import { PrimaryButton } from './Button';
+import Image from 'next/image'
+import { PrimaryButton } from '../components/Button';
 import { useState } from 'react';
 
 
-const Work = ({ works }) => {
+export default function Work({ works }) {
   const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
 
   return (
@@ -30,6 +30,11 @@ const Work = ({ works }) => {
                     src={`/works/${work.slug}/${work.slug}.png`}
                     alt={`${work.slug}`} width="400" height="400"
                     className={styles.work_card_image}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "contain"
+                    }}
                   >
                   </Image>
                   <div className={styles.work_card_description_wrapper}>
@@ -44,23 +49,21 @@ const Work = ({ works }) => {
 
         </div>
         <div className={styles.btn_container}>
-
           <PrimaryButton
             href="#work_section"
             onClick={(event) => {
-              worksToDisplay.length === 6 ? setWorksToDisplay(works) : setWorksToDisplay(works.slice(0, 6))
-
-              worksToDisplay.length === 6 ? event.preventDefault() : console.log("not prevented")
+              if (worksToDisplay.length === 6) {
+                event.preventDefault()
+                setWorksToDisplay(works)
+              } else {
+                setWorksToDisplay(works.slice(0, 6))
+              }
             }}
           >
             {worksToDisplay.length === 6 ? "Show all" : "Show less"}
-
           </PrimaryButton>
-
         </div>
       </div>
     </section>
   )
 }
-
-export default Work;
