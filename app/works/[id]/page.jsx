@@ -20,7 +20,7 @@ const Page = async ({ params }) => {
       <h1>{frontmatter.title}</h1>
       <div className={styles.work_description} dangerouslySetInnerHTML={{ __html: content }}></div>
 
-      {(frontmatter.websiteURL && frontmatter.github) &&
+      {(frontmatter.websiteURL) &&
         <div className={styles.btn_container}>
           <PrimaryButton
             href={`${frontmatter.websiteURL}`}
@@ -29,7 +29,11 @@ const Page = async ({ params }) => {
           >
             Website
           </PrimaryButton>
+        </div>
+      }
 
+      {(frontmatter.github) &&
+        <div className={styles.btn_container}>
           <SecondaryButton
             href={`${frontmatter.github}`}
             target="_blank"
