@@ -5,9 +5,9 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 import styles from './page.module.scss';
-import { PrimaryButton, SecondaryButton } from '../../../components/Button';
-import Image from '../../../components/Image';
-import Mp4Video from '../../../components/Mp4Video';
+import { PrimaryButton, SecondaryButton } from '@/components/Button';
+import Image from '@/components/Image';
+import Mp4Video from '@/components/Mp4Video';
 import Link from 'next/link';
 
 const Page = async ({ params }) => {

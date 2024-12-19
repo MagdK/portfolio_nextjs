@@ -1,6 +1,6 @@
 import '../styles/globals.scss';
-import Navigation from "../components/Navigation";
-import Footer from '../components/Footer';
+import Navigation from "@/components/Navigation";
+import Footer from '@/components/Footer';
 
 export default function RootLayout({
   // Layouts must accept a children prop.

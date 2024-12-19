@@ -1,5 +1,5 @@
 import styles from './Contact.module.scss';
-import { PrimaryButton, TertiaryButton } from '../components/Button';
+import { PrimaryButton, TertiaryButton } from '@/components/Button';
 
 const Contact = () => {
     return (

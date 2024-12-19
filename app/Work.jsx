@@ -3,7 +3,7 @@
 import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
-import { PrimaryButton } from '../components/Button';
+import { PrimaryButton } from '@/components/Button';
 import { useState } from 'react';
 
 
