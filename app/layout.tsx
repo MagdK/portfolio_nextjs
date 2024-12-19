@@ -1,4 +1,6 @@
 import '../styles/globals.scss';
+import Navigation from "../components/Navigation";
+import Footer from '../components/Footer';
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -9,7 +11,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
-    </html>
+      <body>
+        <div >
+          <Navigation />
+          {children}
+          <Footer />
+        </div>
+      </body>
+    </html >
   )
 }

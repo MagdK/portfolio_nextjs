@@ -3,12 +3,10 @@ import { globSync } from 'glob';
 import path from 'path';
 import matter from 'gray-matter';
 
-import Navigation from "../components/Navigation";
 import Home from './Home';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
-import Footer from '../components/Footer';
 
 
 export const metadata = {
@@ -19,16 +17,12 @@ export default function Page() {
   const works = loadWorks();
 
   return (
-    <div >
-      <Navigation />
-      <main >
-        <Home />
-        <About />
-        <Work works={works} />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <main >
+      <Home />
+      <About />
+      <Work works={works} />
+      <Contact />
+    </main>
   )
 }
 
