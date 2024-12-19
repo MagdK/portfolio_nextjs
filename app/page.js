@@ -15,8 +15,8 @@ export const metadata = {
   title: 'magdadot.com',
 }
 
-export default async function Page() {
-  const works = await loadWorks();
+export default function Page() {
+  const works = loadWorks();
 
   return (
     <div >
@@ -32,7 +32,7 @@ export default async function Page() {
   )
 }
 
-async function loadWorks() {
+function loadWorks() {
   // Get files from the work directory
   const files = globSync(path.join("public/works/*/*.md"))
 
