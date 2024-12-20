@@ -22,7 +22,7 @@
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
-    "sass": "^1.53.0"
+    "sass": "^1.83.0"
   },
   "devDependencies": {
     "@types/node": "22.10.2",
