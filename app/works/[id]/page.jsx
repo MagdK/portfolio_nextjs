@@ -15,7 +15,7 @@ async function markdownToHtml(markdown) {
 
 const Page = async ({ params }) => {
   const { id } = await params
-  const { frontmatter, content, images, videos } = await works.find(id)
+  const { frontmatter, content, images, videos } = works.find(id)
   const html = await markdownToHtml(content)
   const prev = works.previous(id)
   const next = works.next(id)

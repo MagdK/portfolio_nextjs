@@ -22,7 +22,9 @@ function all() {
     }
   })
 
-  return works.sort((a, b) => b.frontmatter.date - a.frontmatter.date)
+  return works
+    .filter(w => !w.frontmatter.draft || process.env.SHOW_DRAFTS === 'yes')
+    .sort((a, b) => b.frontmatter.date - a.frontmatter.date)
 }
 
 function listFiles(slug, extensions = []) {
