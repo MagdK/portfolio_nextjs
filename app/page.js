@@ -5,7 +5,6 @@ import About from './About';
 import Work from './Work';
 import Contact from './Contact';
 
-
 export const metadata = {
   title: 'magdadot.com',
 }
