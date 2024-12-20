@@ -34,9 +34,31 @@ function listFiles(slug, extensions = []) {
 
 // https://nextjs.org/docs/api-reference/data-fetching/get-static-props#getstaticprops-return-values
 // Every time the page gets rendered, this function should return the data, that will be shown on the page
-async function find(slug) {
+function find(slug) {
   return all().find(w => w.slug === slug)
 }
 
-const works = { all, find }
+function previous(slug) {
+  const works = all()
+  const index = works.findIndex(w => w.slug == slug)
+
+  if (index > 0) {
+    return works[index - 1]
+  } else {
+    return null
+  }
+}
+
+function next(slug) {
+  const works = all()
+  const index = works.findIndex(w => w.slug == slug)
+
+  if (index >= 0 && index < works.length) {
+    return works[index + 1]
+  } else {
+    return null
+  }
+}
+
+const works = { all, find, previous, next }
 export default works;

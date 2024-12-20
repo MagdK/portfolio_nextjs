@@ -17,6 +17,8 @@ const Page = async ({ params }) => {
   const { id } = await params
   const { frontmatter, content, images, videos } = await works.find(id)
   const html = await markdownToHtml(content)
+  const prev = works.previous(id)
+  const next = works.next(id)
 
   return (
     <div className={styles.details_content_wrapper}>
@@ -75,6 +77,8 @@ const Page = async ({ params }) => {
           })}
         </div>
       }
+      {prev && <Link href={prev.slug} className={styles.back_link}>previous</Link>}
+      {next && <Link href={next.slug} className={styles.back_link}>next</Link>}
     </div>
   )
 }
