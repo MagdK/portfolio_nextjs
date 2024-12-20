@@ -1,4 +1,4 @@
-import { loadWorks } from './works'
+import works from '@/works'
 
 import Home from './Home';
 import About from './About';
@@ -15,7 +15,7 @@ export default function Page() {
     <main >
       <Home />
       <About />
-      <Work works={loadWorks()} />
+      <Work works={works.all()} />
       <Contact />
     </main>
   )

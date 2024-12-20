@@ -4,6 +4,9 @@
     "paths": {
       "@/components/*": [
         "components/*"
+      ],
+      "@/*": [
+        "app/*"
       ]
     },
     "target": "ES2017",

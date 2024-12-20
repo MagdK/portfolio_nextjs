@@ -1,9 +1,7 @@
-import fs from 'fs';
+import works from '@/works'
 import { globSync } from 'glob';
 import path from 'path';
-import matter from 'gray-matter';
-import { remark } from 'remark';
-import html from 'remark-html';
+
 import styles from './page.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
@@ -12,7 +10,7 @@ import Link from 'next/link';
 
 const Page = async ({ params }) => {
   const { id } = await params
-  const { frontmatter, content, images, videos } = await loadWork(id)
+  const { frontmatter, content, images, videos } = await works.find(id)
 
   return (
     <div className={styles.details_content_wrapper}>
@@ -76,37 +74,6 @@ const Page = async ({ params }) => {
 }
 export default Page
 
-// https://nextjs.org/docs/api-reference/data-fetching/get-static-props#getstaticprops-return-values
-// Every time the page gets rendered, this function should return the data, that will be shown on the page
-async function loadWork(slug) {
-  const filePath = `public/works/${slug}/${slug}.md`;
-  const markdownWithMeta = fs.readFileSync(filePath, 'utf-8');
-
-  const { data, content } = matter(markdownWithMeta);
-  const html = await markdownToHtml(content);
-  const replacedHref = html.replaceAll("href", 'target="_blank" href');
-
-  const images = globSync(path.join(`public/works/${slug}/!(${slug}).+(png|gif|jpg|jpeg)`))
-    .map(img_path => img_path.replace('public', ''))
-  const videos = globSync(path.join(`public/works/${slug}/!(${slug}).+(mp4)`))
-    .map(video_path => video_path.replace('public', ''))
-
-  return {
-    slug: slug,
-    frontmatter: data,
-    content: replacedHref,
-    images: images,
-    videos: videos,
-  }
-}
-
-async function markdownToHtml(markdown) {
-  const result = await remark().use(html).process(markdown)
-  return result.toString()
-}
-
 export async function generateStaticParams() {
-  return globSync(path.join("public/works/*")).map(dir => {
-    return { id: path.basename(dir) }
-  })
+  return works.all().map(work => ({ id: work.slug }))
 }
