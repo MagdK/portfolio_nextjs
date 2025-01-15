@@ -48,7 +48,7 @@ To address these challenges, I proposed a redesign of the transactions page. The
 
 - Wireframes: I created low-fidelity wireframes to outline key layout changes, ensuring the design prioritized clarity and usability.
 
-- High-fidelity designs: Once approved, I developed high-fidelity prototypes that visually emphasized transaction status, estimated processing times, and clear labels for each transaction type.
+- High-fidelity designs: Once wireframes got approved, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type. One of the challenges were to set up the card layout per breakpoint. 
 
 ![Breakpoints](/works/begame-transaction-history/Transaction_001.png "Preview of all breakpoints and how cards were set up")
 
