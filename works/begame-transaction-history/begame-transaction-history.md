@@ -2,9 +2,9 @@
 date: "2020-07-15"
 draft: false
 secret: false
-title: Transactions for an online gaming platform
+title: Transforming the online gaming transaction experience
 client: Begame
-role: UX research | UX/UI design
+role: Begame · 2021
 tags: Wireframe, User flow, UX, UI, Prototype, Responsive design, Whimsical, Marwel app, Sketch, Zeplin, Jira
 listVideos: true
 listImages: true
@@ -12,23 +12,43 @@ listImages: true
 
 
 ## My role
-- UX research
-- UX/UI design
+- User research & analysis 
+- UX and UI redesign 
+- Component library
+- Usability testing
 
 ## Tools
-UserTesting.com, Whimsical, Sketch, Zeplin, BootstrapVue, Material Icons, Jira
+- UserTesting.com
+- Whimsical
+- Sketch
+- Zeplin
+- BootstrapVue
+- Material Icon
+- Jira
 
 ## Duration
 3 X 2 week sprints
 
 ## Project overview
-To improve the user experience for an online gaming app, this project aimed to streamline deposit and withdrawal processes. The primary goals were to reduce overspending, lower user churn, and enhance user satisfaction with transaction clarity and accessibility.
+Customer feedback revealed unintuitive transaction processes, leading to frequent support inquiries. This project streamlined deposits and withdrawals, reduced requests, and improved satisfaction by providing clear, accessible flows and an intuitive overview to help users track and manage transactions.
 
-## Research
-To gather insights, I conducted user research through unmoderated tests on UserTesting.com and interviewed five new users and five long-term users to identify specific pain points and expectations around transaction processes.
+## Problem discovery research
+To uncover problems in the current experience, I conducted usability tests with 5 new and 5 returning users via UserTesting.com. Combined with insights from customer success, the research revealed users' frustrations with unclear transaction statuses, cumbersome navigation, and the inability to cancel transactions, all of which contributed to their dissatisfaction.
 
 ## Key findings
-While users reported that depositing and withdrawing funds were straightforward, they often felt uncertain about the transaction duration and processing times. This lack of clarity led to frequent support inquiries, creating frustration and increasing support workload.
+What do users want: 
+- A more branded experience to feel secure while depositing and withdrawing money.
+
+- A clearer transaction overview, as current information is mixed in a single table.
+
+- Faster access to transaction overview pages, as they currently feel hidden.
+
+- The ability to cancel pending transactions independently, without contacting support.
+
+- Better color contrast, particularly for mature gamers with visual impairments.
+
+- A clear distinction between transaction statuses using color coding, icons, or more visible indicators.
+
 
 ## Problem statement
 Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member attrition.
@@ -45,17 +65,18 @@ To address these challenges, I proposed a redesign of the transactions page. The
 - Design system integration: To ensure consistency, I created components for the design system and detailed guidelines to support development and QA teams.
 
 ## Impact
-The redesigned transactions page resulted in substantial improvements across key areas:
+The redesigned transactions page led to significant improvements, including reduced support inquiries due to a clearer layout and transaction duration information. This project demonstrated the value of research and iterative design, as user testing helped inform design choices that addressed pain points and improved both user experience and platform efficiency.
 
-- <mark>Reduced support inquiries</mark>: With a clearer layout and transaction duration information, users were able to find answers independently, reducing the burden on customer support.
 
-- Increased user satisfaction: The improved interface boosted user confidence, leading to more positive feedback and a more satisfying app experience.
+## But UX is never done...
+This project was completed four years ago, and looking back, here are a few areas I’d love to improve today:
 
-- Lower user churn: By improving clarity and reducing friction, the updated transactions page supported user retention and engagement.
+- Measure system usability with a usability scale.
 
-- Enhanced engagement: With a streamlined, accessible transaction page, users felt more comfortable engaging with the app, likely contributing to increased participation in games and events.
+- Test for accessibility across different devices and user groups.
 
-- Data-driven insights: The feedback collected throughout the testing and launch phases provided valuable insights for future iterations and enhancements.
+- Improve micro-interactions, especially during loading states.
 
-## Reflection
-This project highlighted the power of research and iterative design in resolving user pain points. By actively involving users in the testing process, we were able to make informed design choices that directly addressed their needs and expectations, enhancing both the user experience and the operational efficiency of the platform.
+- Conduct more frequent usability testing throughout the product lifecycle.
+
+- Enhance assisted onboarding to help all users quickly understand the updated transaction processes.

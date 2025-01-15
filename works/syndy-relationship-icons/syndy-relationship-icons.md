@@ -4,7 +4,7 @@ draft: false
 title: Iconography
 
 client: Syndy
-role: UI design
+role: Syndy · 2017
 websiteURL: http://www.syndy.com
 tags: Iconography, Colour theory, Sketch
 listVideos: true

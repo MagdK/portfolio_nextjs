@@ -1,10 +1,10 @@
 ---
 date: "2020-04-15"
-draft: false
+draft: true
 secret: false
 title: Profile picture upload for an online gaming platform
 client: Begame
-role: UX research | UX/UI design
+role: Begame · 2020
 tags:  Wireframe, User flow, UI, UX, High-fidelity design, Design system, Responsive design, Whimsical, Marvel app, Sketch, Zeplin, Jira
 listVideos: true
 listImages: true

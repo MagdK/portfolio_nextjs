@@ -4,7 +4,7 @@ draft: false
 title: Image of the day with NASA API
 
 client: none
-role: UX/UI design | development
+role: Codecool · 2022
 websiteURL: https://nasa-image-of-the-day.onrender.com/
 github: https://github.com/MagdK/ask-nasa-javascript
 tags: Layout, HTML, CSS, JavaScript, APOD NASA
