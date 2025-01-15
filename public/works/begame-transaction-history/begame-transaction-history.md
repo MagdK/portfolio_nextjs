@@ -7,7 +7,7 @@ client: Begame
 role: Begame · 2021
 tags: Wireframe, User flow, UX, UI, Prototype, Responsive design, Whimsical, Marwel app, Sketch, Zeplin, Jira
 listVideos: true
-listImages: true
+listImages: false
 ---
 
 
@@ -37,18 +37,8 @@ To uncover problems in the current experience, I conducted usability tests with 
 
 ## Key findings
 What do users want: 
-- A more branded experience to feel secure while depositing and withdrawing money.
 
-- A clearer transaction overview, as current information is mixed in a single table.
-
-- Faster access to transaction overview pages, as they currently feel hidden.
-
-- The ability to cancel pending transactions independently, without contacting support.
-
-- Better color contrast, particularly for mature gamers with visual impairments.
-
-- A clear distinction between transaction statuses using color coding, icons, or more visible indicators.
-
+![What do users want](/works/begame-transaction-history/Transaction_06.png "List of users' needs")
 
 ## Problem statement
 Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member attrition.
@@ -59,6 +49,8 @@ To address these challenges, I proposed a redesign of the transactions page. The
 - Wireframes: I created low-fidelity wireframes to outline key layout changes, ensuring the design prioritized clarity and usability.
 
 - High-fidelity designs: Once approved, I developed high-fidelity prototypes that visually emphasized transaction status, estimated processing times, and clear labels for each transaction type.
+
+![Breakpoints](/works/begame-transaction-history/Transaction_001.png "Preview of all breakpoints and how cards were set up")
 
 - Testing: I conducted usability tests with five users on UserTesting.com to validate and refine the high-fidelity prototypes.
 
