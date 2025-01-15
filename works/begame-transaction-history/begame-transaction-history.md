@@ -17,6 +17,9 @@ listImages: true
 - Component library
 - Usability testing
 
+## Duration
+3 X 2 week sprints
+
 ## Tools
 - UserTesting.com
 - Whimsical
@@ -25,9 +28,6 @@ listImages: true
 - BootstrapVue
 - Material Icon
 - Jira
-
-## Duration
-3 X 2 week sprints
 
 ## Project overview
 Customer feedback revealed unintuitive transaction processes, leading to frequent support inquiries. This project streamlined deposits and withdrawals, reduced requests, and improved satisfaction by providing clear, accessible flows and an intuitive overview to help users track and manage transactions.
