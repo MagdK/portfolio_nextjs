@@ -4,7 +4,7 @@ draft: false
 title: Product page
 
 client: Syndy
-role: UI design
+role: Syndy · 2017
 websiteURL: http://www.syndy.com/econtent-sourcing/
 tags: Desktop layout, Mobile layout, Photoshop
 listVideos: true

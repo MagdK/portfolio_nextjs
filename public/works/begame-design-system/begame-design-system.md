@@ -2,9 +2,9 @@
 date: "2020-06-15"
 draft: false
 secret: false
-title: Design system for an online gaming platform
+title: Crafting a future-proof design system for an online gaming platform
 client: Begame
-role: UI design
+role: Begame · 2020
 cover_image: "begame-design-system.png"
 tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Bootstrap,  Sketch, Zeplin, Abstract
 listVideos: true

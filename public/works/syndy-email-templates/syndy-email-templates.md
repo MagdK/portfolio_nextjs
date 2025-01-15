@@ -4,7 +4,7 @@ draft: false
 title: Email template design
 
 client: Syndy
-role: UI design
+role: Syndy · 2017
 websiteURL: http://www.syndy.com/econtent-sourcing/
 tags: Email template, Photoshop, Typography
 listVideos: true
