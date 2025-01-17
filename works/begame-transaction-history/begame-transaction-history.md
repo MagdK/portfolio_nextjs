@@ -51,25 +51,31 @@ Bingocams’ community members experienced challenges in obtaining a clear, orga
 ## Solution
 To address these challenges, I proposed a redesign of the transactions page. The updated design was intended to provide a more organized, accessible, and informative transaction experience that empowered users to track their activity confidently and independently.
 
-- Wireframe: I created low-fidelity wireframes to outline key layout variations and gathered user feedback on the concepts.
+## Wireframes
+I created wireframes to outline key layout variations for the transaction overview page and gathered user feedback on the concepts.
 
-![Wireframes](/works/begame-transaction-history/Transaction_004.png "Transactions oerview page wireframes")
+![Wireframes](/works/begame-transaction-history/Transaction_000.png "Transactions oerview page wireframes")
 
-- High-fidelity designs: Once wireframes got approved, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.
+## High-fidelity design
+Once the decision was made which direction to take, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.
 
-- Design system: To ensure consistency, I created components for the design system and detailed guidelines to support development and QA teams.
+## Design system
+To ensure consistency, I created the transaction cards components for the design system and detailed guidelines to support development and QA teams.
 
 ![Transaction history component](/works/begame-transaction-history/Transaction_002.png "Transaction cards in component library")
 
-- Mockup: Final mockups for every breakpoint. 
+## Mockup
+I created the final mockups for every breakpoint. 
 
 ![Breakpoints](/works/begame-transaction-history/Transaction_001.png "Preview of all breakpoints and how cards were set up")
 
-- Error handeling and empty states
+## Error handeling and empty states
+I made sure to create mockups for each error. For this I worked closely with the development team. Also created mockups for the empty states and other edge cases. 
 
 ![Unhappy flows](/works/begame-transaction-history/Transaction_003.png "Preview of all errors that can happen during deposit and withdrawal")
 
-- Testing: I conducted usability tests with five users on UserTesting.com to validate and refine the high-fidelity prototypes.
+## Usability testing 
+I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes.
 
 ## Impact
 The redesigned transactions page led to significant improvements, including reduced support inquiries due to a clearer layout and transaction duration information. This project demonstrated the value of research and iterative design, as user testing helped inform design choices that addressed pain points and improved both user experience and platform efficiency.

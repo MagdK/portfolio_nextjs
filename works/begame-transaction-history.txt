@@ -7,11 +7,11 @@
 a:I[6213,[],"ViewportBoundary"]
 c:I[4835,[],""]
 :HL["/_next/static/css/34ed5eff5ea0abae.css","style"]
-:HL["/_next/static/css/4c4198b83f7fd7d5.css","style"]
+:HL["/_next/static/css/6c737fa6f4fa69b2.css","style"]
 :HL["/_next/static/css/dfe06b57a964deb2.css","style"]
-0:{"P":null,"b":"vmlhvbDV2hmVGhSIWhI8G","p":"","c":["","works","begame-transaction-history"],"i":false,"f":[[["",{"children":["works",{"children":[["id","begame-transaction-history","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/34ed5eff5ea0abae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","div",null,{"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"Footer_footer_container__AzUAj","children":["$","div",null,{"className":"Footer_footer_wrapper__Z4mee","children":["$","p",null,{"children":["made with ",["$","span",null,{"children":"♥"}]," by Magda "]}]}]}]]}]}]}]]}],{"children":["works",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","works","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","begame-transaction-history","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","works","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/4c4198b83f7fd7d5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/dfe06b57a964deb2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","yBrIOujXaiO0va4xQledq",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"7yoQuSAIqPxwLvWPIQ5F8","p":"","c":["","works","begame-transaction-history"],"i":false,"f":[[["",{"children":["works",{"children":[["id","begame-transaction-history","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/34ed5eff5ea0abae.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","div",null,{"children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[],[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"Footer_footer_container__AzUAj","children":["$","div",null,{"className":"Footer_footer_wrapper__Z4mee","children":["$","p",null,{"children":["made with ",["$","span",null,{"children":"♥"}]," by Magda "]}]}]}]]}]}]}]]}],{"children":["works",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","works","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["id","begame-transaction-history","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","works","children","$0:f:0:1:2:children:2:children:0","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/6c737fa6f4fa69b2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/dfe06b57a964deb2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L6",null,{"children":"$L7"}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","I-Pf4dLIOh8inY6VF39F-",{"children":[["$","$L8",null,{"children":"$L9"}],["$","$La",null,{"children":"$Lb"}],null]}]]}],false]],"m":"$undefined","G":["$c","$undefined"],"s":false,"S":true}
 d:I[8173,["173","static/chunks/173-c72f956e0e7ca46c.js","970","static/chunks/970-30ff41fb97e0fce7.js","695","static/chunks/app/works/%5Bid%5D/page-babca4cb7b198c31.js"],""]
-e:T1105,<h2>My role</h2>
+e:T11dc,<h2>My role</h2>
 <ul>
 <li>User research &#x26; analysis</li>
 <li>UX and UI redesign</li>
@@ -52,30 +52,22 @@ This project simplified deposits and withdrawals, introduced intuitive transacti
 <p>Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member attrition.</p>
 <h2>Solution</h2>
 <p>To address these challenges, I proposed a redesign of the transactions page. The updated design was intended to provide a more organized, accessible, and informative transaction experience that empowered users to track their activity confidently and independently.</p>
-<ul>
-<li>Wireframe: I created low-fidelity wireframes to outline key layout variations and gathered user feedback on the concepts.</li>
-</ul>
-<p><img src="/works/begame-transaction-history/Transaction_004.png" alt="Wireframes" title="Transactions oerview page wireframes"></p>
-<ul>
-<li>
-<p>High-fidelity designs: Once wireframes got approved, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.</p>
-</li>
-<li>
-<p>Design system: To ensure consistency, I created components for the design system and detailed guidelines to support development and QA teams.</p>
-</li>
-</ul>
+<h2>Wireframes</h2>
+<p>I created wireframes to outline key layout variations for the transaction overview page and gathered user feedback on the concepts.</p>
+<p><img src="/works/begame-transaction-history/Transaction_000.png" alt="Wireframes" title="Transactions oerview page wireframes"></p>
+<h2>High-fidelity design</h2>
+<p>Once the decision was made which direction to take, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.</p>
+<h2>Design system</h2>
+<p>To ensure consistency, I created the transaction cards components for the design system and detailed guidelines to support development and QA teams.</p>
 <p><img src="/works/begame-transaction-history/Transaction_002.png" alt="Transaction history component" title="Transaction cards in component library"></p>
-<ul>
-<li>Mockup: Final mockups for every breakpoint.</li>
-</ul>
+<h2>Mockup</h2>
+<p>I created the final mockups for every breakpoint.</p>
 <p><img src="/works/begame-transaction-history/Transaction_001.png" alt="Breakpoints" title="Preview of all breakpoints and how cards were set up"></p>
-<ul>
-<li>Error handeling and empty states</li>
-</ul>
+<h2>Error handeling and empty states</h2>
+<p>I made sure to create mockups for each error. For this I worked closely with the development team. Also created mockups for the empty states and other edge cases.</p>
 <p><img src="/works/begame-transaction-history/Transaction_003.png" alt="Unhappy flows" title="Preview of all errors that can happen during deposit and withdrawal"></p>
-<ul>
-<li>Testing: I conducted usability tests with five users on UserTesting.com to validate and refine the high-fidelity prototypes.</li>
-</ul>
+<h2>Usability testing</h2>
+<p>I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes.</p>
 <h2>Impact</h2>
 <p>The redesigned transactions page led to significant improvements, including reduced support inquiries due to a clearer layout and transaction duration information. This project demonstrated the value of research and iterative design, as user testing helped inform design choices that addressed pain points and improved both user experience and platform efficiency.</p>
 <h2>But UX is never done...</h2>
