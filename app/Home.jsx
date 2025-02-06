@@ -18,7 +18,7 @@ const Home = () => {
               View work
             </PrimaryButton>
             <SecondaryButton
-              href="/magda_kovacs_2024.pdf"
+              href="/magda_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
