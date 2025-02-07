@@ -6,7 +6,7 @@ const About = () => {
       <div className={styles.about_wrapper}>
         <h1>about.</h1>
         <p>
-        I’ve worked as a <b className={styles.highlight}>product designer</b> across startups, non-profits, and creative agencies, focusing on <b className={styles.highlight}>fashion-tech, online gaming, and recruitment</b>, helping companies launch user-centered products.
+        I’ve helped launch successful digital products in <b className={styles.highlight}>fashion-tech, gaming, and recruitment</b>, ensuring user-centered experiences that drive engagement and retention.
         </p>
         <p>
         Everything I’ve done has been in pursuit of <b className={styles.highlight}>understanding people</b> more deeply and <b className={styles.highlight}>solving problems</b>.
