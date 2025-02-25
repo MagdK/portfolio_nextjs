@@ -7,10 +7,12 @@ const Home = () => {
   return (
     <section className={styles.home_container}>
       <div className={styles.home_wrapper}>
-        <div className={styles.home_wrapper_col_1}>
-          <p>Hello, I am Magda,</p>
-          <h3><span></span></h3>
-          <p>looking for my next challenge to deliver business value and level up my skills.</p>
+        <Image
+            className={styles.profile_pic}
+            src={profilePic}
+            alt="Image of Magda Kovacs"
+          />
+          <p>Hello, I’m <b className={styles.highlight}>Magda</b>, a product designer based in Amsterdam, the Netherlands, looking for my next challenge. </p>
           <div className={styles.btn_container}>
             <PrimaryButton
               href="#work_section"
@@ -25,14 +27,6 @@ const Home = () => {
               Download resume
             </SecondaryButton>
           </div>
-        </div>
-        <div className={styles.home_wrapper_col_2}>
-          <Image
-            className={styles.profile_pic}
-            src={profilePic}
-            alt="Image of Magda Kovacs"
-          />
-        </div>
       </div>
     </section>
   )

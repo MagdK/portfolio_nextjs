@@ -2,146 +2,61 @@
 
 // HOME SECTION
 
-@media only screen and (min-width: $grid-width-tablet) {
-	.home_container {
-		height: 80vh;
-		background-color: $color-white;
-		display: flex;
-		align-items: center;
+.home_container {
+	height: 60vh;
+	background-color: $color-white;
+	padding: $spacing-gigantic 0 ($spacing-huge * 1.5);
 
-		.home_wrapper {
-			width: $grid-width-desktop;
-			margin: 0 auto;
-			padding: $spacing-huge $spacing-large;
-			display: flex;
+	.home_wrapper {
+		max-width: $grid-width-desktop;
+		margin: 0 auto;
 
-			.home_wrapper_col_1 {
-				width: calc(3 * ((100% - $spacing-large) / 5) + $spacing-large);
+		.profile_pic {
+			width: 120px;
+			height: 120px;
+			border-radius: 60px;
+			margin-bottom: $spacing-small;
+		}
 
-				.btn_container {
-					display:flex;
-					flex-flow: row wrap;
-					row-gap: $spacing-small;
-					column-gap: $spacing-small;
-					margin-top: $spacing-medium;
-				}
-			}
+		.highlight {
+            text-decoration: underline;
+            font-weight: inherit;
+            text-decoration-color: rgba($color-primary, 0.15);
+            @supports (text-decoration-skip-ink: none) and (text-underline-offset: 1em) {
+                text-underline-offset: -0.65em;
+                text-decoration-thickness: 0.6em;
+                text-decoration-skip-ink: none;
+            }
+        }
 
-			.home_wrapper_col_2 {
-				width: calc((100% - $spacing-large) / 4);
-				margin: auto auto;
-			}
+		.btn_container {
+			display:flex;
+			flex-flow: row wrap;
+			row-gap: $spacing-small;
+			column-gap: $spacing-small;
+			margin-top: $spacing-medium;
 		}
 
 		:global {
-
-			h1 {
-				max-width: $grid-width-desktop;
-			}
-
-			h3 {
-				padding-bottom: $spacing-xxsmall;
-			}
-
-			p:first-child {
-				padding-bottom: $spacing-xxsmall;
-			}
+			p {
+                max-width: calc($spacing-huge * 5);
+            }
 		}
 	}
 }
 
-@media only screen and (max-width: $grid-width-tablet) {
-	.home_container {
-		display: flex;
-		height: auto;
-		background-color: $color-white;
-		align-items:flex-end;
-
-		.home_wrapper {
-			display: flex;
-			max-width: $grid-width-tablet;
-			margin: 0 auto;
-			padding: $spacing-huge $spacing-large;
-			height: auto;
-			justify-content: space-around;
-			flex-direction: column-reverse;
-
-			.home_wrapper_col_1 {
-				max-width: $grid-width-tablet;
-				padding-top: $spacing-small;
-
-				.btn_container {
-					display:flex;
-					flex-flow: row wrap;
-					row-gap: $spacing-small;
-					column-gap: $spacing-small;
-					margin-top: $spacing-medium;
-				}
-			}
-
-			.home_wrapper_col_2 {
-				width: calc((100% - $spacing-large) / 2);
-			}
-		}
-
-		:global {
-
-			h1 {
-				max-width: $grid-width-desktop;
-			}
-
-			h3 {
-				padding-bottom: $spacing-xxsmall;
-			}
-
-			p:first-child {
-				padding-bottom: $spacing-xxsmall;
-			}
-		}
-	}
+@media only screen and (min-width: $grid-width-mobile) {
+    .home_container {
+        .home_wrapper {
+            padding: 0 $spacing-large;
+        }
+    }
 }
 
 @media only screen and (max-width: $grid-width-mobile) {
-	.home_container {
-		.home_wrapper {
-			padding: $spacing-huge $spacing-small;
-
-			.home_wrapper_col_1 {
-
-				.btn_container {
-					margin-top: $spacing-small;
-				}
-			}
-
-			.home_wrapper_col_2 {
-				width: calc((100% - $spacing-large) / 2);
-			}
-		}
-	}
-}
-
-.home_wrapper_col_1 span:before {
-	content: 'Problem solver';
-	animation: animate infinite 8s;
-}
-.home_wrapper_col_2 {
-	.profile_pic {
-		border-radius: 50%;
-		width: 100%;
-		height: auto;
-		object-fit: contain;
-	}
-}
-
-@keyframes animate {
-	0% {
-		content: 'Problem solver';
-	}
-	33% {
-		content: 'Product designer';
-	}
-	66% {
-		content: 'Front-end developer';
-
-	}
+    .home_container {
+        .home_wrapper {
+            padding: 0 $spacing-small;
+        }
+    }
 }
