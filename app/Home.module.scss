@@ -3,7 +3,7 @@
 // HOME SECTION
 
 .home_container {
-	height: 60vh;
+	// height: 60vh;
 	background-color: $color-white;
 	padding: $spacing-gigantic 0 ($spacing-huge * 1.5);
 
@@ -45,6 +45,13 @@
 	}
 }
 
+
+@media only screen and (max-width: $grid-width-tablet) {
+	.home_container {
+		height: 80vh;
+	}
+}
+
 @media only screen and (min-width: $grid-width-mobile) {
     .home_container {
         .home_wrapper {
@@ -55,6 +62,8 @@
 
 @media only screen and (max-width: $grid-width-mobile) {
     .home_container {
+		height: 100vh;
+
         .home_wrapper {
             padding: 0 $spacing-small;
         }
