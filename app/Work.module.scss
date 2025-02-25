@@ -56,6 +56,12 @@
             column-gap: $spacing-small;
             margin-top: $spacing-medium;
         }
+
+        :global {
+            h1 {
+                padding-bottom: $spacing-small;
+            }
+        }
     }
 }
 
