@@ -7,6 +7,21 @@
 
     .work_wrapper {
 
+        ::selection {
+            background-color:rgba($color-primary-lighter, 90%);
+        }
+
+        .highlight::selection {
+            text-decoration: underline;
+            font-weight: inherit;
+            text-decoration-color: rgba($color-primary-lighter, 1);
+            @supports (text-decoration-skip-ink: none) and (text-underline-offset: 1em) {
+                text-underline-offset: -0.65em;
+                text-decoration-thickness: 0.6em;
+                text-decoration-skip-ink: none;
+            }
+        }
+
         .work_list_wrapper {
 
             .work_list_card {
