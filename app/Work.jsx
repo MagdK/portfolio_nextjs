@@ -3,7 +3,6 @@
 import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
-import { PrimaryButton } from '@/components/Button';
 import { useState } from 'react';
 
 
@@ -47,21 +46,6 @@ export default function Work({ works }) {
           })}
 
 
-        </div>
-        <div className={styles.btn_container}>
-          <PrimaryButton
-            href="#work_section"
-            onClick={(event) => {
-              if (worksToDisplay.length === 6) {
-                event.preventDefault()
-                setWorksToDisplay(works)
-              } else {
-                setWorksToDisplay(works.slice(0, 6))
-              }
-            }}
-          >
-            {worksToDisplay.length === 6 ? "Show all" : "Show less"}
-          </PrimaryButton>
         </div>
       </div>
     </section>
