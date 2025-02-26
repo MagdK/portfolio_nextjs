@@ -6,16 +6,19 @@ const About = () => {
       <div className={styles.about_wrapper}>
         <h1>about.</h1>
         <p>
-        I’ve helped launch successful digital products in <b className={styles.highlight}>fashion-tech, gaming, and recruitment</b>, ensuring user-centered experiences that drive engagement and retention.
+        In 2017, I transitioned from print and digital design to product (UI/UX) design to solve problems with data-driven solutions. Since then, I’ve helped launch successful digital products across <b className={styles.highlight}>fashion-tech, gaming, and recruitment</b>, ensuring user-centered experiences that drive engagement and retention.
         </p>
+
         <p>
-        Everything I’ve done has been in pursuit of <b className={styles.highlight}>understanding people</b> more deeply and <b className={styles.highlight}>solving problems</b>.
+        I leveled up my skills with a front-end bootcamp in 2022, enabling <b className={styles.highlight}>seamless collaboration with front-end teams</b>. 
         </p>
+
         <p>
-        As a <b className={styles.highlight}>designer</b>, I’m interested in how to create experiences that are <b className={styles.highlight}>impactful, intuitive</b>, and perhaps, even a bit <b className={styles.highlight}>delightful</b>.
+        I’m passionate about crafting <b className={styles.highlight}>design systems, accessibility, and working with complex data</b>.
         </p>
+      
         <p>
-        When I’m not working, you’ll find me sipping tea and exploring the latest design trends, always eager to learn more about the human mind and body.
+        When I’m not working, you’ll find me outdoors or sipping tea while reading.
         </p>
       </div>
     </section>
