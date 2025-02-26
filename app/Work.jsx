@@ -15,7 +15,7 @@ export default function Work({ works }) {
       <div className={styles.work_wrapper}>
         <h1>work.</h1>
         <p>
-          Below are some of my projects I have worked on throughout my years of design and development.
+        Below are some of the projects I’ve worked on throughout my design career.
         </p>
         <div className={styles.work_list_wrapper}>
           {worksToDisplay.map((work) => {
