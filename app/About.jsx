@@ -6,7 +6,7 @@ const About = () => {
       <div className={styles.about_wrapper}>
         <h1>about.</h1>
         <p>
-        In 2017, I transitioned from print and digital design to product (UI/UX) design to solve problems with data-driven solutions. Since then, I’ve helped launch successful digital products across <b className={styles.highlight}>fashion-tech, gaming, and recruitment</b>, ensuring user-centered experiences that drive engagement and retention.
+        In 2017, I transitioned from print and digital design to UX/UI to <b className={styles.highlight}>combine creativity with strategy</b>—using data, research, and problem-solving to design with purpose. Since then, I’ve helped launch successful digital products across <b className={styles.highlight}>fashion-tech, gaming, and recruitment</b>, ensuring user-centered experiences that drive engagement and retention.
         </p>
 
         <p>
