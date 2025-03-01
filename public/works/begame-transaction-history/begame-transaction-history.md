@@ -11,23 +11,8 @@ listImages: false
 ---
 
 
-## My role
-- User research & analysis 
-- UX and UI redesign 
-- Component library
-- Usability testing
 
-## Duration
-3 X 2 week sprints
-
-## Tools
-- UserTesting.com
-- Whimsical
-- Sketch
-- Zeplin
-- BootstrapVue
-- Material Icon
-- Jira
+![My role, project duration and tools](/works/begame-transaction-history/Transaction_0000.png "An overview of what my role was during the project, how long it lasted and what tools I used")
 
 ## Project overview
 Users found the transaction processes confusing, leading to frequent support requests. 
@@ -59,18 +44,20 @@ I created wireframes to outline key layout variations for the transaction overvi
 ## High-fidelity design
 Once the decision was made which direction to take, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.
 
-## Design system
-To ensure consistency, I created the transaction cards components for the design system and detailed guidelines to support development and QA teams.
+![Before and after](/works/begame-transaction-history/Transaction_07.png "Screenshot of old UI of transactions page on the left side and a the new UI on the right side")
 
-![Transaction history component](/works/begame-transaction-history/Transaction_002.png "Transaction cards in component library")
+## Design system
+To ensure consistency, I designed the transaction card components for the shared library and created detailed guidelines to support development and QA teams.
+
+![Transaction history component](/works/begame-transaction-history/Transaction_08.png "Transaction cards in component library")
 
 ## Mockup
-I created the final mockups for every breakpoint. 
+I created mockups for all responsive breakpoints to ensure a seamless experience across different screen sizes.
 
 ![Breakpoints](/works/begame-transaction-history/Transaction_001.png "Preview of all breakpoints and how cards were set up")
 
 ## Error handeling and empty states
-I made sure to create mockups for each error. For this I worked closely with the development team. Also created mockups for the empty states and other edge cases. 
+I designed mockups for errors, empty states, and edge cases, collaborating closely with the development team.
 
 ![Unhappy flows](/works/begame-transaction-history/Transaction_003.png "Preview of all errors that can happen during deposit and withdrawal")
 
@@ -80,6 +67,7 @@ I set up usability tests on UserTesting.com to gather feedback from users and re
 ## Impact
 The redesigned transactions page led to significant improvements, including reduced support inquiries due to a clearer layout and transaction duration information. This project demonstrated the value of research and iterative design, as user testing helped inform design choices that addressed pain points and improved both user experience and platform efficiency.
 
+![Feedback from user](/works/begame-transaction-history/Transaction_09.png "Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!")
 
 ## But UX is never done...
 This project was completed four years ago, and looking back, here are a few areas I’d love to improve today:
