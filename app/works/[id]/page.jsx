@@ -22,7 +22,7 @@ const Page = async ({ params }) => {
 
   return (
     <div className={styles.details_content_wrapper}>
-      <Link href="/#work_section" className={styles.back_link}>Go back</Link>
+      <Link href="/#work_section" className={styles.back_link}>Back to works</Link>
       <h1>{frontmatter.title}</h1>
       <div className={styles.work_description} dangerouslySetInnerHTML={{ __html: html }}></div>
 
@@ -77,8 +77,8 @@ const Page = async ({ params }) => {
           })}
         </div>
       }
-      {prev && <Link href={prev.slug} className={styles.back_link}>previous</Link>}
-      {next && <Link href={next.slug} className={styles.back_link}>next</Link>}
+      {prev && <Link href={prev.slug} className={styles.back_link}>Previous work</Link>}
+      {next && <Link href={next.slug} className={styles.back_link}>Next work</Link>}
     </div>
   )
 }
