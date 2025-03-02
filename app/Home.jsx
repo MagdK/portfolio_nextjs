@@ -12,8 +12,7 @@ const Home = () => {
             src={profilePic}
             alt="Image of Magda Kovacs"
           />
-          <p>Hello, I’m <b className={styles.highlight}>Magda</b>, a product designer based in Amsterdam, the Netherlands.
-          Seeking my next challenge to create impactful solutions.</p>
+          <p>Hello, I’m <b className={styles.highlight}>Magda</b>, a product designer, passionate about crafting <b className={styles.highlight}>design systems</b>, ensuring <b className={styles.highlight}>accessibility</b>, and creating user-friendly experiences from <b className={styles.highlight}>complex data</b>.</p>
           <div className={styles.btn_container}>
             <PrimaryButton
               href="#work_section"
