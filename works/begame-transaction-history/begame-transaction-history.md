@@ -33,12 +33,30 @@ listImages: false
 
 - Improved user engagement by creating a more seamless and enjoyable experience.
 
+## Role
+- User research & analysis
+- UX and UI redesign
+- Component creation
+- Usability testing
+
+## Timeline
+- 3X2 weeks sprints
+
+## Tools
+- Sketch
+- Zeplin
+- Abstract
+- Whimsical
+- Usertesting.com
+- BootstrapVue
+- Material Icons
+- Jira
+
 ## Project overview
-Users found the transaction processes confusing, leading to frequent support requests. 
-This project simplified deposits and withdrawals, introduced intuitive transaction flows, and provided a clear overview, reducing support needs and enhancing user satisfaction.
+Confusing transaction processes led to frequent support requests. This project focused on deposits and withdrawals, improved transaction flows, and enhanced clarity of transaction history, reducing support needs and boosting user satisfaction.
 
 ## Problem statement
-Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member attrition.
+Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member loss.
 
 ## Problem discovery research
 - Feedback analysis: Reviewed insights from the customer success team to understand recurring user concerns.
@@ -82,7 +100,9 @@ I designed mockups for errors, empty states, and edge cases, collaborating close
 ![Unhappy flows](/works/begame-transaction-history/Transaction_07.png "Preview of all errors that can happen during deposit and withdrawal")
 
 ## Usability testing 
-I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes.
+I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes. These were some of the insights from the tests: 
+- Allowing users to save payment methods saves time and boosts satisfaction.
+- Toast messages offer sufficient feedback, while dialog boxes are distracting and unnecessary.
 
 ![Feedback from user](/works/begame-transaction-history/Transaction_08.png "Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!")
 
