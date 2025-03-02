@@ -10,8 +10,6 @@ listVideos: true
 listImages: false
 ---
 
-# Test
-
 <div class="container">
     
   <div class="case-study-image">
@@ -24,7 +22,7 @@ listImages: false
 
 </div>
 
-<!-- ![The end result of this project](/works/begame-transaction-history/Transaction_00000.png "Final mocks") -->
+![The end result of this project](/works/begame-transaction-history/Transaction_00000.png "Final mocks")
 
 ## Impact
 - Enhanced user satisfaction with improved usability and intuitive design.
