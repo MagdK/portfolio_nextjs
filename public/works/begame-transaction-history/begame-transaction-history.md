@@ -22,7 +22,7 @@ listImages: false
 
 </div>
 
-![The end result of this project](/works/begame-transaction-history/Transaction_00000.png "Final mocks")
+![The end result of this project](/works/begame-transaction-history/Transaction_01.png "Final mocks")
 
 ## Impact
 - Enhanced user satisfaction with improved usability and intuitive design.
@@ -47,12 +47,12 @@ Bingocams’ community members experienced challenges in obtaining a clear, orga
 
 - Key findings: Identified frustrations with unclear transaction statuses, cumbersome navigation, and the inability to cancel transactions, which drove dissatisfaction.
 
-![Before state of the transaction overview](/works/begame-transaction-history/Transaction_10.png "Preview of transactions before the redesign")
+![Before state of the transaction overview](/works/begame-transaction-history/Transaction_02.png "Preview of transactions before the redesign")
 
 ## Key findings
 What do users want: 
 
-![What do users want](/works/begame-transaction-history/Transaction_00.png "List of users' needs")
+![What do users want](/works/begame-transaction-history/Transaction_03.png "List of users' needs")
 
 
 ## Solution
@@ -61,28 +61,30 @@ To address these challenges, I proposed a redesign of the transactions page. The
 ## Wireframes
 I created wireframes to outline key layout variations for the transaction overview page and gathered user feedback on the concepts.
 
+![Wiewframe](/works/begame-transaction-history/Transaction_04.png "Concepts of new transaction")
+
 ## High-fidelity design
 Once the decision was made which direction to take, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.
 
 ## Design system
 To ensure consistency, I designed the transaction card components for the shared library and created detailed guidelines to support development and QA teams.
 
-![Transaction history component](/works/begame-transaction-history/Transaction_08.png "Transaction cards in component library")
+![Transaction history component](/works/begame-transaction-history/Transaction_05.png "Transaction cards in component library")
 
 ## Mockup
 I created mockups for all responsive breakpoints to ensure a seamless experience across different screen sizes.
 
-![Breakpoints](/works/begame-transaction-history/Transaction_001.png "Preview of all breakpoints and how cards were set up")
+![Breakpoints](/works/begame-transaction-history/Transaction_06.png "Preview of all breakpoints and how cards were set up")
 
 ## Error handeling and empty states
 I designed mockups for errors, empty states, and edge cases, collaborating closely with the development team.
 
-![Unhappy flows](/works/begame-transaction-history/Transaction_003.png "Preview of all errors that can happen during deposit and withdrawal")
+![Unhappy flows](/works/begame-transaction-history/Transaction_07.png "Preview of all errors that can happen during deposit and withdrawal")
 
 ## Usability testing 
 I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes.
 
-![Feedback from user](/works/begame-transaction-history/Transaction_09.png "Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!")
+![Feedback from user](/works/begame-transaction-history/Transaction_08.png "Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!")
 
 ## But UX is never done...
 This project was completed four years ago, and looking back, here are a few areas I’d love to improve today:
