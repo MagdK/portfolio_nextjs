@@ -2,6 +2,10 @@ import works from '@/works'
 import { remark } from 'remark';
 import html from 'remark-html';
 
+import rehypeRaw from 'rehype-raw';
+import rehypeStringify from 'rehype-stringify';
+import remarkRehype from 'remark-rehype';
+
 import styles from './page.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
@@ -9,7 +13,12 @@ import Mp4Video from '@/components/Mp4Video';
 import Link from 'next/link';
 
 async function markdownToHtml(markdown) {
-  const result = await remark().use(html).process(markdown)
+  // const result = await remark().use(html).process(markdown)
+  const result = await remark()
+    .use(remarkRehype) // Convert Markdown to HTML-compatible format
+    .use(rehypeRaw) // Allow raw HTML inside Markdown
+    .use(rehypeStringify) // Convert it to an HTML string
+    .process(markdown);
   return result.toString().replaceAll("href", 'target="_blank" href');
 }
 

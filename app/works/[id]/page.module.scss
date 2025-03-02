@@ -49,12 +49,12 @@
 
 
 	h1 {
-		font-size: 24px;
-		line-height: 32px;
+		font-size: 32px;
+		line-height: 48px;
 		font-weight: 600;
-		color: $color-primary;
+		color: $color-grey-1;
 		padding: $spacing-xsmall 0 $spacing-xsmall;
-		max-width: $grid-width-tablet;
+		max-width: $grid-width-mobile;
 	}
 
 	h2 {
