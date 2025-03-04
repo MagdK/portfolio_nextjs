@@ -58,12 +58,10 @@ Confusing transaction processes led to frequent support requests. This project f
 ## Problem statement
 Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member loss.
 
-## Problem discovery research
-- Feedback analysis: Reviewed insights from the customer success team to understand recurring user concerns.
+## Problem discovery
+- Reviewed insights from the customer success team to understand recurring user concerns.
 
-- User testing: Conducted usability tests with 5 new and 5 returning users via UserTesting.com, focusing on depositing, withdrawing, and navigation.
-
-- Key findings: Identified frustrations with unclear transaction statuses, cumbersome navigation, and the inability to cancel transactions, which drove dissatisfaction.
+- To uncover hidden pain points and validate customer success feedback, I conducted usability tests with 5 new and 5 returning users via UserTesting.com, focusing on deposits, withdrawals, and navigation.
 
 ![Before state of the transaction overview](/works/begame-transaction-history/Transaction_02.png "Preview of transactions before the redesign")
 
@@ -82,17 +80,15 @@ I created wireframes to outline key layout variations for the transaction overvi
 ![Wiewframe](/works/begame-transaction-history/Transaction_04.png "Concepts of new transaction")
 
 ## High-fidelity design
-Once the decision was made which direction to take, I developed high-fidelity prototypes that visually emphasized transaction status, and clear labels for each transaction type.
+Once the direction was decided, I developed high-fidelity prototypes that emphasized transaction status and clear labels, covering all responsive breakpoints for a seamless experience across screen sizes.
+
+![Breakpoints](/works/begame-transaction-history/Transaction_06.png "Preview of all breakpoints and how cards were set up")
 
 ## Design system
 To ensure consistency, I designed the transaction card components for the shared library and created detailed guidelines to support development and QA teams.
 
 ![Transaction history component](/works/begame-transaction-history/Transaction_05.png "Transaction cards in component library")
 
-## Mockup
-I created mockups for all responsive breakpoints to ensure a seamless experience across different screen sizes.
-
-![Breakpoints](/works/begame-transaction-history/Transaction_06.png "Preview of all breakpoints and how cards were set up")
 
 ## Error handeling and empty states
 I designed mockups for errors, empty states, and edge cases, collaborating closely with the development team.
