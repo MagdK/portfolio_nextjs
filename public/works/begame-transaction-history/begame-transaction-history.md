@@ -33,6 +33,9 @@ listImages: false
 
 - Improved user engagement by creating a more seamless and enjoyable experience.
 
+## Problem statement
+Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member loss.
+
 ## Role
 - User research & analysis
 - UX and UI redesign
@@ -54,9 +57,6 @@ listImages: false
 
 ## Project overview
 Confusing transaction processes led to frequent support requests. This project focused on deposits and withdrawals, improved transaction flows, and enhanced clarity of transaction history, reducing support needs and boosting user satisfaction.
-
-## Problem statement
-Bingocams’ community members experienced challenges in obtaining a clear, organized overview of their transactions. Although the transaction processes themselves were functional, a lack of clear information led to user confusion, increased customer support inquiries, and, potentially, member loss.
 
 ## Problem discovery
 - Reviewed insights from the customer success team to understand recurring user concerns.
@@ -84,23 +84,22 @@ Once the direction was decided, I developed high-fidelity prototypes that emphas
 
 ![Breakpoints](/works/begame-transaction-history/Transaction_06.png "Preview of all breakpoints and how cards were set up")
 
-## Design system
-To ensure consistency, I designed the transaction card components for the shared library and created detailed guidelines to support development and QA teams.
-
-![Transaction history component](/works/begame-transaction-history/Transaction_05.png "Transaction cards in component library")
-
-
 ## Error handeling and empty states
 I designed mockups for errors, empty states, and edge cases, collaborating closely with the development team.
 
 ![Unhappy flows](/works/begame-transaction-history/Transaction_07.png "Preview of all errors that can happen during deposit and withdrawal")
 
 ## Usability testing 
-I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes. These were some of the insights from the tests: 
+I set up usability tests on UserTesting.com to gather feedback from users and refine the high-fidelity prototypes. The most important insights from were: 
 - Allowing users to save payment methods saves time and boosts satisfaction.
 - Toast messages offer sufficient feedback, while dialog boxes are distracting and unnecessary.
 
 ![Feedback from user](/works/begame-transaction-history/Transaction_08.png "Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!")
+
+## Design system
+To ensure consistency, I designed the transaction card components for the shared library and created detailed guidelines to support development and QA teams.
+
+![Transaction history component](/works/begame-transaction-history/Transaction_05.png "Transaction cards in component library")
 
 ## But UX is never done...
 This project was completed four years ago, and looking back, here are a few areas I’d love to improve today:
