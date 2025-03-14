@@ -101,10 +101,10 @@ const Page = async ({ params }) => {
       </div>
 
       <div className={styles.image_container}>
-        <Image src={designSystem1} />
-        <Image src={designSystem2} />
-        <Image src={designSystem3} />
         <Image src={designSystem4} />
+        <Image src={designSystem3} />
+        <Image src={designSystem2} />
+        <Image src={designSystem1} />
       </div>
     </div>
   )

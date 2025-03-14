@@ -1,6 +1,7 @@
 import styles from '../page.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
+import Mp4Video from '@/components/Mp4Video';
 import Link from 'next/link';
 import img1 from './Transaction_01.png'
 import img2 from './Transaction_02.png'
@@ -24,8 +25,6 @@ const Page = async ({ params }) => {
             <h1>{metadata.title}</h1>
             <div className={styles.work_description}>
                 <Image src={img1} />
-                <p>This is where your case study description goes. You can write as much as you want, and it will stay in a two-column layout on desktop but collapse to a single column on mobile.</p>
-                <Image src={img2} title="Final mocks" alt="The end result of this project" />
 
                 <h2 id="impact">Impact</h2>
                 <ul>
@@ -143,6 +142,16 @@ const Page = async ({ params }) => {
                     <li><p>Enhance assisted onboarding to help all users quickly understand
                         the updated transaction processes.</p></li>
                 </ul>
+            </div>
+
+            <div className={styles.image_container} style={{ marginTop: '2em' }}>
+                <Mp4Video
+                    src="/works/begame-transaction-history-withdrawal_flow_02.mp4"
+                    width="100%"
+                    height="100%"
+                    layout="responsive"
+                    objectFit="contain"
+                />
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import begameDesignSystem from './works/begame-design-system/begame-design-system.png'
 import begameTransactionHistory from './works/begame-transaction-history/begame-transaction-history.png'
+import virtualShowroom from './works/fashionTrade-virtual-showroom/fashionTrade-virtual-showroom.png'
 
 function WorkTile({ slug, image, title, subtitle }) {
   return (
@@ -49,6 +50,11 @@ export default function Work({ works }) {
             image={begameDesignSystem}
             title="Crafting a future-proof design system for an online gaming platform"
             subtitle="Begame · 2021" />
+          <WorkTile
+            slug="fashionTrade-virtual-showroom"
+            image={virtualShowroom}
+            title="Digital showroom for a B2B fashiontech app"
+            subtitle="fashionTrade · 2019" />
         </div>
       </div>
     </section>
