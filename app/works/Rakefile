@@ -1,0 +1,15 @@
+require 'rake'
+require 'rake/clean'
+
+target_files = FileList.new('**/*.md').ext('html')
+CLEAN.add(*target_files)
+CLEAN.add('**/page.html')
+CLEAN.add('**/page.jsx')
+CLEAN.exclude('id/page.jsx')
+
+rule '.html' => ['.md'] do |t|
+  sh "pandoc #{t.source} -o #{t.name}"
+  sh "mv #{t.name} #{File.dirname(t.name)}/page.jsx"
+end
+
+task default: target_files
