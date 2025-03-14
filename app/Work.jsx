@@ -1,51 +1,48 @@
-'use client';
-
 import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
-import { useState } from 'react';
+
+import begameDesignSystem from './works/begame-design-system/begame-design-system.png'
+
+function WorkTile({ slug, image, title, subtitle }) {
+  return (
+    <div className={styles.work_list_card} key={slug} >
+      <Link href={`/works/${slug}`}>
+        <Image
+          src={image}
+          className={styles.work_card_image}
+          style={{
+            width: "100%",
+            height: "auto",
+            objectFit: "contain"
+          }}
+        >
+        </Image>
+        <div className={styles.work_card_description_wrapper}>
+          <p className={styles.work_title_tag}>{title}</p>
+          <p className={styles.work_role_tag}>{subtitle}</p>
+        </div>
+      </Link>
+    </div>
+  )
+}
 
 
 export default function Work({ works }) {
-  const [worksToDisplay, setWorksToDisplay] = useState(works.slice(0, 6));
-
   return (
     <section className={styles.work_container} id="work_section">
       <div className={styles.work_wrapper}>
         <h1>work.</h1>
         <p>
-        Below are some of the projects I’ve worked on throughout my design career.
+          Below are some of the projects I’ve worked on throughout my design career.
         </p>
+        <pre>{JSON.stringify(works, null, 2)}</pre>
         <div className={styles.work_list_wrapper}>
-          {worksToDisplay.map((work) => {
-            return (
-              <div
-                className={styles.work_list_card}
-                key={work.slug}
-              >
-
-                <Link href={`/works/${work.slug}`}>
-                  <Image
-                    src={`/works/${work.slug}/${work.slug}.png`}
-                    alt={`${work.slug}`} width="400" height="400"
-                    className={styles.work_card_image}
-                    style={{
-                      width: "100%",
-                      height: "auto",
-                      objectFit: "contain"
-                    }}
-                  >
-                  </Image>
-                  <div className={styles.work_card_description_wrapper}>
-                    <p className={styles.work_title_tag}>{work.frontmatter.title}</p>
-                    <p className={styles.work_role_tag}>{work.frontmatter.role}</p>
-                  </div>
-                </Link>
-              </div>
-            )
-          })}
-
-
+          <WorkTile
+            slug="begame-design-system"
+            image={begameDesignSystem}
+            title="Crafting a future-proof design system for an online gaming platform"
+            subtitle="Begame · 2021" />
         </div>
       </div>
     </section>

@@ -1,4 +1,3 @@
-import works from '@/works'
 import styles from '../page.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
@@ -8,19 +7,13 @@ import designSystem2 from './Design system_2.png'
 import designSystem3 from './Design system_3.png'
 import designSystem4 from './Design system_4.png'
 
+// HTML meta tags
 export const metadata = {
   title: 'Crafting a future-proof design system for an online gaming platform',
   description: '...',
 }
 
 const Page = async ({ params }) => {
-  const { id } = 'begame-design-system'
-  const prev = works.previous(id)
-  const next = works.next(id)
-
-  // cover_image: "begame-design-system.png"
-  // tags: Design system, Colour theory, UI, Accessibility, Atomic design, Responsive design, Bootstrap,  Sketch, Zeplin, Abstract
-
   return (
     <div className={styles.details_content_wrapper}>
       <Link href="/#work_section" className={styles.back_link}>Back to works</Link>
@@ -113,9 +106,6 @@ const Page = async ({ params }) => {
         <Image src={designSystem3} />
         <Image src={designSystem4} />
       </div>
-
-      {prev && <Link href={prev.slug} className={styles.back_link}>Previous work</Link>}
-      {next && <Link href={next.slug} className={styles.back_link}>Next work</Link>}
     </div>
   )
 }
