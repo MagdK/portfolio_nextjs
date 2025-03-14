@@ -12,6 +12,7 @@ function WorkTile({ slug, image, title, subtitle }) {
       <Link href={`/works/${slug}`}>
         <Image
           src={image}
+          alt={title}
           className={styles.work_card_image}
           style={{
             width: "100%",
