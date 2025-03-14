@@ -1,5 +1,3 @@
-import works from '@/works'
-
 import Home from './Home';
 import About from './About';
 import Work from './Work';
@@ -14,7 +12,7 @@ export default function Page() {
     <main >
       <Home />
       <About />
-      <Work works={works.all()} />
+      <Work />
       <Contact />
     </main>
   )
