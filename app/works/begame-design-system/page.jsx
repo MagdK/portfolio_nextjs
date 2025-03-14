@@ -113,6 +113,9 @@ const Page = async ({ params }) => {
         <Image src={designSystem3} />
         <Image src={designSystem4} />
       </div>
+
+      {prev && <Link href={prev.slug} className={styles.back_link}>Previous work</Link>}
+      {next && <Link href={next.slug} className={styles.back_link}>Next work</Link>}
     </div>
   )
 }
