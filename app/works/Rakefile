@@ -9,7 +9,41 @@ CLEAN.exclude('id/page.jsx')
 
 rule '.html' => ['.md'] do |t|
   sh "pandoc #{t.source} -o #{t.name}"
-  sh "mv #{t.name} #{File.dirname(t.name)}/page.jsx"
+  File.write("#{File.dirname(t.name)}/page.jsx", <<~TEXT)
+import styles from '../page.module.scss';
+import { PrimaryButton, SecondaryButton } from '@/components/Button';
+import Image from '@/components/Image';
+import Link from 'next/link';
+
+// HTML meta tags
+export const metadata = {
+  title: 'Crafting a future-proof design system for an online gaming platform',
+  description: '...',
+}
+
+const Page = async ({ params }) => {
+  return (
+    <div className={styles.details_content_wrapper}>
+      <Link href="/#work_section" className={styles.back_link}>Back to works</Link>
+      <h1>{metadata.title}</h1>
+      <div className={styles.work_description}>
+  TEXT
+  sh "cat #{t.name} >> #{File.dirname(t.name)}/page.jsx"
+
+  File.open("#{File.dirname(t.name)}/page.jsx", File::APPEND) do |f|
+    f << <<~TEXT
+      </div>
+
+      <div className={styles.image_container}>
+      </div>
+    </div>
+  )
+}
+export default Page
+TEXT
+  end
+
+  sh "rm #{t.name}"
 end
 
 task default: target_files

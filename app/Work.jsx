@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 
 import begameDesignSystem from './works/begame-design-system/begame-design-system.png'
+import begameTransactionHistory from './works/begame-transaction-history/begame-transaction-history.png'
 
 function WorkTile({ slug, image, title, subtitle }) {
   return (
@@ -38,6 +39,11 @@ export default function Work({ works }) {
         </p>
         <pre>{JSON.stringify(works, null, 2)}</pre>
         <div className={styles.work_list_wrapper}>
+          <WorkTile
+            slug="begame-transaction-history"
+            image={begameTransactionHistory}
+            title="Transforming the online gaming transaction experience"
+            subtitle="Begame · 2020" />
           <WorkTile
             slug="begame-design-system"
             image={begameDesignSystem}
