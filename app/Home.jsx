@@ -1,7 +1,7 @@
 import styles from './Home.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from 'next/image'
-import profilePic from '../public/crazy_profile_pic.png'
+import profilePic from '../public/profile_picture.png'
 
 const Home = () => {
   return (
