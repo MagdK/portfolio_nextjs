@@ -87,11 +87,12 @@ const Page = async ({ params }) => {
                         via UserTesting.com, focusing on deposits, withdrawals, and
                         navigation.</p></li>
                 </ul>
+                <h2>Users&#39; pain points before the redesign</h2>
                 <Image src={img2}
                     title="Preview of transactions before the redesign"
                     alt="Before state of the transaction overview" />
 
-                <h2 id="key-findings">Key findings - users&#39; pain points</h2>
+                {/* <h2 id="key-findings">Key findings - users&#39; pain points</h2>
                 <ul>
                     <li><p>Hard to access transaction overview.</p></li>
                     <li><p>Transactions lack clear differentiation by type.</p></li>
@@ -99,7 +100,7 @@ const Page = async ({ params }) => {
                     <li><p>Users have no way to cancel transactions unless contacting the support team.</p></li>
                     <li><p>Transaction statuses are unclear.</p></li>
                     <li><p>Poor colour contrast affects usability.</p></li>
-                </ul>
+                </ul> */}
 
                 <h2 id="solution">Solution</h2>
                 <p>To address these challenges, I proposed a redesign of the
