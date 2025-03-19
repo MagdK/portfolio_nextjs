@@ -2,14 +2,14 @@ import styles from '../page.module.scss';
 import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
 import Link from 'next/link';
-import designSystem1 from './Design system_1.png'
+import designSystem1 from './Design_system_01.png'
 import designSystem2 from './Design system_2.png'
 import designSystem3 from './Design system_3.png'
 import designSystem4 from './Design system_4.png'
 
 // HTML meta tags
 export const metadata = {
-  title: 'Crafting a future-proof design system for an online gaming platform',
+  title: 'Future-proof design system for a bingo platform ',
   description: '...',
 }
 
@@ -18,6 +18,8 @@ const Page = async ({ params }) => {
     <div className={styles.details_content_wrapper}>
       <Link href="/#work_section" className={styles.back_link}>Back to works</Link>
       <h1>{metadata.title}</h1>
+
+      <Image src={designSystem1} alt="Sneak a peak"/>
       <div className={styles.work_description}>
         <h2 id="impact">Impact</h2>
         <p>The introduction of the design system had a notable impact on both
