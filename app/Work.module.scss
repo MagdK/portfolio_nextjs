@@ -25,6 +25,7 @@
         .work_list_wrapper {
 
             .work_list_card {
+                overflow: hidden; 
     
                 .work_card_image {
                     transition: transform .5s ease;

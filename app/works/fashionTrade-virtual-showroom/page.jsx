@@ -16,6 +16,9 @@ const Page = ({ params }) => {
     <div className={styles.details_content_wrapper}>
       <Link href="/#work_section" className={styles.back_link}>Back to works</Link>
       <h1>{metadata.title}</h1>
+      <div className={styles.image_container}>
+        <Image src={img1} alt="Whiteboard and team photos"/>
+      </div>
       <div className={styles.work_description}>
         <h2 id="objective">Objective</h2>
         <p>Create a digital showroom experience enabling fashion brands to
@@ -115,16 +118,6 @@ const Page = ({ params }) => {
         <p>As a result, brand sign-ups increased significantly, demonstrating
           the demand and effectiveness of this digital solution.</p>
       </div>
-
-      <div className={styles.btn_container}>
-        <PrimaryButton
-          href="https://www.fashiontrade.com/brands/digital-showroom-fashion/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Website
-        </PrimaryButton>
-      </div>
       <div className={styles.image_container} style={{ marginTop: '2em' }}>
         <Mp4Video
           src="/works/fashionTrade-virtual-showroom_prototype_01.mp4"
@@ -133,10 +126,6 @@ const Page = ({ params }) => {
           layout="responsive"
           objectFit="contain"
         />
-      </div>
-
-      <div className={styles.image_container}>
-        <Image src={img1} />
       </div>
     </div>
   )
