@@ -3,7 +3,7 @@ import { PrimaryButton, SecondaryButton } from '@/components/Button';
 import Image from '@/components/Image';
 import Link from 'next/link';
 import designSystem1 from './Design_system_01.png'
-import designSystem2 from './Design system_2.png'
+import designSystem2 from './Design_system_02.png'
 import designSystem3 from './Design system_3.png'
 import designSystem4 from './Design system_4.png'
 
@@ -21,6 +21,8 @@ const Page = async ({ params }) => {
 
       <Image src={designSystem1} alt="Sneak a peak"/>
       <div className={styles.work_description}>
+        {/* <h2>Bingocams</h2>
+        <p>Bingocams is an online bingo platform, primarily serving the UK, that brings people together through fun, interactive gameplay while fostering a strong sense of community.</p> */}
         <h2 id="impact">Impact</h2>
         <p>The introduction of the design system had a notable impact on both
           the product and team workflows:</p>
@@ -47,51 +49,49 @@ const Page = async ({ params }) => {
           and requiring repetitive work for common UI elements. This inconsistency
           affected both the platform’s usability and the speed of
           implementation.</p>
-        <h2 id="role">Role</h2>
-        <p>Lead desinger</p>
-        <h2 id="tools">Tools</h2>
-        <ul>
-          <li>Sketch</li>
-          <li>Zeplin</li>
-          <li>BootstrapVue</li>
-          <li>Material Icons</li>
-          <li>WebAIM contrast checker</li>
-          <li>Confluence</li>
-          <li>Jira</li>
-        </ul>
-        <h2 id="duration">Duration</h2>
-        <ul>
-          <li>4X2 weeks sprints</li>
-          <li>maintanance for an other year</li>
-        </ul>
-        <h2 id="project-overview">Project overview</h2>
-        <p>To streamline the collaboration between product and development teams
-          and create a cohesive visual language across the Bingocams platform, I
-          co-led the creation of a robust design system. Built on Bootstrap, the
-          system became the UI backbone, providing a library of reusable
-          components, design guidelines, and visual standards that enhanced
-          consistency across the platform. By establishing a scalable design
-          framework, we were able to expedite feature development and improve
-          cross-functional communication, ensuring alignment on visual and
-          functional details from the outset.</p>
-        <h2 id="process">Process</h2>
-        <ul>
-          <li><p>Research &amp; Analysis: Conducted an audit of existing UI
-            elements to identify inconsistencies and redundancies across the
-            platform.</p></li>
-          <li><p>Design System Structure: Created a component library using
-            BootstrapVue as a foundation, prioritizing components commonly used
-            across Bingocams.co.uk. Worked with stakeholders to define design
-            guidelines, ensuring they were aligned with the brand’s visual identity
-            and adaptable to various platform requirements.</p></li>
-          <li><p>Documentation: Documented each component’s usage, interaction
-            states, and styling specifications in Zeplin, making it easier for
-            developers to integrate components accurately.</p></li>
-          <li><p>Iterative Testing &amp; Feedback: Regularly tested components in
-            the platform environment, gathered feedback from both designers and
-            developers, and made adjustments as needed. This collaborative process
-            helped us refine and expand the design system over time.</p></li>
-        </ul>
+
+        <div className={styles.table_container}>
+          <div className={styles.column}>
+            <h2 id="tools">Deliverables</h2>
+              <ul>
+                <li>Design system</li>
+                <li>Token library</li>
+                <li>Component library</li>
+                <li>Design guidelines and documentation</li>
+                <li>Product design</li>
+              </ul> 
+              </div> 
+                <div className={styles.column}>
+                  <h2 id="role">Expertise</h2>
+                  <ul>
+                    <li>Design systems</li>
+                    <li>Design tokens</li>
+                    <li>Product design</li>
+                  </ul>
+                    <h2 id="timeline">Timeline</h2>
+                    <ul>
+                      <li>4X2 weeks sprints + continuous maintenance</li>
+                    </ul>  
+                  </div>
+          </div>  
+
+        <h2 id="project-overview">The challenge</h2>
+        <p>
+          Our goal was to create an adaptable design system that is easy to manage, and can support the expansion of the company&#39;s gaming brands.
+        </p>
+        <p>
+          To build a lasting design system, a solid foundation is essential.
+        </p>
+        <p>
+          Building components is the easy part, the true success of design systems—and their impact on company growth—lies in a well-structured token architecture, robust sub-systems, cohesive core styles, and strong team collaboration.
+        </p>
+
+        <Image src={designSystem2} alt="Team collaboration"/>
+
+        <h2 id="process">Healthy collaboration</h2>
+        <p>
+        While design system development often prioritises technical needs over cross-team collaboration, finding a balance is crucial. By fostering a culture of open communication, adapting the system to team needs, and actively listening to feedback while incorporating it, we can create a system that truly works for everyone.
+        </p>
         <h2 id="results">Results</h2>
         <p>The design system became a pivotal tool in ensuring a unified user
           experience across Bingocams.co.uk. Thanks to the structured
@@ -102,12 +102,12 @@ const Page = async ({ params }) => {
           innovation.</p>
       </div>
 
-      <div className={styles.image_container}>
+      {/* <div className={styles.image_container}>
         <Image src={designSystem4} />
         <Image src={designSystem3} />
         <Image src={designSystem2} />
         <Image src={designSystem1} />
-      </div>
+      </div> */}
     </div>
   )
 }
