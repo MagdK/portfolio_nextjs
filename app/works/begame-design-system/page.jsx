@@ -10,7 +10,7 @@ import designSystem5 from './Design_system_05.png'
 
 // HTML meta tags
 export const metadata = {
-  title: 'Future-proof design system for a bingo platform ',
+  title: 'Setting up a future-proof design system for a bingo community ',
   description: '...',
 }
 
