@@ -2,9 +2,9 @@ import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
 
-import begameDesignSystem from './works/begame-design-system/begame-design-system.png'
-import begameTransactionHistory from './works/begame-transaction-history/begame-transaction-history.png'
-import virtualShowroom from './works/fashionTrade-virtual-showroom/fashionTrade-virtual-showroom.png'
+import begameDesignSystem from './works/begame-design-system/test_image.png'
+import begameTransactionHistory from './works/begame-transaction-history/Transaction_cover.png'
+import virtualShowroom from './works/fashionTrade-virtual-showroom/Showroom_cover.png'
 
 function WorkTile({ slug, image, title, subtitle }) {
   return (
@@ -45,16 +45,16 @@ export default function Work({ works }) {
             slug="begame-transaction-history"
             image={begameTransactionHistory}
             title="Transforming the online gaming transaction experience"
-            subtitle="Begame · 2020" />
+            subtitle="Begame · 2021" />
           <WorkTile
             slug="begame-design-system"
             image={begameDesignSystem}
             title="Crafting a future-proof design system for an online gaming platform"
-            subtitle="Begame · 2021" />
+            subtitle="Begame · 2020" />
           <WorkTile
             slug="fashionTrade-virtual-showroom"
             image={virtualShowroom}
-            title="Digital showroom for a B2B fashiontech app"
+            title="From paper to pixels: Digitalizing the B2B fashion showroom experience"
             subtitle="fashionTrade · 2019" />
         </div>
       </div>
