@@ -13,9 +13,9 @@ const About = () => {
         I leveled up my skills with a front-end bootcamp in 2022, enabling <b className={styles.highlight}>seamless collaboration with front-end teams</b>. 
         </p>
 
-        <p>
+        {/* <p>
         I’m passionate about crafting <b className={styles.highlight}>design systems, accessibility, and working with complex data</b>.
-        </p>
+        </p> */}
       
         <p>
         When I’m not working, you’ll find me outdoors or sipping tea while reading.
