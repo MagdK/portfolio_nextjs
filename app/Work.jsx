@@ -2,7 +2,7 @@ import styles from './Work.module.scss';
 import Link from 'next/link';
 import Image from 'next/image'
 
-import begameDesignSystem from './works/begame-design-system/test_image.png'
+import begameDesignSystem from './works/begame-design-system/Design_system_cover.png'
 import begameTransactionHistory from './works/begame-transaction-history/Transaction_cover.png'
 import virtualShowroom from './works/fashionTrade-virtual-showroom/Showroom_cover.png'
 
