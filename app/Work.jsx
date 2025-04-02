@@ -10,17 +10,19 @@ function WorkTile({ slug, image, title, subtitle }) {
   return (
     <div className={styles.work_list_card} key={slug} >
       <Link href={`/works/${slug}`}>
-        <Image
-          src={image}
-          alt={title}
-          className={styles.work_card_image}
-          style={{
-            width: "100%",
-            height: "auto",
-            objectFit: "contain"
-          }}
-        >
-        </Image>
+        <div className={styles.work_card_image_wrapper}>
+          <Image
+            src={image}
+            alt={title}
+            className={styles.work_card_image}
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "contain"
+            }}
+          >
+          </Image>
+        </div>
         <div className={styles.work_card_description_wrapper}>
           <p className={styles.work_title_tag}>{title}</p>
           <p className={styles.work_role_tag}>{subtitle}</p>

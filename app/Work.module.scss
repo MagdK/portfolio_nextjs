@@ -25,13 +25,43 @@
         .work_list_wrapper {
 
             .work_list_card {
-                overflow: hidden; 
-                // border-radius: 8px;
                 padding-bottom: $spacing-medium;
-    
-                .work_card_image {
-                    transition: transform .5s ease;
+                
+                .work_card_image_wrapper {
+                    overflow: hidden;
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
                     border-radius: 8px;
+
+                    .work_card_image {
+                        transition: transform .5s ease;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+                
+                }
+
+                &:hover {
+                    .work_card_image_wrapper {
+                        overflow: hidden;
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 8px;
+
+                        .work_card_image {
+                            transform: scale(1.05);
+                            border-radius: 8px;
+                        }
+
+                    }
+
+                    .work_title_tag {
+                        color: $color-primary;
+                    }
                 }
 
                 .work_card_description_wrapper {
@@ -55,16 +85,6 @@
                         color: $color-grey-2;
                     }
                 }
-
-                // &:hover {
-                //     .work_card_image {
-                //         transform: scale(1.05);
-                //     }
-
-                //     .work_title_tag {
-                //         color: $color-primary;
-                //     }
-                // }
             }
         }
 
