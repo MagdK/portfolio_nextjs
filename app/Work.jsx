@@ -17,8 +17,8 @@ function WorkTile({ slug, image, title, subtitle }) {
             className={styles.work_card_image}
             style={{
               width: "100%",
-              height: "auto",
-              objectFit: "contain"
+              height: "100%",
+              objectFit: "cover"
             }}
           >
           </Image>
