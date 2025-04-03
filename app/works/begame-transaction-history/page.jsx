@@ -120,21 +120,14 @@ const Page = async ({ params }) => {
                     that emphasized transaction status and clear labels, covering all
                     responsive breakpoints for a seamless experience across screen
                     sizes.</p>
-                    <div className={styles.image_container} style={{ marginTop: '2em' }}>
-                        <Mp4Video
-                            src="/works/begame-transaction-history-withdrawal_flow_02.mp4"
-                            width="100%"
-                            height="100%"
-                            layout="responsive"
-                            objectFit="contain"
-                        />
-                    </div>
+                    <Image src={img4}
+                    title="Preview of deposit overview" alt="Preview of deposit overview"/>
                 
                 <h2 id="error-handeling-and-empty-states">Error handeling and empty
                     states</h2>
                 <p>I designed mockups for errors, empty states, and other edge cases,
                     collaborating closely with the development team.</p>
-                <Image src={img6}
+                <Image src={img5}
                     title="Preview of all errors that can happen during deposit and withdrawal"
                     alt="Unhappy flows" />
 
@@ -144,15 +137,24 @@ const Page = async ({ params }) => {
                     insights from were: - Allowing users to save payment methods saves time
                     and boosts satisfaction. - Toast messages offer sufficient feedback,
                     while dialog boxes are distracting and unnecessary.</p>
-                <Image src={img7}
+                    <div className={styles.image_container} style={{ marginTop: '2em' }}>
+                        <Mp4Video
+                            src="/works/begame-transaction-history-withdrawal_flow_02.mp4"
+                            width="100%"
+                            height="100%"
+                            layout="responsive"
+                            objectFit="contain"
+                        />
+                    </div>
+                {/* <Image src={img7}
                     title="Being able to see the status of my transactions gives me such peace of mind, especially compared to before. Depositing and withdrawing is now a breeze!"
-                    alt="Feedback from user" />
+                    alt="Feedback from user" /> */}
 
                 <h2 id="design-system">Design system</h2>
                 <p>To ensure consistency, I designed the transaction card components for
                     the shared library and created detailed guidelines to support
                     development and QA teams.</p>
-                <Image src={img4}
+                <Image src={img7}
                     title="Transaction cards in component library"
                     alt="Transaction history component" />
 
