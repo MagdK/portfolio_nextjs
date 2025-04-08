@@ -7,7 +7,7 @@ import img1 from './showroom_01.png'
 
 // HTML meta tags
 export const metadata = {
-  title: 'Digital showroom for a B2B fashiontech app',
+  title: 'Digitalizing the B2B fashion showroom experience',
   description: '...',
 }
 

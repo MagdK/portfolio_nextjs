@@ -134,9 +134,11 @@ const Page = async ({ params }) => {
                 <h2 id="usability-testing">Usability testing</h2>
                 <p>I set up usability tests on UserTesting.com to gather feedback from
                     users and refine the high-fidelity prototypes. The most important
-                    insights from were: - Allowing users to save payment methods saves time
-                    and boosts satisfaction. - Toast messages offer sufficient feedback,
-                    while dialog boxes are distracting and unnecessary.</p>
+                    insights from were:</p>
+                <ul>
+                    <li><p>Allowing users to save payment methods saves time and boosts satisfaction.</p></li>
+                    <li><p>To confirm a deposit or withdrawal, toast messages offer sufficient feedback, while dialog boxes are distracting and unnecessary.</p></li>
+                        </ul>
                     <div className={styles.image_container} style={{ marginTop: '2em' }}>
                         <Mp4Video
                             src="/works/begame-transaction-history-withdrawal_flow_02.mp4"

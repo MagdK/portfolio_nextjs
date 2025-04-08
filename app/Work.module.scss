@@ -25,7 +25,7 @@
         .work_list_wrapper {
 
             .work_list_card {
-                margin-bottom: $spacing-large;
+                margin-bottom: $spacing-xlarge;
                 
                 .work_card_image_wrapper {
                     overflow: hidden;
@@ -72,16 +72,18 @@
                     padding-top: calc($spacing-xxsmall);
     
                     .work_title_tag {
-                        font-size: 18px;
-                        line-height: 26px;
-                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        font-weight: 600;
                         letter-spacing: 0.3px;
                         color: $color-grey-1;
+                        padding-top: $spacing-xxsmall;
+                        padding-bottom: $spacing-xxsmall/2;
                     }
 
                     .work_role_tag {
-                        font-size: 14px;
-                        line-height: 18px;
+                        font-size: 16px;
+                        line-height: 24px;
                         font-weight: 300;
                         display: inline;
                         width: inherit;
