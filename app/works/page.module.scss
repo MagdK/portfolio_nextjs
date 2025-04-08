@@ -101,6 +101,10 @@
 	}
 
 
+	.single_column {
+		margin: $spacing-xlarge 0 $spacing-huge;
+	}
+
 	.back_link {
 		color: $color-primary;
 		text-decoration: underline;
@@ -168,7 +172,7 @@
 	.column2 {
 		// min-width: 350px;
 		max-width: 50%;
-		padding: 0 $spacing-small;
+		padding: 0;
 	
 		p {
 			padding-bottom: $spacing-medium;
