@@ -30,12 +30,12 @@ const Page = async ({ params }) => {
           <li><p><b className={styles.emphasis}>Stronger collaboration:</b> By fostering open communication about teams&#39; needs, the system became a shared language that streamlined cross-team efforts.</p></li>
           <li><p><b className={styles.emphasis}>Speed & efficiency:</b> A unified library of components reduced redundant work, enabling faster iteration and delivery while cutting production costs.</p></li>
           <li><p><b className={styles.emphasis}>Scalability & flexibility:</b> As the product evolved, the system ensured consistency while allowing for effortless expansion and adaptation.</p></li>
-          <li><p><b className={styles.emphasis}>User impact:</b> A more cohesive and intuitive UI led to improved user satisfaction and engagement, validated through positive feedback.</p></li>
+          <li><p><b className={styles.emphasis}>User impact:</b> A more cohesive and intuitive interface led to improved user satisfaction and engagement.</p></li>
         </ul>
 
         <h2 id="project-overview">Problem statement</h2>
         <p>
-        Bingocams, a UK-based online gaming platform, lacked a structured design system, making its much-needed UI update challenging and inconsistent. To support future growth and a cohesive user experience, I led the creation of a scalable, adaptable design system to ensure consistency, enhance collaboration, and streamline the UI refresh.
+        Bingocams, a UK-based online gaming platform, lacked a design system, making its much-needed UI update challenging and inconsistent. To support future growth and a cohesive user experience, I led the creation of a scalable, adaptable design system to ensure consistency, enhance collaboration, and streamline the UI refresh.
         </p>        
 
         <div className={styles.table2_container}>
