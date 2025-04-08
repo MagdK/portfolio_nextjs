@@ -10,7 +10,7 @@ import img4 from './Transaction_04.png'
 import img5 from './Transaction_05.png'
 import img6 from './Transaction_06.png'
 import img7 from './Transaction_07.png'
-import img9 from './design_process.png'
+import img8 from './Transaction_10.png'
 
 // HTML meta tags
 export const metadata = {
@@ -46,8 +46,8 @@ const Page = async ({ params }) => {
                         information led to user confusion, increased customer support inquiries,
                         and, potentially, member loss.
                     </p>
-                    <Image src={img9}
-                        title="Process follwoed: Define, Research, Analyse, esign, Test" />
+                    <Image src={img8}
+                        title="Process was: Define, Research, Analyse, Design, Test" alt="Process was: Define, Research, Analyse, Design, Test"/>
                 </div>
 
                 <div className={styles.table_container}>
