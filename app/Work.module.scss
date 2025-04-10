@@ -32,7 +32,7 @@
                     position: relative;
                     width: 100%;
                     height: 0; // Set a fixed aspect ratio
-                    padding-top: 40%; // 16:9 aspect ratio
+                    padding-top: 56.25%; // 16:9 aspect ratio
                     border-radius: 8px;
 
                     .work_card_image {
@@ -44,20 +44,16 @@
                         position: absolute; // Ensure it stays within the wrapper
                         top: 0;
                         left: 0;
+                        transform-origin: center; // Ensure scaling happens from the center
                     }
                 }
 
                 &:hover {
                     .work_card_image_wrapper {
                         overflow: hidden;
-                        position: relative;
-                        width: 100%;
-                        height: 0; // Set a fixed aspect ratio
-                        padding-top: 40%; 
-                        border-radius: 8px;
 
                         .work_card_image {
-                            transform: scale(1.05);
+                            transform: scale(1.05); // Scale without affecting parent dimensions
                         }
                     }
                     .work_card_description_wrapper {
