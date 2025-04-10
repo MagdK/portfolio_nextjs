@@ -26,17 +26,49 @@ const Page = async ({ params }) => {
             <div className={styles.work_description}>
                 <Image src={img1} alt="Results"/>
 
-                <h2 id="impact">Impact</h2>
-                <ul>
-                    <li><p>Enhanced user satisfaction with improved usability and intuitive
-                        design.</p></li>
-                    <li><p>Decreased support inquiries by streamlining workflows and
-                        reducing friction points.</p></li>
-                    <li><p>Accelerated deposit and withdrawal processes, making transactions
-                        smoother and more efficient.</p></li>
-                    <li><p>Improved user engagement by creating a more seamless and
-                        enjoyable experience.</p></li>
-                </ul>
+                <div className={styles.triple_column}>
+                    <div className={styles.column_2x}>
+                        <h2 id="impact">Impact</h2>
+                        <ul>
+                            <li><p><b className={styles.emphasis}>Enhanced user satisfaction</b> with improved usability and intuitive
+                                design.</p></li>
+                            <li><p><b className={styles.emphasis}>Decreased support inquiries</b> by streamlining workflows and
+                                reducing friction points.</p></li>
+                            <li><p><b className={styles.emphasis}>Enhanced deposit and withdrawal processes</b>, making transactions
+                                smoother and more efficient.</p></li>
+                            <li><p><b className={styles.emphasis}>Improved user engagement</b> by creating a more seamless and
+                                enjoyable experience.</p></li>
+                        </ul>
+                    </div>
+                    
+                    <div className={styles.column_1x}>
+                        <h2 id="role">Role</h2>
+                        <ul>
+                            <li>User research &amp; analysis</li>
+                            <li>UX/UI redesign</li>
+                            <li>Component creation</li>
+                            <li>Design system updates</li>
+                            <li>Usability testing</li>
+                        </ul>
+                        <h2 id="timeline">Timeline</h2>
+                        <ul>
+                            <li>3X2 weeks sprints</li>
+                        </ul>  
+                    </div>
+                    <div className={styles.column_1x}>
+                        <h2 id="tools">Tools</h2>
+                        <ul>
+                            <li>Sketch</li>
+                            <li>Zeplin</li>
+                            <li>Abstract</li>
+                            <li>Whimsical</li>
+                            <li>Usertesting.com</li>
+                            <li>BootstrapVue</li>
+                            <li>Material Icons</li>
+                            <li>Jira</li>
+                        </ul> 
+                    </div>
+                </div>
 
                 <div className={styles.single_column}>
                     <h2 id="problem-statement">Problem statement</h2>
@@ -49,35 +81,7 @@ const Page = async ({ params }) => {
                     <Image src={img8}
                         title="Process was: Define, Research, Analyse, Design, Test" alt="Process was: Define, Research, Analyse, Design, Test"/>
                 </div>
-
-                <div className={styles.table_container}>
-                    <div className={styles.column}>
-                    <h2 id="tools">Tools</h2>
-                    <ul>
-                        <li>Sketch</li>
-                        <li>Zeplin</li>
-                        <li>Abstract</li>
-                        <li>Whimsical</li>
-                        <li>Usertesting.com</li>
-                        <li>BootstrapVue</li>
-                        <li>Material Icons</li>
-                        <li>Jira</li>
-                    </ul> 
-                    </div> 
-                    <div className={styles.column}>
-                        <h2 id="role">Role</h2>
-                        <ul>
-                            <li>User research &amp; analysis</li>
-                            <li>UX and UI redesign</li>
-                            <li>Component creation</li>
-                            <li>Usability testing</li>
-                        </ul>
-                        <h2 id="timeline">Timeline</h2>
-                        <ul>
-                            <li>3X2 weeks sprints</li>
-                        </ul>  
-                    </div>
-                </div>    
+ 
                 
                 <div className={styles.single_column}>
                     <h2 id="project-overview">Project overview</h2>

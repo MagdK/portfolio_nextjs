@@ -105,6 +105,25 @@
 		margin: $spacing-xlarge 0 $spacing-huge;
 	}
 
+	.triple_column {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 72px;
+		width: 100%;
+
+		.column_2x {
+			flex: 1;
+			max-width: 50%;
+			min-width: 300px;
+		}
+
+		.column_1x {
+			max-width: 25%;
+			min-width: 150px;
+		}
+	}
+
 	.back_link {
 		color: $color-primary;
 		text-decoration: underline;
@@ -143,10 +162,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: left;
-		flex-direction: column-reverse;
-		// max-width: $grid-width-desktop;
-		// margin: $spacing-huge 0;
-		
+		flex-direction: column-reverse;		
 	}
 	
 	.column2 {
