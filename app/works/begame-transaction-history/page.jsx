@@ -83,24 +83,21 @@ const Page = async ({ params }) => {
                 </div>
  
                 
-                <div className={styles.single_column}>
+                {/* <div className={styles.single_column}>
                     <h2 id="project-overview">Project overview</h2>
                     <p>Confusing transaction processes led to frequent support requests.
                         This project focused on deposits and withdrawals, improved transaction
                         flows, and enhanced clarity of transaction history, reducing support
                         needs and boosting user satisfaction.
                     </p>
-                </div>
+                </div> */}
 
                 <div className={styles.single_column}>
                     <h2 id="problem-discovery">Problem discovery</h2>
                     <ul>
-                        <li><p>Reviewed insights from the customer success team to understand
+                        <li><p>I have reviewed insights from the customer success team to understand
                             recurring user concerns.</p></li>
-                        <li><p>To uncover hidden pain points and validate customer success
-                            feedback, I conducted usability tests with 5 new and 5 returning users
-                            via UserTesting.com, focusing on deposits, withdrawals, and
-                            navigation.</p></li>
+                        <li><p>To uncover hidden pain points and validate customer success feedback, I conducted and analyzed user tests with five new and five returning users, focusing on deposits, withdrawals, and navigation within the existing design.</p></li>
                     </ul>
                 </div>
 
