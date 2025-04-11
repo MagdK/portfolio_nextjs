@@ -106,8 +106,8 @@ const Page = async ({ params }) => {
                     <h2>Analysis</h2>
                     <p>After gathering insights from stakeholder interviews, customer support data, competitor research, and usability testing, I synthesized the findings to identify patterns and <b className={styles.emphasis}>recurring pain points</b> across the user journey.</p>
                     <Image src={img2}
-                        title="Preview of transactions before the redesign"
-                        alt="Before state of the transaction overview" />
+                        title="Overview of all transactions before the redesign"
+                        alt="Overview of all transactions before the redesign" />
                 </div>
 
                 {/* <div className={styles.single_column}>
