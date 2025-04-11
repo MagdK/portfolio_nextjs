@@ -103,24 +103,36 @@ const Page = async ({ params }) => {
 
 
                 <div className={styles.single_column}>
-                    <h2>Users&#39; pain points before the redesign</h2>
+                    <h2>Analysis</h2>
+                    <p>Users&#39; pain points before the redesign</p>
                     <Image src={img2}
                         title="Preview of transactions before the redesign"
                         alt="Before state of the transaction overview" />
                 </div>
 
-                <div className={styles.single_column}>
+                {/* <div className={styles.single_column}>
                     <h2 id="solution">Solution</h2>
                     <p>To address these challenges, I proposed a redesign of the
                         transactions page. The updated design was intended to provide a more
                         organized, accessible, and informative transaction experience that
                         empowered users to track their activity confidently and
                         independently.</p>
-                </div>
+                </div> */}
 
                 <div className={styles.single_column}>
-                    <h2 id="wireframes">Wireframes</h2>
-                    <p>I created wireframes to outline key layout variations for the transaction overview page and gathered user feedback on the concepts. The overall feedback indicated that filtering added unnecessary complexity, as most users are not tech-savvy and prefer simple, easy-to-use solutions. Since we adopted a mobile-first approach, we chose the grid layout for the MVP. </p>
+                    <h2 id="wireframes">Ideation</h2>
+                    <ul>
+                        <li>
+                            <p>
+                            <b className={styles.emphasis}>Proposed solution:</b> To address the identified challenges, I proposed a comprehensive redesign of the transactions page. The goal was to create a more intuitive, organized, and accessible experience that would enable users to confidently track their financial activity with minimal friction. The new design aimed to reduce cognitive load while supporting independent navigation and discovery.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                            <b className={styles.emphasis}>Wireframing & concept exploration:</b> I began by sketching and prototyping several wireframe variations for the transaction overview page, focusing on layout structure, content hierarchy, and mobile responsiveness. These wireframes served as the foundation for early user testing and feedback sessions.
+                            </p>
+                        </li>
+                    </ul>
                     <Image src={img3} title="Concepts of new transaction" alt="Wiewframe" />
                 </div>
 
@@ -149,7 +161,7 @@ const Page = async ({ params }) => {
                 </div>
 
                 <div className={styles.single_column}>
-                    <h2 id="usability-testing">Usability testing</h2>
+                    <h2 id="usability-testing">Testing</h2>
                     <p>I set up usability tests on UserTesting.com to gather feedback from
                         users and refine the high-fidelity prototypes. The most important
                         insights from were:</p>
