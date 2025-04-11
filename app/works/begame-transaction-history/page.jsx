@@ -95,16 +95,16 @@ const Page = async ({ params }) => {
                 <div className={styles.single_column}>
                     <h2 id="problem-discovery">Problem discovery</h2>
                     <ul>
-                        <li><p>I have reviewed insights from the customer success team to understand
-                            recurring user concerns.</p></li>
-                        <li><p>To uncover hidden pain points and validate customer success feedback, I conducted and analyzed user tests with five new and five returning users, focusing on deposits, withdrawals, and navigation within the existing design.</p></li>
+                        <li><p>To better understand the current challenges, I conducted <b className={styles.emphasis}>stakeholder interviews</b> and reviewed <b className={styles.emphasis}>existing insights</b> provided by the customer success team. This helped surface key user concerns and areas of friction.</p></li>
+                        <li><p>I also performed a <b className={styles.emphasis}>competitor analysis</b> to benchmark industry standards and identify potential opportunities for improvement.</p></li>
+                        <li><p>To uncover hidden pain points and validate internal feedback, I conducted <b className={styles.emphasis}>usability tests</b> with ten users—five new and five returning—focusing on core actions such as deposits, withdrawals, and overall navigation within the existing interface.</p></li>
                     </ul>
                 </div>
 
 
                 <div className={styles.single_column}>
                     <h2>Analysis</h2>
-                    <p>Users&#39; pain points before the redesign</p>
+                    <p>After gathering insights from stakeholder interviews, customer support data, competitor research, and usability testing, I synthesized the findings to identify patterns and <b className={styles.emphasis}>recurring pain points</b> across the user journey.</p>
                     <Image src={img2}
                         title="Preview of transactions before the redesign"
                         alt="Before state of the transaction overview" />
@@ -124,7 +124,7 @@ const Page = async ({ params }) => {
                     <ul>
                         <li>
                             <p>
-                            <b className={styles.emphasis}>Proposed solution:</b> To address the identified challenges, I proposed a comprehensive redesign of the transactions page. The goal was to create a more intuitive, organized, and accessible experience that would enable users to confidently track their financial activity with minimal friction. The new design aimed to reduce cognitive load while supporting independent navigation and discovery.
+                            <b className={styles.emphasis}>Proposed solution:</b> To address the identified challenges, I proposed a comprehensive redesign of the transaction overview page. The goal was to create a more intuitive, organized, and accessible experience that would enable users to confidently track their financial activity with minimal friction. The new design aimed to reduce cognitive load while supporting independent navigation and discovery.
                             </p>
                         </li>
                         <li>
@@ -136,25 +136,33 @@ const Page = async ({ params }) => {
                     <Image src={img3} title="Concepts of new transaction" alt="Wiewframe" />
                 </div>
 
-                <div className={styles.table2_container}>
-                    <div className={styles.column2}>
+                <div className={styles.single_column}>
                         <h2 id="high-fidelity-design">High-fidelity design</h2>
-                        <p>Once the direction was decided, I developed high-fidelity prototypes
-                            that emphasized transaction status and clear labels, covering all
-                            responsive breakpoints for a seamless experience across screen
-                            sizes.</p>
-                    </div>
-                    <div className={styles.column2}>
+                        <ul>
+                            <li>
+                            <p>Based on early <b className={styles.emphasis}>wireframe testing</b>, I created high-fidelity mockups that reflected users’ preference for a simple layout over advanced features like filtering—especially among less tech-savvy users.
+                        </p>
+                            </li>
+                            <li>
+                                <p>
+                                Following our <b className={styles.emphasis}>mobile-first approach</b>, we chose a clean grid layout over a table view, as it tested better for scannability and adaptability across devices—making it ideal for the MVP.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                The final design was shaped by user feedback and validated through testing, ensuring alignment with both user needs and business goals. I then created <b className={styles.emphasis}>responsive high-fidelity prototypes</b>, emphasizing transaction status and clear labeling, covering all breakpoints for a seamless experience across devices.
+                                </p>
+                            </li>
+                        </ul>
+                        
                         <Image src={img4}
                         title="Preview of deposit overview" alt="Preview of deposit overview"/>
-                    </div>
                 </div>
                 
                 <div className={styles.single_column}>
                     <h2 id="error-handeling-and-empty-states">Error handeling and empty
                         states</h2>
-                    <p>I designed mockups for errors, empty states, and other edge cases,
-                        collaborating closely with the development team.</p>
+                    <p>I designed mockups for <b className={styles.emphasis}>error states, empty states, and other edge cases</b>, ensuring a clear and consistent user experience. I collaborated closely with the development team to ensure these scenarios were seamlessly integrated into the final design.</p>
                     <Image src={img5}
                         title="Preview of all errors that can happen during deposit and withdrawal"
                         alt="Unhappy flows" />
@@ -162,12 +170,11 @@ const Page = async ({ params }) => {
 
                 <div className={styles.single_column}>
                     <h2 id="usability-testing">Testing</h2>
-                    <p>I set up usability tests on UserTesting.com to gather feedback from
-                        users and refine the high-fidelity prototypes. The most important
-                        insights from were:</p>
+                    <p>With a near-final version of the design, I conducted usability tests to gather valuable user feedback and refine the high-fidelity prototypes. Key insights are outlined below and were incorporated into the final MVP, contributing to its successful launch.
+                    </p>
                     <ul>
-                        <li><p>Allowing users to save payment methods saves time and boosts satisfaction.</p></li>
-                        <li><p>To confirm a deposit or withdrawal, toast messages offer sufficient feedback, while dialog boxes are distracting and unnecessary.</p></li>
+                        <li><p>Allowing users to save payment methods enhances convenience and satisfaction.</p></li>
+                        <li><p>Toast messages are effective for confirming successful transactions, as they provide quick, non-intrusive feedback. However, for error states or failed transactions, dialog boxes are better suited, as they ensure the user notices and takes necessary action.</p></li>
                     </ul>
                     <div className={styles.image_container} style={{ marginTop: '2em' }}>
                         <Mp4Video
