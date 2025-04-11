@@ -79,7 +79,7 @@ const Page = async ({ params }) => {
                         and, potentially, member loss.
                     </p>
                     <Image src={img8}
-                        title="Process was: Define, Research, Analyse, Design, Test" alt="Process was: Define, Research, Analyse, Design, Test"/>
+                        title="Process was: Discovery, Analysis, Ideation, Design, Test and repeat" alt="Process was: Discovery, Analysis, Ideation, Design, Test and repeat"/>
                 </div>
  
                 
