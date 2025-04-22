@@ -7,6 +7,7 @@ import designSystem2 from './Design_system_02.png'
 import designSystem3 from './Design_system_03.png'
 import designSystem4 from './Design_system_04.png'
 import designSystem5 from './Design_system_05.png'
+import designSystem6 from './Design_system_06.png'
 
 // HTML meta tags
 export const metadata = {
@@ -31,19 +32,25 @@ const Page = async ({ params }) => {
           <li><p><b className={styles.emphasis}>Speed & efficiency:</b> A unified library of components reduced redundant work, enabling faster iteration and delivery while cutting production costs.</p></li>
           <li><p><b className={styles.emphasis}>Scalability & flexibility:</b> As the product evolved, the system ensured consistency while allowing for effortless expansion and adaptation.</p></li>
           <li><p><b className={styles.emphasis}>User impact:</b> A more cohesive and intuitive interface led to improved user satisfaction and engagement.</p></li>
-        </ul>
+        </ul>   
 
-        <h2 id="project-overview">Problem statement</h2>
-        <p>
-        Bingocams, a UK-based online gaming platform, lacked a design system, making its much-needed UI update challenging and inconsistent. To support future growth and a cohesive user experience, I led the creation of a scalable, adaptable design system to ensure consistency, enhance collaboration, and streamline the UI refresh.
-        </p>        
+        <div className={styles.single_column}>
+          <h2 id="problem-statement">Problem statement</h2>
+          <p>Bingocams, a UK-based online gaming platform, lacked a design system, making its much-needed UI update challenging and inconsistent. To support future growth and a cohesive user experience, I led the creation of a scalable, adaptable design system to ensure consistency, enhance collaboration, and streamline the UI refresh.
+          </p>
+        </div>   
+
+        <div className={styles.single_column}>
+          <h2 id="problem-statement">Process</h2>
+          <Image src={designSystem2} title="Process was: " alt="Process was: "/>
+        </div>
 
         <div className={styles.table2_container}>
           <div className={styles.column2}>
-          <Image src={designSystem2} alt="Team collaboration"/>
+          <Image src={designSystem3} alt="Team collaboration"/>
           </div>
           <div className={styles.column2}>
-            <h2 id="process">Healthy collaboration</h2>
+            <h2 id="process">Collaboration</h2>
             <p>While teams often prioritize technical needs over cross-collaboration, one of the most challenging parts was finding balance. I focused on fostering a culture of open communication, actively listening to feedback, and incorporating it. This way, we created a system that worked for everyone.
             </p>
           </div>
@@ -51,17 +58,17 @@ const Page = async ({ params }) => {
 
         <div className={styles.table2_container}>
           <div className={styles.column2}>
-            <Image src={designSystem3} alt="Token architecture - two tiered setup"/>
+            <Image src={designSystem4} alt="Token architecture - two tiered setup"/>
           </div>
           <div className={styles.column2}>
-            <h2 id="process">Design token architecture</h2>
+            <h2 id="process">Setting up tokens</h2>
             <p>Design tokens define a company’s visual style and make it easy to adapt for new brands, saving time and effort. This setup was built with engineers to ensure alignment with the code, enabling seamless collaboration through a shared language.</p>
           </div>
         </div>
 
         <div className={styles.table2_container}>
           <div className={styles.column2}>
-            <Image src={designSystem4} alt="T-shirt sized buttons"/>
+            <Image src={designSystem5} alt="T-shirt sized buttons"/>
           </div>
           <div className={styles.column2}>
             <h2 id="process">Sub-system</h2>
@@ -71,10 +78,10 @@ const Page = async ({ params }) => {
 
         <div className={styles.table2_container}>
           <div className={styles.column2}>
-            <Image src={designSystem5} alt="T-shirt sized buttons"/>
+            <Image src={designSystem6} alt="T-shirt sized buttons"/>
           </div>
           <div className={styles.column2}>
-            <h2 id="process">Setting up components</h2>
+            <h2 id="process">Crafting components</h2>
             <p>I used the atomic design approach for consistency. Small, reusable components ensured a unified design language and reduced redundancy across the system. This approach also helped the team work more efficiently and allowed for scalability.</p>
           </div>
         </div>

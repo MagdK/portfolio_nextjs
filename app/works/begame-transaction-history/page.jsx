@@ -78,6 +78,11 @@ const Page = async ({ params }) => {
                         information led to user confusion, increased customer support inquiries,
                         and, potentially, member loss.
                     </p>
+                    
+                </div>
+
+                <div className={styles.single_column}>
+                    <h2 id="problem-statement">Process</h2>
                     <Image src={img8}
                         title="Process was: Discovery, Analysis, Ideation, Design, Test and repeat" alt="Process was: Discovery, Analysis, Ideation, Design, Test and repeat"/>
                 </div>
