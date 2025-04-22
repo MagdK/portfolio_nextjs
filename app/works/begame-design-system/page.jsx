@@ -42,7 +42,10 @@ const Page = async ({ params }) => {
 
         <div className={styles.single_column}>
           <h2 id="problem-statement">Process</h2>
-          <Image src={designSystem2} title="Process was: " alt="Process was: "/>
+          <p>
+            The visual below outlines the key stages I followed throughout the project. 
+          </p>
+          <Image src={designSystem2} title="Process: Collaboration + analysis, setting up tokens, crafting components, documentation" alt="Process: Collaboration + analysis, setting up tokens, crafting components, documentation"/>
         </div>
 
         <div className={styles.table2_container}>
