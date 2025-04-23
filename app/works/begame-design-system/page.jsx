@@ -23,16 +23,50 @@ const Page = async ({ params }) => {
 
       <Image src={designSystem1} alt="Sneak a peak"/>
       <div className={styles.work_description}>
-        <h2 id="impact">Impact</h2>
-        <p>The introduction of the design system had a notable impact on both
-          the product and team workflows:
-        </p>
-        <ul>
-          <li><p><b className={styles.emphasis}>Stronger collaboration:</b> By fostering open communication about teams&#39; needs, the system became a shared language that streamlined cross-team efforts.</p></li>
-          <li><p><b className={styles.emphasis}>Speed & efficiency:</b> A unified library of components reduced redundant work, enabling faster iteration and delivery while cutting production costs.</p></li>
-          <li><p><b className={styles.emphasis}>Scalability & flexibility:</b> As the product evolved, the system ensured consistency while allowing for effortless expansion and adaptation.</p></li>
-          <li><p><b className={styles.emphasis}>User impact:</b> A more cohesive and intuitive interface led to improved user satisfaction and engagement.</p></li>
-        </ul>   
+
+        <div className={styles.triple_column}>
+                    <div className={styles.column_2x}>
+                      <h2 id="impact">Impact</h2>
+                      <p>The introduction of the design system had a notable impact on both the product and team workflows:</p>
+                      <ul>
+                        <li><p><b className={styles.emphasis}>Stronger collaboration:</b> By fostering open communication about teams&#39; needs, the system became a shared language that streamlined cross-team efforts.</p></li>
+                        <li><p><b className={styles.emphasis}>Speed & efficiency:</b> A unified library of components reduced redundant work, enabling faster iteration and delivery while cutting production costs.</p></li>
+                        <li><p><b className={styles.emphasis}>Scalability & flexibility:</b> As the product evolved, the system ensured consistency while allowing for effortless expansion and adaptation.</p></li>
+                        <li><p><b className={styles.emphasis}>User impact:</b> A more cohesive and intuitive interface led to improved user satisfaction and engagement.</p></li>
+                      </ul>   
+                    </div>
+                    
+                    <div className={styles.column_1x}>
+                        <h2 id="role">Role</h2>
+                        <ul>
+                            <li>Lead designer</li>
+                        </ul>
+                        <h2 id="timeline">Timeline</h2>
+                        <ul>
+                            <li>4X2 weeks sprints</li>
+                            <li>Continuous maintenance for an other year</li>
+                        </ul>  
+                        <h2>Collaboration with</h2>
+                        <ul>
+                          <li>Product team</li>
+                          <li>Engineering</li>
+                          <li>Support</li>
+                          <li>Marketing & branding team</li>
+                        </ul>
+                    </div>
+                    <div className={styles.column_1x}>
+                        <h2 id="tools">Tools</h2>
+                        <ul>
+                            <li>Sketch</li>
+                            <li>Zeplin</li>
+                            <li>Abstract</li>
+                            <li>BootstrapVue</li>
+                            <li>Material Icons</li>
+                            <li>Confluence</li>
+                            <li>Jira</li>
+                        </ul> 
+                    </div>
+                </div>
 
         <div className={styles.single_column}>
           <h2 id="problem-statement">Problem statement</h2>
