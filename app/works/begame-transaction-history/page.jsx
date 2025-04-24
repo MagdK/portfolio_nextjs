@@ -30,14 +30,11 @@ const Page = async ({ params }) => {
                     <div className={styles.column_2x}>
                         <h2 id="impact">Impact</h2>
                         <ul>
-                            <li><p><b className={styles.emphasis}>Enhanced user satisfaction</b> with improved usability and intuitive
-                                design.</p></li>
+                            <li><p><b className={styles.emphasis}>Enhanced user engagement and satisfaction</b> through improved usability and intuitive design.</p></li>
                             <li><p><b className={styles.emphasis}>Decreased support inquiries</b> by streamlining workflows and
                                 reducing friction points.</p></li>
                             <li><p><b className={styles.emphasis}>Enhanced deposit and withdrawal processes</b>, making transactions
                                 smoother and more efficient.</p></li>
-                            <li><p><b className={styles.emphasis}>Improved user engagement</b> by creating a more seamless and
-                                enjoyable experience.</p></li>
                         </ul>
                     </div>
                     
@@ -72,11 +69,7 @@ const Page = async ({ params }) => {
 
                 <div className={styles.single_column}>
                     <h2 id="problem-statement">Problem statement</h2>
-                    <p>Bingocams’ community members experienced challenges in obtaining a
-                        clear, organized overview of their transactions. Although the
-                        transaction processes themselves were functional, a lack of clear
-                        information led to user confusion, increased customer support inquiries,
-                        and, potentially, member loss.
+                    <p>Bingocams users struggled to access a clear and organized view of their transaction history, leading to confusion, a rise in support inquiries, and potential member churn, despite the deposit and withdrawal processes functioning as intended.
                     </p>
                     
                 </div>
@@ -104,7 +97,6 @@ const Page = async ({ params }) => {
                     <h2 id="problem-discovery">Problem discovery</h2>
                     <ul>
                         <li><p>To better understand the current challenges, I conducted <b className={styles.emphasis}>stakeholder interviews</b> and reviewed <b className={styles.emphasis}>existing insights</b> provided by the customer success team. This helped surface key user concerns and areas of friction.</p></li>
-                        <li><p>I also performed a <b className={styles.emphasis}>competitor analysis</b> to benchmark industry standards and identify potential opportunities for improvement.</p></li>
                         <li><p>To uncover hidden pain points and validate internal feedback, I conducted <b className={styles.emphasis}>usability tests</b> with ten users—five new and five returning—focusing on core actions such as deposits, withdrawals, and overall navigation within the existing interface.</p></li>
                     </ul>
                 </div>
@@ -112,7 +104,11 @@ const Page = async ({ params }) => {
 
                 <div className={styles.single_column}>
                     <h2>Analysis</h2>
-                    <p>After gathering insights from stakeholder interviews, customer support data, competitor research, and usability testing, I synthesized the findings to identify patterns and <b className={styles.emphasis}>recurring pain points</b> across the user journey.</p>
+                    <ul>
+                        <li><p>I performed <b className={styles.emphasis}>competitor analysis</b> to benchmark industry standards and identify potential opportunities for improvement.</p></li>
+                        <li><p>After gathering insights from stakeholder interviews, customer support data, competitor research, and usability testing, I synthesized the findings to identify patterns and <b className={styles.emphasis}>recurring pain points</b> across the user journey.</p></li>
+                    </ul>
+                    
                     <Image src={img2}
                         title="Overview of all transactions before the redesign"
                         alt="Overview of all transactions before the redesign" />
