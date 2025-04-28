@@ -42,7 +42,7 @@ const Page = async ({ params }) => {
                         <h2 id="role">Role</h2>
                         <ul>
                             <li>User research &amp; analysis</li>
-                            <li>UX/UI redesign</li>
+                            <li>Stakeholder interviews</li>
                             <li>Component creation</li>
                             <li>Design system updates</li>
                             <li>Usability testing</li>
@@ -69,7 +69,11 @@ const Page = async ({ params }) => {
 
                 <div className={styles.single_column}>
                     <h2 id="problem-statement">Problem statement</h2>
-                    <p>Bingocams users struggled to access a clear and organized view of their transaction history, leading to confusion, a rise in support inquiries, and potential member churn, despite the deposit and withdrawal processes functioning as intended.
+                    <p>Bingocams’ community members experienced challenges in obtaining a
+                        clear, organized overview of their transactions. Although the
+                        transaction processes themselves were functional, a lack of clear
+                        information led to user confusion, increased customer support inquiries,
+                        and, potentially, member loss.
                     </p>
                     
                 </div>
@@ -128,7 +132,7 @@ const Page = async ({ params }) => {
                     <ul>
                         <li>
                             <p>
-                            <b className={styles.emphasis}>Proposed solution:</b> To address the identified challenges, I proposed a comprehensive redesign of the transaction overview page. The goal was to create a more intuitive, organized, and accessible experience that would enable users to confidently track their financial activity with minimal friction. The new design aimed to reduce cognitive load while supporting independent navigation and discovery.
+                            <b className={styles.emphasis}>Proposed solution:</b> To address the identified challenges, I proposed a comprehensive redesign of the transaction overview page. The goal was to create a more intuitive, organised, and accessible experience that would enable users to confidently track their financial activity with minimal friction. The new design aimed to reduce cognitive load while supporting independent navigation and discovery.
                             </p>
                         </li>
                         <li>
